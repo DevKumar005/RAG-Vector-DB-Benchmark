@@ -1,0 +1,122 @@
+[
+  {
+    "query_id": "q01",
+    "category": "conceptual",
+    "answerable": true,
+    "query": "How does Retrieval-Augmented Generation combine parametric and non-parametric memory?"
+  },
+  {
+    "query_id": "q02",
+    "category": "conceptual",
+    "answerable": true,
+    "query": "What are the core differences between Naive RAG, Advanced RAG, and Modular RAG architectures?"
+  },
+  {
+    "query_id": "q03",
+    "category": "conceptual",
+    "answerable": true,
+    "query": "How does Dense Passage Retrieval outperform traditional sparse BM25 models on open-domain QA?"
+  },
+  {
+    "query_id": "q04",
+    "category": "conceptual",
+    "answerable": true,
+    "query": "Explain how Self-RAG utilizes reflection tokens to determine when retrieval is necessary."
+  },
+  {
+    "query_id": "q05",
+    "category": "conceptual",
+    "answerable": true,
+    "query": "What is the primary mechanism behind Multi-Head Attention in the standard Transformer architecture?"
+  },
+  {
+    "query_id": "q06",
+    "category": "conceptual",
+    "answerable": true,
+    "query": "Why does Low-Rank Adaptation (LoRA) significantly reduce the number of trainable parameters during fine-tuning?"
+  },
+  {
+    "query_id": "q07",
+    "category": "conceptual",
+    "answerable": true,
+    "query": "How does FlashAttention optimize IO memory access between GPU HBM and SRAM to accelerate computation?"
+  },
+  {
+    "query_id": "q08",
+    "category": "conceptual",
+    "answerable": true,
+    "query": "What are the key failure modes and hallucination risks identified across modern RAG survey papers?"
+  },
+  {
+    "query_id": "q09",
+    "category": "keyword_metric",
+    "answerable": true,
+    "query": "What rank dimension 'r' and alpha scaling hyperparameter were tested for LoRA on GPT-3 175B?"
+  },
+  {
+    "query_id": "q10",
+    "category": "keyword_metric",
+    "answerable": true,
+    "query": "What exact formula does RAGAS use to compute the context recall metric?"
+  },
+  {
+    "query_id": "q11",
+    "category": "keyword_metric",
+    "answerable": true,
+    "query": "What exact Top-20 passage retrieval accuracy did DPR achieve on Natural Questions compared to Lucene BM25?"
+  },
+  {
+    "query_id": "q12",
+    "category": "keyword_metric",
+    "answerable": true,
+    "query": "What are the exact special tokens introduced in Self-RAG such as [Retrieve], [IsRel], and [IsSup]?"
+  },
+  {
+    "query_id": "q13",
+    "category": "keyword_metric",
+    "answerable": true,
+    "query": "What is the exact tiling block size $B_r$ and $B_c$ equation specified in the FlashAttention algorithm?"
+  },
+  {
+    "query_id": "q14",
+    "category": "keyword_metric",
+    "answerable": true,
+    "query": "What BLEU-4 score did the base Transformer model achieve on the WMT 2014 English-to-German test dataset?"
+  },
+  {
+    "query_id": "q15",
+    "category": "keyword_metric",
+    "answerable": true,
+    "query": "Which pre-trained model was used as the retriever backbone in Lewis et al. 2020: DPR or BM25?"
+  },
+  {
+    "query_id": "q16",
+    "category": "out_of_scope",
+    "answerable": false,
+    "query": "What is the efficiency of Shor's quantum factoring algorithm when breaking RSA-4096 cryptographic keys?"
+  },
+  {
+    "query_id": "q17",
+    "category": "out_of_scope",
+    "answerable": false,
+    "query": "How does AlphaFold 3 predict the quaternary structure of protein-ligand interactions and RNA sequences?"
+  },
+  {
+    "query_id": "q18",
+    "category": "out_of_scope",
+    "answerable": false,
+    "query": "What were the average global surface temperature anomalies recorded in the 2024 IPCC climate report?"
+  },
+  {
+    "query_id": "q19",
+    "category": "out_of_scope",
+    "answerable": false,
+    "query": "What are the specific aerodynamic drag coefficients of the SpaceX Falcon 9 rocket during atmospheric reentry?"
+  },
+  {
+    "query_id": "q20",
+    "category": "out_of_scope",
+    "answerable": false,
+    "query": "What enzymatic pathways govern mitochondrial glycolysis regulation in human neuroblastoma cells?"
+  }
+]

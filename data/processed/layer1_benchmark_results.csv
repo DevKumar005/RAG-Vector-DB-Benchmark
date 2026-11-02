@@ -1,0 +1,4 @@
+Backend,Build Time (s),Peak RAM (MB),Mean Latency (ms),P95 Latency (ms),Recall@3,Recall@5,Recall@10,MRR
+FAISS (FlatIP),0.0011,0.02,0.087,0.052,1.0,1.0,1.0,1.0
+ChromaDB,2.3565,6.93,2.037,5.042,1.0,1.0,0.9933333333333334,1.0
+Qdrant,0.7266,10.75,1.92,4.115,1.0,1.0,1.0,1.0

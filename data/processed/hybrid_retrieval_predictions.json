@@ -1,0 +1,888 @@
+{
+  "dense_predictions": {
+    "q01": [
+      "doc01_rag_original_chunk_0003",
+      "doc01_rag_original_chunk_0000",
+      "doc01_rag_original_chunk_0002",
+      "doc09_rag_survey_huang_chunk_0068",
+      "doc01_rag_original_chunk_0040",
+      "doc09_rag_survey_huang_chunk_0082",
+      "doc02_rag_survey_chunk_0000",
+      "doc01_rag_original_chunk_0019",
+      "doc05_self_rag_chunk_0001",
+      "doc05_self_rag_chunk_0029"
+    ],
+    "q02": [
+      "doc02_rag_survey_chunk_0007",
+      "doc02_rag_survey_chunk_0006",
+      "doc02_rag_survey_chunk_0003",
+      "doc02_rag_survey_chunk_0005",
+      "doc02_rag_survey_chunk_0004",
+      "doc02_rag_survey_chunk_0035",
+      "doc02_rag_survey_chunk_0036",
+      "doc02_rag_survey_chunk_0009",
+      "doc02_rag_survey_chunk_0034",
+      "doc09_rag_survey_huang_chunk_0039"
+    ],
+    "q03": [
+      "doc03_dpr_chunk_0000",
+      "doc03_dpr_chunk_0002",
+      "doc03_dpr_chunk_0004",
+      "doc03_dpr_chunk_0003",
+      "doc10_comprehensive_rag_chunk_0006",
+      "doc03_dpr_chunk_0001",
+      "doc03_dpr_chunk_0012",
+      "doc03_dpr_chunk_0016",
+      "doc03_dpr_chunk_0022",
+      "doc03_dpr_chunk_0021"
+    ],
+    "q04": [
+      "doc05_self_rag_chunk_0024",
+      "doc05_self_rag_chunk_0006",
+      "doc05_self_rag_chunk_0003",
+      "doc05_self_rag_chunk_0007",
+      "doc05_self_rag_chunk_0005",
+      "doc02_rag_survey_chunk_0026",
+      "doc05_self_rag_chunk_0008",
+      "doc05_self_rag_chunk_0000",
+      "doc05_self_rag_chunk_0001",
+      "doc05_self_rag_chunk_0004"
+    ],
+    "q05": [
+      "doc06_transformer_chunk_0003",
+      "doc08_flash_attention_chunk_0001",
+      "doc06_transformer_chunk_0001",
+      "doc06_transformer_chunk_0005",
+      "doc06_transformer_chunk_0002",
+      "doc08_flash_attention_chunk_0007",
+      "doc08_flash_attention_chunk_0037",
+      "doc06_transformer_chunk_0004",
+      "doc08_flash_attention_chunk_0023",
+      "doc08_flash_attention_chunk_0003"
+    ],
+    "q06": [
+      "doc07_lora_chunk_0002",
+      "doc07_lora_chunk_0022",
+      "doc07_lora_chunk_0000",
+      "doc07_lora_chunk_0008",
+      "doc07_lora_chunk_0019",
+      "doc07_lora_chunk_0024",
+      "doc07_lora_chunk_0021",
+      "doc07_lora_chunk_0053",
+      "doc07_lora_chunk_0029",
+      "doc07_lora_chunk_0046"
+    ],
+    "q07": [
+      "doc08_flash_attention_chunk_0002",
+      "doc08_flash_attention_chunk_0005",
+      "doc08_flash_attention_chunk_0012",
+      "doc08_flash_attention_chunk_0000",
+      "doc08_flash_attention_chunk_0013",
+      "doc08_flash_attention_chunk_0014",
+      "doc08_flash_attention_chunk_0023",
+      "doc08_flash_attention_chunk_0064",
+      "doc08_flash_attention_chunk_0052",
+      "doc08_flash_attention_chunk_0003"
+    ],
+    "q08": [
+      "doc09_rag_survey_huang_chunk_0002",
+      "doc04_ragas_chunk_0002",
+      "doc02_rag_survey_chunk_0031",
+      "doc01_rag_original_chunk_0020",
+      "doc05_self_rag_chunk_0045",
+      "doc05_self_rag_chunk_0023",
+      "doc02_rag_survey_chunk_0005",
+      "doc10_comprehensive_rag_chunk_0018",
+      "doc02_rag_survey_chunk_0034",
+      "doc02_rag_survey_chunk_0032"
+    ],
+    "q09": [
+      "doc07_lora_chunk_0018",
+      "doc07_lora_chunk_0045",
+      "doc07_lora_chunk_0054",
+      "doc07_lora_chunk_0046",
+      "doc07_lora_chunk_0044",
+      "doc07_lora_chunk_0047",
+      "doc07_lora_chunk_0024",
+      "doc07_lora_chunk_0052",
+      "doc07_lora_chunk_0017",
+      "doc07_lora_chunk_0042"
+    ],
+    "q10": [
+      "doc02_rag_survey_chunk_0031",
+      "doc05_self_rag_chunk_0045",
+      "doc02_rag_survey_chunk_0032",
+      "doc10_comprehensive_rag_chunk_0014",
+      "doc02_rag_survey_chunk_0027",
+      "doc02_rag_survey_chunk_0036",
+      "doc09_rag_survey_huang_chunk_0034",
+      "doc10_comprehensive_rag_chunk_0018",
+      "doc04_ragas_chunk_0002",
+      "doc04_ragas_chunk_0000"
+    ],
+    "q11": [
+      "doc03_dpr_chunk_0030",
+      "doc03_dpr_chunk_0012",
+      "doc03_dpr_chunk_0011",
+      "doc03_dpr_chunk_0015",
+      "doc10_comprehensive_rag_chunk_0007",
+      "doc03_dpr_chunk_0010",
+      "doc03_dpr_chunk_0016",
+      "doc03_dpr_chunk_0022",
+      "doc10_comprehensive_rag_chunk_0006",
+      "doc03_dpr_chunk_0019"
+    ],
+    "q12": [
+      "doc05_self_rag_chunk_0007",
+      "doc01_rag_original_chunk_0005",
+      "doc05_self_rag_chunk_0024",
+      "doc05_self_rag_chunk_0006",
+      "doc01_rag_original_chunk_0004",
+      "doc05_self_rag_chunk_0003",
+      "doc05_self_rag_chunk_0042",
+      "doc05_self_rag_chunk_0011",
+      "doc09_rag_survey_huang_chunk_0008",
+      "doc09_rag_survey_huang_chunk_0004"
+    ],
+    "q13": [
+      "doc08_flash_attention_chunk_0015",
+      "doc08_flash_attention_chunk_0049",
+      "doc08_flash_attention_chunk_0010",
+      "doc08_flash_attention_chunk_0013",
+      "doc08_flash_attention_chunk_0014",
+      "doc08_flash_attention_chunk_0012",
+      "doc08_flash_attention_chunk_0000",
+      "doc08_flash_attention_chunk_0008",
+      "doc08_flash_attention_chunk_0002",
+      "doc08_flash_attention_chunk_0047"
+    ],
+    "q14": [
+      "doc06_transformer_chunk_0011",
+      "doc06_transformer_chunk_0012",
+      "doc06_transformer_chunk_0014",
+      "doc07_lora_chunk_0023",
+      "doc06_transformer_chunk_0015",
+      "doc07_lora_chunk_0019",
+      "doc07_lora_chunk_0020",
+      "doc07_lora_chunk_0016",
+      "doc07_lora_chunk_0003",
+      "doc07_lora_chunk_0015"
+    ],
+    "q15": [
+      "doc10_comprehensive_rag_chunk_0007",
+      "doc03_dpr_chunk_0011",
+      "doc10_comprehensive_rag_chunk_0006",
+      "doc03_dpr_chunk_0022",
+      "doc03_dpr_chunk_0012",
+      "doc03_dpr_chunk_0019",
+      "doc09_rag_survey_huang_chunk_0042",
+      "doc02_rag_survey_chunk_0020",
+      "doc03_dpr_chunk_0010",
+      "doc03_dpr_chunk_0030"
+    ],
+    "q16": [
+      "doc08_flash_attention_chunk_0007",
+      "doc08_flash_attention_chunk_0013",
+      "doc08_flash_attention_chunk_0008",
+      "doc08_flash_attention_chunk_0014",
+      "doc08_flash_attention_chunk_0054",
+      "doc08_flash_attention_chunk_0060",
+      "doc08_flash_attention_chunk_0058",
+      "doc08_flash_attention_chunk_0056",
+      "doc08_flash_attention_chunk_0015",
+      "doc08_flash_attention_chunk_0057"
+    ],
+    "q17": [
+      "doc09_rag_survey_huang_chunk_0057",
+      "doc07_lora_chunk_0028",
+      "doc08_flash_attention_chunk_0056",
+      "doc07_lora_chunk_0026",
+      "doc06_transformer_chunk_0016",
+      "doc07_lora_chunk_0034",
+      "doc07_lora_chunk_0058",
+      "doc04_ragas_chunk_0014",
+      "doc01_rag_original_chunk_0004",
+      "doc08_flash_attention_chunk_0021"
+    ],
+    "q18": [
+      "doc07_lora_chunk_0043",
+      "doc07_lora_chunk_0049",
+      "doc07_lora_chunk_0044",
+      "doc07_lora_chunk_0018",
+      "doc07_lora_chunk_0057",
+      "doc07_lora_chunk_0045",
+      "doc07_lora_chunk_0052",
+      "doc05_self_rag_chunk_0017",
+      "doc08_flash_attention_chunk_0072",
+      "doc08_flash_attention_chunk_0086"
+    ],
+    "q19": [
+      "doc07_lora_chunk_0057",
+      "doc08_flash_attention_chunk_0047",
+      "doc08_flash_attention_chunk_0072",
+      "doc06_transformer_chunk_0012",
+      "doc08_flash_attention_chunk_0067",
+      "doc08_flash_attention_chunk_0063",
+      "doc07_lora_chunk_0052",
+      "doc08_flash_attention_chunk_0066",
+      "doc07_lora_chunk_0043",
+      "doc07_lora_chunk_0011"
+    ],
+    "q20": [
+      "doc05_self_rag_chunk_0018",
+      "doc07_lora_chunk_0044",
+      "doc08_flash_attention_chunk_0085",
+      "doc07_lora_chunk_0043",
+      "doc07_lora_chunk_0018",
+      "doc08_flash_attention_chunk_0075",
+      "doc08_flash_attention_chunk_0084",
+      "doc07_lora_chunk_0057",
+      "doc07_lora_chunk_0058",
+      "doc08_flash_attention_chunk_0083"
+    ]
+  },
+  "hybrid_predictions": {
+    "q01": [
+      "doc01_rag_original_chunk_0002",
+      "doc01_rag_original_chunk_0000",
+      "doc01_rag_original_chunk_0003",
+      "doc01_rag_original_chunk_0040",
+      "doc01_rag_original_chunk_0019",
+      "doc01_rag_original_chunk_0020",
+      "doc01_rag_original_chunk_0001",
+      "doc09_rag_survey_huang_chunk_0068",
+      "doc01_rag_original_chunk_0013",
+      "doc09_rag_survey_huang_chunk_0082"
+    ],
+    "q02": [
+      "doc02_rag_survey_chunk_0007",
+      "doc02_rag_survey_chunk_0003",
+      "doc02_rag_survey_chunk_0005",
+      "doc02_rag_survey_chunk_0004",
+      "doc02_rag_survey_chunk_0006",
+      "doc02_rag_survey_chunk_0036",
+      "doc02_rag_survey_chunk_0008",
+      "doc02_rag_survey_chunk_0002",
+      "doc09_rag_survey_huang_chunk_0003",
+      "doc10_comprehensive_rag_chunk_0005"
+    ],
+    "q03": [
+      "doc03_dpr_chunk_0000",
+      "doc03_dpr_chunk_0002",
+      "doc10_comprehensive_rag_chunk_0006",
+      "doc03_dpr_chunk_0001",
+      "doc03_dpr_chunk_0003",
+      "doc03_dpr_chunk_0021",
+      "doc03_dpr_chunk_0022",
+      "doc03_dpr_chunk_0004",
+      "doc03_dpr_chunk_0020",
+      "doc10_comprehensive_rag_chunk_0007"
+    ],
+    "q04": [
+      "doc05_self_rag_chunk_0006",
+      "doc05_self_rag_chunk_0003",
+      "doc05_self_rag_chunk_0000",
+      "doc05_self_rag_chunk_0008",
+      "doc05_self_rag_chunk_0024",
+      "doc05_self_rag_chunk_0037",
+      "doc05_self_rag_chunk_0005",
+      "doc02_rag_survey_chunk_0026",
+      "doc05_self_rag_chunk_0001",
+      "doc05_self_rag_chunk_0045"
+    ],
+    "q05": [
+      "doc06_transformer_chunk_0003",
+      "doc06_transformer_chunk_0002",
+      "doc06_transformer_chunk_0005",
+      "doc08_flash_attention_chunk_0001",
+      "doc06_transformer_chunk_0004",
+      "doc08_flash_attention_chunk_0003",
+      "doc08_flash_attention_chunk_0006",
+      "doc06_transformer_chunk_0001",
+      "doc06_transformer_chunk_0021",
+      "doc06_transformer_chunk_0000"
+    ],
+    "q06": [
+      "doc07_lora_chunk_0000",
+      "doc07_lora_chunk_0002",
+      "doc07_lora_chunk_0008",
+      "doc07_lora_chunk_0022",
+      "doc07_lora_chunk_0019",
+      "doc07_lora_chunk_0050",
+      "doc07_lora_chunk_0007",
+      "doc07_lora_chunk_0046",
+      "doc07_lora_chunk_0029",
+      "doc07_lora_chunk_0053"
+    ],
+    "q07": [
+      "doc08_flash_attention_chunk_0002",
+      "doc08_flash_attention_chunk_0005",
+      "doc08_flash_attention_chunk_0012",
+      "doc08_flash_attention_chunk_0000",
+      "doc08_flash_attention_chunk_0003",
+      "doc08_flash_attention_chunk_0064",
+      "doc08_flash_attention_chunk_0023",
+      "doc08_flash_attention_chunk_0014",
+      "doc08_flash_attention_chunk_0052",
+      "doc08_flash_attention_chunk_0013"
+    ],
+    "q08": [
+      "doc09_rag_survey_huang_chunk_0002",
+      "doc10_comprehensive_rag_chunk_0005",
+      "doc01_rag_original_chunk_0020",
+      "doc02_rag_survey_chunk_0001",
+      "doc10_comprehensive_rag_chunk_0000",
+      "doc04_ragas_chunk_0002",
+      "doc02_rag_survey_chunk_0031",
+      "doc10_comprehensive_rag_chunk_0001",
+      "doc10_comprehensive_rag_chunk_0007",
+      "doc05_self_rag_chunk_0045"
+    ],
+    "q09": [
+      "doc07_lora_chunk_0054",
+      "doc07_lora_chunk_0018",
+      "doc07_lora_chunk_0023",
+      "doc07_lora_chunk_0024",
+      "doc07_lora_chunk_0002",
+      "doc07_lora_chunk_0000",
+      "doc07_lora_chunk_0058",
+      "doc07_lora_chunk_0010",
+      "doc07_lora_chunk_0052",
+      "doc07_lora_chunk_0025"
+    ],
+    "q10": [
+      "doc02_rag_survey_chunk_0031",
+      "doc09_rag_survey_huang_chunk_0034",
+      "doc04_ragas_chunk_0010",
+      "doc02_rag_survey_chunk_0033",
+      "doc04_ragas_chunk_0000",
+      "doc04_ragas_chunk_0002",
+      "doc05_self_rag_chunk_0055",
+      "doc05_self_rag_chunk_0045",
+      "doc04_ragas_chunk_0009",
+      "doc02_rag_survey_chunk_0032"
+    ],
+    "q11": [
+      "doc03_dpr_chunk_0012",
+      "doc03_dpr_chunk_0030",
+      "doc03_dpr_chunk_0015",
+      "doc03_dpr_chunk_0011",
+      "doc03_dpr_chunk_0010",
+      "doc03_dpr_chunk_0019",
+      "doc03_dpr_chunk_0016",
+      "doc10_comprehensive_rag_chunk_0007",
+      "doc03_dpr_chunk_0002",
+      "doc03_dpr_chunk_0031"
+    ],
+    "q12": [
+      "doc05_self_rag_chunk_0007",
+      "doc05_self_rag_chunk_0006",
+      "doc05_self_rag_chunk_0011",
+      "doc05_self_rag_chunk_0024",
+      "doc05_self_rag_chunk_0042",
+      "doc05_self_rag_chunk_0046",
+      "doc05_self_rag_chunk_0045",
+      "doc01_rag_original_chunk_0005",
+      "doc05_self_rag_chunk_0050",
+      "doc01_rag_original_chunk_0004"
+    ],
+    "q13": [
+      "doc08_flash_attention_chunk_0014",
+      "doc08_flash_attention_chunk_0013",
+      "doc08_flash_attention_chunk_0015",
+      "doc08_flash_attention_chunk_0000",
+      "doc08_flash_attention_chunk_0012",
+      "doc08_flash_attention_chunk_0007",
+      "doc08_flash_attention_chunk_0049",
+      "doc08_flash_attention_chunk_0003",
+      "doc08_flash_attention_chunk_0002",
+      "doc08_flash_attention_chunk_0052"
+    ],
+    "q14": [
+      "doc06_transformer_chunk_0011",
+      "doc06_transformer_chunk_0012",
+      "doc06_transformer_chunk_0014",
+      "doc06_transformer_chunk_0015",
+      "doc06_transformer_chunk_0010",
+      "doc06_transformer_chunk_0000",
+      "doc05_self_rag_chunk_0013",
+      "doc07_lora_chunk_0023",
+      "doc06_transformer_chunk_0009",
+      "doc07_lora_chunk_0019"
+    ],
+    "q15": [
+      "doc10_comprehensive_rag_chunk_0007",
+      "doc03_dpr_chunk_0022",
+      "doc03_dpr_chunk_0012",
+      "doc10_comprehensive_rag_chunk_0006",
+      "doc03_dpr_chunk_0011",
+      "doc03_dpr_chunk_0019",
+      "doc03_dpr_chunk_0010",
+      "doc09_rag_survey_huang_chunk_0042",
+      "doc10_comprehensive_rag_chunk_0008",
+      "doc10_comprehensive_rag_chunk_0005"
+    ],
+    "q16": [
+      "doc08_flash_attention_chunk_0058",
+      "doc08_flash_attention_chunk_0013",
+      "doc08_flash_attention_chunk_0007",
+      "doc08_flash_attention_chunk_0045",
+      "doc06_transformer_chunk_0004",
+      "doc09_rag_survey_huang_chunk_0019",
+      "doc08_flash_attention_chunk_0008",
+      "doc09_rag_survey_huang_chunk_0017",
+      "doc08_flash_attention_chunk_0014",
+      "doc06_transformer_chunk_0005"
+    ],
+    "q17": [
+      "doc09_rag_survey_huang_chunk_0057",
+      "doc07_lora_chunk_0022",
+      "doc07_lora_chunk_0028",
+      "doc02_rag_survey_chunk_0016",
+      "doc08_flash_attention_chunk_0056",
+      "doc09_rag_survey_huang_chunk_0003",
+      "doc07_lora_chunk_0026",
+      "doc05_self_rag_chunk_0038",
+      "doc06_transformer_chunk_0016",
+      "doc02_rag_survey_chunk_0005"
+    ],
+    "q18": [
+      "doc05_self_rag_chunk_0038",
+      "doc07_lora_chunk_0043",
+      "doc08_flash_attention_chunk_0021",
+      "doc07_lora_chunk_0049",
+      "doc09_rag_survey_huang_chunk_0042",
+      "doc07_lora_chunk_0044",
+      "doc09_rag_survey_huang_chunk_0034",
+      "doc07_lora_chunk_0018",
+      "doc08_flash_attention_chunk_0020",
+      "doc07_lora_chunk_0057"
+    ],
+    "q19": [
+      "doc06_transformer_chunk_0012",
+      "doc07_lora_chunk_0057",
+      "doc02_rag_survey_chunk_0034",
+      "doc08_flash_attention_chunk_0047",
+      "doc05_self_rag_chunk_0050",
+      "doc08_flash_attention_chunk_0072",
+      "doc06_transformer_chunk_0022",
+      "doc06_transformer_chunk_0021",
+      "doc08_flash_attention_chunk_0067",
+      "doc09_rag_survey_huang_chunk_0042"
+    ],
+    "q20": [
+      "doc05_self_rag_chunk_0018",
+      "doc06_transformer_chunk_0021",
+      "doc07_lora_chunk_0044",
+      "doc06_transformer_chunk_0022",
+      "doc08_flash_attention_chunk_0085",
+      "doc04_ragas_chunk_0007",
+      "doc07_lora_chunk_0043",
+      "doc10_comprehensive_rag_chunk_0018",
+      "doc07_lora_chunk_0018",
+      "doc07_lora_chunk_0022"
+    ]
+  },
+  "fusion_logs": {
+    "q01": {
+      "query": "How does Retrieval-Augmented Generation combine parametric and non-parametric memory?",
+      "dense_top3": [
+        "doc01_rag_original_chunk_0003",
+        "doc01_rag_original_chunk_0000",
+        "doc01_rag_original_chunk_0002"
+      ],
+      "sparse_top3": [
+        "doc01_rag_original_chunk_0002",
+        "doc01_rag_original_chunk_0000",
+        "doc01_rag_original_chunk_0001"
+      ],
+      "fused_top5": [
+        "doc01_rag_original_chunk_0002",
+        "doc01_rag_original_chunk_0000",
+        "doc01_rag_original_chunk_0003",
+        "doc01_rag_original_chunk_0040",
+        "doc01_rag_original_chunk_0019"
+      ]
+    },
+    "q02": {
+      "query": "What are the core differences between Naive RAG, Advanced RAG, and Modular RAG architectures?",
+      "dense_top3": [
+        "doc02_rag_survey_chunk_0007",
+        "doc02_rag_survey_chunk_0006",
+        "doc02_rag_survey_chunk_0003"
+      ],
+      "sparse_top3": [
+        "doc02_rag_survey_chunk_0003",
+        "doc02_rag_survey_chunk_0005",
+        "doc02_rag_survey_chunk_0007"
+      ],
+      "fused_top5": [
+        "doc02_rag_survey_chunk_0007",
+        "doc02_rag_survey_chunk_0003",
+        "doc02_rag_survey_chunk_0005",
+        "doc02_rag_survey_chunk_0004",
+        "doc02_rag_survey_chunk_0006"
+      ]
+    },
+    "q03": {
+      "query": "How does Dense Passage Retrieval outperform traditional sparse BM25 models on open-domain QA?",
+      "dense_top3": [
+        "doc03_dpr_chunk_0000",
+        "doc03_dpr_chunk_0002",
+        "doc03_dpr_chunk_0004"
+      ],
+      "sparse_top3": [
+        "doc03_dpr_chunk_0000",
+        "doc10_comprehensive_rag_chunk_0006",
+        "doc03_dpr_chunk_0002"
+      ],
+      "fused_top5": [
+        "doc03_dpr_chunk_0000",
+        "doc03_dpr_chunk_0002",
+        "doc10_comprehensive_rag_chunk_0006",
+        "doc03_dpr_chunk_0001",
+        "doc03_dpr_chunk_0003"
+      ]
+    },
+    "q04": {
+      "query": "Explain how Self-RAG utilizes reflection tokens to determine when retrieval is necessary.",
+      "dense_top3": [
+        "doc05_self_rag_chunk_0024",
+        "doc05_self_rag_chunk_0006",
+        "doc05_self_rag_chunk_0003"
+      ],
+      "sparse_top3": [
+        "doc02_rag_survey_chunk_0025",
+        "doc05_self_rag_chunk_0037",
+        "doc05_self_rag_chunk_0000"
+      ],
+      "fused_top5": [
+        "doc05_self_rag_chunk_0006",
+        "doc05_self_rag_chunk_0003",
+        "doc05_self_rag_chunk_0000",
+        "doc05_self_rag_chunk_0008",
+        "doc05_self_rag_chunk_0024"
+      ]
+    },
+    "q05": {
+      "query": "What is the primary mechanism behind Multi-Head Attention in the standard Transformer architecture?",
+      "dense_top3": [
+        "doc06_transformer_chunk_0003",
+        "doc08_flash_attention_chunk_0001",
+        "doc06_transformer_chunk_0001"
+      ],
+      "sparse_top3": [
+        "doc06_transformer_chunk_0003",
+        "doc06_transformer_chunk_0002",
+        "doc06_transformer_chunk_0021"
+      ],
+      "fused_top5": [
+        "doc06_transformer_chunk_0003",
+        "doc06_transformer_chunk_0002",
+        "doc06_transformer_chunk_0005",
+        "doc08_flash_attention_chunk_0001",
+        "doc06_transformer_chunk_0004"
+      ]
+    },
+    "q06": {
+      "query": "Why does Low-Rank Adaptation (LoRA) significantly reduce the number of trainable parameters during fine-tuning?",
+      "dense_top3": [
+        "doc07_lora_chunk_0002",
+        "doc07_lora_chunk_0022",
+        "doc07_lora_chunk_0000"
+      ],
+      "sparse_top3": [
+        "doc07_lora_chunk_0000",
+        "doc07_lora_chunk_0008",
+        "doc07_lora_chunk_0050"
+      ],
+      "fused_top5": [
+        "doc07_lora_chunk_0000",
+        "doc07_lora_chunk_0002",
+        "doc07_lora_chunk_0008",
+        "doc07_lora_chunk_0022",
+        "doc07_lora_chunk_0019"
+      ]
+    },
+    "q07": {
+      "query": "How does FlashAttention optimize IO memory access between GPU HBM and SRAM to accelerate computation?",
+      "dense_top3": [
+        "doc08_flash_attention_chunk_0002",
+        "doc08_flash_attention_chunk_0005",
+        "doc08_flash_attention_chunk_0012"
+      ],
+      "sparse_top3": [
+        "doc08_flash_attention_chunk_0002",
+        "doc08_flash_attention_chunk_0003",
+        "doc08_flash_attention_chunk_0005"
+      ],
+      "fused_top5": [
+        "doc08_flash_attention_chunk_0002",
+        "doc08_flash_attention_chunk_0005",
+        "doc08_flash_attention_chunk_0012",
+        "doc08_flash_attention_chunk_0000",
+        "doc08_flash_attention_chunk_0003"
+      ]
+    },
+    "q08": {
+      "query": "What are the key failure modes and hallucination risks identified across modern RAG survey papers?",
+      "dense_top3": [
+        "doc09_rag_survey_huang_chunk_0002",
+        "doc04_ragas_chunk_0002",
+        "doc02_rag_survey_chunk_0031"
+      ],
+      "sparse_top3": [
+        "doc10_comprehensive_rag_chunk_0000",
+        "doc09_rag_survey_huang_chunk_0002",
+        "doc10_comprehensive_rag_chunk_0001"
+      ],
+      "fused_top5": [
+        "doc09_rag_survey_huang_chunk_0002",
+        "doc10_comprehensive_rag_chunk_0005",
+        "doc01_rag_original_chunk_0020",
+        "doc02_rag_survey_chunk_0001",
+        "doc10_comprehensive_rag_chunk_0000"
+      ]
+    },
+    "q09": {
+      "query": "What rank dimension 'r' and alpha scaling hyperparameter were tested for LoRA on GPT-3 175B?",
+      "dense_top3": [
+        "doc07_lora_chunk_0018",
+        "doc07_lora_chunk_0045",
+        "doc07_lora_chunk_0054"
+      ],
+      "sparse_top3": [
+        "doc07_lora_chunk_0023",
+        "doc07_lora_chunk_0000",
+        "doc07_lora_chunk_0054"
+      ],
+      "fused_top5": [
+        "doc07_lora_chunk_0054",
+        "doc07_lora_chunk_0018",
+        "doc07_lora_chunk_0023",
+        "doc07_lora_chunk_0024",
+        "doc07_lora_chunk_0002"
+      ]
+    },
+    "q10": {
+      "query": "What exact formula does RAGAS use to compute the context recall metric?",
+      "dense_top3": [
+        "doc02_rag_survey_chunk_0031",
+        "doc05_self_rag_chunk_0045",
+        "doc02_rag_survey_chunk_0032"
+      ],
+      "sparse_top3": [
+        "doc05_self_rag_chunk_0055",
+        "doc04_ragas_chunk_0009",
+        "doc04_ragas_chunk_0010"
+      ],
+      "fused_top5": [
+        "doc02_rag_survey_chunk_0031",
+        "doc09_rag_survey_huang_chunk_0034",
+        "doc04_ragas_chunk_0010",
+        "doc02_rag_survey_chunk_0033",
+        "doc04_ragas_chunk_0000"
+      ]
+    },
+    "q11": {
+      "query": "What exact Top-20 passage retrieval accuracy did DPR achieve on Natural Questions compared to Lucene BM25?",
+      "dense_top3": [
+        "doc03_dpr_chunk_0030",
+        "doc03_dpr_chunk_0012",
+        "doc03_dpr_chunk_0011"
+      ],
+      "sparse_top3": [
+        "doc03_dpr_chunk_0012",
+        "doc03_dpr_chunk_0015",
+        "doc03_dpr_chunk_0030"
+      ],
+      "fused_top5": [
+        "doc03_dpr_chunk_0012",
+        "doc03_dpr_chunk_0030",
+        "doc03_dpr_chunk_0015",
+        "doc03_dpr_chunk_0011",
+        "doc03_dpr_chunk_0010"
+      ]
+    },
+    "q12": {
+      "query": "What are the exact special tokens introduced in Self-RAG such as [Retrieve], [IsRel], and [IsSup]?",
+      "dense_top3": [
+        "doc05_self_rag_chunk_0007",
+        "doc01_rag_original_chunk_0005",
+        "doc05_self_rag_chunk_0024"
+      ],
+      "sparse_top3": [
+        "doc05_self_rag_chunk_0011",
+        "doc05_self_rag_chunk_0007",
+        "doc05_self_rag_chunk_0006"
+      ],
+      "fused_top5": [
+        "doc05_self_rag_chunk_0007",
+        "doc05_self_rag_chunk_0006",
+        "doc05_self_rag_chunk_0011",
+        "doc05_self_rag_chunk_0024",
+        "doc05_self_rag_chunk_0042"
+      ]
+    },
+    "q13": {
+      "query": "What is the exact tiling block size $B_r$ and $B_c$ equation specified in the FlashAttention algorithm?",
+      "dense_top3": [
+        "doc08_flash_attention_chunk_0015",
+        "doc08_flash_attention_chunk_0049",
+        "doc08_flash_attention_chunk_0010"
+      ],
+      "sparse_top3": [
+        "doc08_flash_attention_chunk_0003",
+        "doc08_flash_attention_chunk_0007",
+        "doc08_flash_attention_chunk_0014"
+      ],
+      "fused_top5": [
+        "doc08_flash_attention_chunk_0014",
+        "doc08_flash_attention_chunk_0013",
+        "doc08_flash_attention_chunk_0015",
+        "doc08_flash_attention_chunk_0000",
+        "doc08_flash_attention_chunk_0012"
+      ]
+    },
+    "q14": {
+      "query": "What BLEU-4 score did the base Transformer model achieve on the WMT 2014 English-to-German test dataset?",
+      "dense_top3": [
+        "doc06_transformer_chunk_0011",
+        "doc06_transformer_chunk_0012",
+        "doc06_transformer_chunk_0014"
+      ],
+      "sparse_top3": [
+        "doc06_transformer_chunk_0011",
+        "doc06_transformer_chunk_0000",
+        "doc06_transformer_chunk_0015"
+      ],
+      "fused_top5": [
+        "doc06_transformer_chunk_0011",
+        "doc06_transformer_chunk_0012",
+        "doc06_transformer_chunk_0014",
+        "doc06_transformer_chunk_0015",
+        "doc06_transformer_chunk_0010"
+      ]
+    },
+    "q15": {
+      "query": "Which pre-trained model was used as the retriever backbone in Lewis et al. 2020: DPR or BM25?",
+      "dense_top3": [
+        "doc10_comprehensive_rag_chunk_0007",
+        "doc03_dpr_chunk_0011",
+        "doc10_comprehensive_rag_chunk_0006"
+      ],
+      "sparse_top3": [
+        "doc10_comprehensive_rag_chunk_0007",
+        "doc03_dpr_chunk_0022",
+        "doc10_comprehensive_rag_chunk_0008"
+      ],
+      "fused_top5": [
+        "doc10_comprehensive_rag_chunk_0007",
+        "doc03_dpr_chunk_0022",
+        "doc03_dpr_chunk_0012",
+        "doc10_comprehensive_rag_chunk_0006",
+        "doc03_dpr_chunk_0011"
+      ]
+    },
+    "q16": {
+      "query": "What is the efficiency of Shor's quantum factoring algorithm when breaking RSA-4096 cryptographic keys?",
+      "dense_top3": [
+        "doc08_flash_attention_chunk_0007",
+        "doc08_flash_attention_chunk_0013",
+        "doc08_flash_attention_chunk_0008"
+      ],
+      "sparse_top3": [
+        "doc06_transformer_chunk_0004",
+        "doc09_rag_survey_huang_chunk_0019",
+        "doc09_rag_survey_huang_chunk_0017"
+      ],
+      "fused_top5": [
+        "doc08_flash_attention_chunk_0058",
+        "doc08_flash_attention_chunk_0013",
+        "doc08_flash_attention_chunk_0007",
+        "doc08_flash_attention_chunk_0045",
+        "doc06_transformer_chunk_0004"
+      ]
+    },
+    "q17": {
+      "query": "How does AlphaFold 3 predict the quaternary structure of protein-ligand interactions and RNA sequences?",
+      "dense_top3": [
+        "doc09_rag_survey_huang_chunk_0057",
+        "doc07_lora_chunk_0028",
+        "doc08_flash_attention_chunk_0056"
+      ],
+      "sparse_top3": [
+        "doc07_lora_chunk_0022",
+        "doc02_rag_survey_chunk_0016",
+        "doc09_rag_survey_huang_chunk_0003"
+      ],
+      "fused_top5": [
+        "doc09_rag_survey_huang_chunk_0057",
+        "doc07_lora_chunk_0022",
+        "doc07_lora_chunk_0028",
+        "doc02_rag_survey_chunk_0016",
+        "doc08_flash_attention_chunk_0056"
+      ]
+    },
+    "q18": {
+      "query": "What were the average global surface temperature anomalies recorded in the 2024 IPCC climate report?",
+      "dense_top3": [
+        "doc07_lora_chunk_0043",
+        "doc07_lora_chunk_0049",
+        "doc07_lora_chunk_0044"
+      ],
+      "sparse_top3": [
+        "doc08_flash_attention_chunk_0021",
+        "doc09_rag_survey_huang_chunk_0042",
+        "doc09_rag_survey_huang_chunk_0034"
+      ],
+      "fused_top5": [
+        "doc05_self_rag_chunk_0038",
+        "doc07_lora_chunk_0043",
+        "doc08_flash_attention_chunk_0021",
+        "doc07_lora_chunk_0049",
+        "doc09_rag_survey_huang_chunk_0042"
+      ]
+    },
+    "q19": {
+      "query": "What are the specific aerodynamic drag coefficients of the SpaceX Falcon 9 rocket during atmospheric reentry?",
+      "dense_top3": [
+        "doc07_lora_chunk_0057",
+        "doc08_flash_attention_chunk_0047",
+        "doc08_flash_attention_chunk_0072"
+      ],
+      "sparse_top3": [
+        "doc02_rag_survey_chunk_0034",
+        "doc05_self_rag_chunk_0050",
+        "doc06_transformer_chunk_0022"
+      ],
+      "fused_top5": [
+        "doc06_transformer_chunk_0012",
+        "doc07_lora_chunk_0057",
+        "doc02_rag_survey_chunk_0034",
+        "doc08_flash_attention_chunk_0047",
+        "doc05_self_rag_chunk_0050"
+      ]
+    },
+    "q20": {
+      "query": "What enzymatic pathways govern mitochondrial glycolysis regulation in human neuroblastoma cells?",
+      "dense_top3": [
+        "doc05_self_rag_chunk_0018",
+        "doc07_lora_chunk_0044",
+        "doc08_flash_attention_chunk_0085"
+      ],
+      "sparse_top3": [
+        "doc06_transformer_chunk_0021",
+        "doc06_transformer_chunk_0022",
+        "doc04_ragas_chunk_0007"
+      ],
+      "fused_top5": [
+        "doc05_self_rag_chunk_0018",
+        "doc06_transformer_chunk_0021",
+        "doc07_lora_chunk_0044",
+        "doc06_transformer_chunk_0022",
+        "doc08_flash_attention_chunk_0085"
+      ]
+    }
+  }
+}

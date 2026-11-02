@@ -1,0 +1,2542 @@
+{
+  "q01": {
+    "query": "How does Retrieval-Augmented Generation combine parametric and non-parametric memory?",
+    "category": "conceptual",
+    "answerable": true,
+    "top_chunks": [
+      {
+        "rank": 1,
+        "chunk_id": "doc01_rag_original_chunk_0003",
+        "score": 0.8451931476593018,
+        "text_preview": "non-parametric memory components are pre-trained and pre-loaded with extensive\nknowledge. Crucially, by using pre-trained access mechanisms, the ability to acce..."
+      },
+      {
+        "rank": 2,
+        "chunk_id": "doc01_rag_original_chunk_0000",
+        "score": 0.8230598568916321,
+        "text_preview": "Retrieval-Augmented Generation for\nKnowledge-Intensive NLP Tasks\nPatrick Lewis\u2020\u2021, Ethan Perez\u22c6,\nAleksandra Piktus\u2020, Fabio Petroni\u2020, Vladimir Karpukhin\u2020, Naman G..."
+      },
+      {
+        "rank": 3,
+        "chunk_id": "doc01_rag_original_chunk_0002",
+        "score": 0.8188269138336182,
+        "text_preview": ". We combine a pre-trained retriever (Query Encoder + Document\nIndex) with a pre-trained seq2seq model (Generator) and \ufb01ne-tune end-to-end. For query x, we use\n..."
+      },
+      {
+        "rank": 4,
+        "chunk_id": "doc09_rag_survey_huang_chunk_0068",
+        "score": 0.8028485774993896,
+        "text_preview": "and Douwe Kiela. 2020. Retrieval-Augmented\nGeneration for Knowledge-Intensive NLP Tasks.. In Conference on Neural Information Processing Systems (NeurIPS).\n[84]..."
+      },
+      {
+        "rank": 5,
+        "chunk_id": "doc01_rag_original_chunk_0040",
+        "score": 0.8010008335113525,
+        "text_preview": "although we do not train the document encoder ourselves) and\n406M trainable parameters from BART-large, 406M parameters, making a total of 626M trainable\n18\n\nTa..."
+      },
+      {
+        "rank": 6,
+        "chunk_id": "doc09_rag_survey_huang_chunk_0082",
+        "score": 0.7937201857566833,
+        "text_preview": ", Chenguang Zhu, Michael Zeng,\nand Meng Jiang. 2023. Generate rather than Retrieve: Large Language Models are Strong Context Generators. In\nInternational Confer..."
+      },
+      {
+        "rank": 7,
+        "chunk_id": "doc02_rag_survey_chunk_0000",
+        "score": 0.7934683561325073,
+        "text_preview": "1\nRetrieval-Augmented Generation for Large\nLanguage Models: A Survey\nYunfan Gaoa, Yun Xiongb, Xinyu Gaob, Kangxiang Jiab, Jinliu Panb, Yuxi Bic, Yi Daia, Jiawei..."
+      },
+      {
+        "rank": 8,
+        "chunk_id": "doc01_rag_original_chunk_0019",
+        "score": 0.7916973233222961,
+        "text_preview": "question answering,\nusing search [46], reinforcement learning [6, 63, 62], or a latent variable approach [31, 20] as in our\nwork. These successes leverage diffe..."
+      },
+      {
+        "rank": 9,
+        "chunk_id": "doc05_self_rag_chunk_0001",
+        "score": 0.7905129790306091,
+        "text_preview": "2023; Min et al., 2023)\ndespite their increased model and data scale (Ouyang et al., 2022). Retrieval-Augmented Generation\n(RAG) methods (Figure 1 left; Lewis e..."
+      },
+      {
+        "rank": 10,
+        "chunk_id": "doc05_self_rag_chunk_0029",
+        "score": 0.7877945899963379,
+        "text_preview": "/paper/\n2020/file/6b493230205f780e1bc26945df7481e5-Paper.pdf.\nXi Victoria Lin, Xilun Chen, Mingda Chen, Weijia Shi, Maria Lomeli, Rich James, Pedro Rodriguez,\nJ..."
+      },
+      {
+        "rank": 11,
+        "chunk_id": "doc09_rag_survey_huang_chunk_0083",
+        "score": 0.7870829105377197,
+        "text_preview": "01068 (2022).\n[162] Penghao Zhao, Hailin Zhang, Qinhan Yu, Zhengren Wang, Yunteng Geng, Fangcheng Fu, Ling Yang, Wentao Zhang, Jie\nJiang, and Bin Cui. 2024. Ret..."
+      },
+      {
+        "rank": 12,
+        "chunk_id": "doc04_ragas_chunk_0000",
+        "score": 0.7865033149719238,
+        "text_preview": "Ragas: Automated Evaluation of Retrieval Augmented Generation\nShahul Es\u2020, Jithin James\u2020, Luis Espinosa-Anke\u2217\u2662, Steven Schockaert\u2217\n\u2020Exploding Gradients\n\u2217CardiffN..."
+      },
+      {
+        "rank": 13,
+        "chunk_id": "doc10_comprehensive_rag_chunk_0000",
+        "score": 0.78630131483078,
+        "text_preview": "A\nComprehensive\nSurvey\nof\nRetrieval-Augmented\nGeneration\n(RAG):\nEvolution,\nCurrent\nLandscape and Future Directions\nShailja Gupta (Carnegie Mellon University, US..."
+      },
+      {
+        "rank": 14,
+        "chunk_id": "doc09_rag_survey_huang_chunk_0075",
+        "score": 0.7859782576560974,
+        "text_preview": "] Weijia Shi, Sewon Min, Michihiro Yasunaga, Minjoon Seo, Rich James, M. Lewis, Luke Zettlemoyer, and Wen-tau Yih.\n2023. REPLUG: Retrieval-Augmented Black-Box L..."
+      },
+      {
+        "rank": 15,
+        "chunk_id": "doc05_self_rag_chunk_0004",
+        "score": 0.7856638431549072,
+        "text_preview": "SELF-RAG outperforms\nretrieval-augmented ChatGPT on four tasks, Llama2-chat (Touvron et al., 2023) and Alpaca (Dubois\net al., 2023) on all tasks. Our analysis d..."
+      },
+      {
+        "rank": 16,
+        "chunk_id": "doc01_rag_original_chunk_0020",
+        "score": 0.7847000956535339,
+        "text_preview": "models obtain state of the art results on open-domain QA. We\nfound that people prefer RAG\u2019s generation over purely parametric BART, \ufb01nding RAG more factual\nand ..."
+      },
+      {
+        "rank": 17,
+        "chunk_id": "doc09_rag_survey_huang_chunk_0005",
+        "score": 0.784428596496582,
+        "text_preview": "strategies leverage pretrained LMs like BERT [29], which capture the semantic\nessence of queries more effectively. These models improve search accuracy by consi..."
+      },
+      {
+        "rank": 18,
+        "chunk_id": "doc02_rag_survey_chunk_0002",
+        "score": 0.7839710712432861,
+        "text_preview": "both\ntechnical paradigms and research methods, summarizing three\nmain research paradigms from over 100 RAG studies, and\nanalyzing key technologies in the core s..."
+      },
+      {
+        "rank": 19,
+        "chunk_id": "doc10_comprehensive_rag_chunk_0008",
+        "score": 0.7837201356887817,
+        "text_preview": ",\nensuring that the retrieval process is optimized for the generation task. REALM\u2019s retriever is trained to\nidentify documents that are not only relevant to the..."
+      },
+      {
+        "rank": 20,
+        "chunk_id": "doc02_rag_survey_chunk_0039",
+        "score": 0.7836557626724243,
+        "text_preview": "bc9f5, 2023.\n[13] W. Yu, D. Iter, S. Wang, Y. Xu, M. Ju, S. Sanyal, C. Zhu, M. Zeng,\nand M. Jiang, \u201cGenerate rather than retrieve: Large language models\nare str..."
+      }
+    ]
+  },
+  "q02": {
+    "query": "What are the core differences between Naive RAG, Advanced RAG, and Modular RAG architectures?",
+    "category": "conceptual",
+    "answerable": true,
+    "top_chunks": [
+      {
+        "rank": 1,
+        "chunk_id": "doc02_rag_survey_chunk_0007",
+        "score": 0.6938055157661438,
+        "text_preview": "tackle specific\nchallenges. The shift towards a modular RAG approach is\nbecoming prevalent, supporting both sequential processing and\nintegrated end-to-end trai..."
+      },
+      {
+        "rank": 2,
+        "chunk_id": "doc02_rag_survey_chunk_0006",
+        "score": 0.6811919212341309,
+        "text_preview": "chain-like structure. (Right) Modular RAG inherits and develops from the previous paradigm, showcasing greater flexibility overall. This is evident in the\nintro..."
+      },
+      {
+        "rank": 3,
+        "chunk_id": "doc02_rag_survey_chunk_0003",
+        "score": 0.6770570278167725,
+        "text_preview": "and \u201cAugmentation\u201d, and\ndelve into their synergies, elucidating how these com-\nponents intricately collaborate to form a cohesive and\neffective RAG framework.\n\u2022..."
+      },
+      {
+        "rank": 4,
+        "chunk_id": "doc02_rag_survey_chunk_0005",
+        "score": 0.6750039458274841,
+        "text_preview": "existing conversational history can be integrated\ninto the prompt, enabling the model to engage in multi-turn\ndialogue interactions effectively.\nHowever, Naive ..."
+      },
+      {
+        "rank": 5,
+        "chunk_id": "doc02_rag_survey_chunk_0004",
+        "score": 0.6678249835968018,
+        "text_preview": "these specific shortcomings in Naive RAG.\nA. Naive RAG\nThe Naive RAG research paradigm represents the earli-\nest methodology, which gained prominence shortly af..."
+      },
+      {
+        "rank": 6,
+        "chunk_id": "doc02_rag_survey_chunk_0035",
+        "score": 0.659601092338562,
+        "text_preview": "different specialization directions, such as: 1)\nCustomization - tailoring RAG to meet specific requirements.\n2) Simplification - making RAG easier to use to re..."
+      },
+      {
+        "rank": 7,
+        "chunk_id": "doc02_rag_survey_chunk_0036",
+        "score": 0.6470297574996948,
+        "text_preview": "event boundaries and\ntextual descriptions within a unified output sequence [181].\nCode. RBPS [182] excels in small-scale learning tasks by\nretrieving code examp..."
+      },
+      {
+        "rank": 8,
+        "chunk_id": "doc02_rag_survey_chunk_0009",
+        "score": 0.6445475220680237,
+        "text_preview": ") and prompt engineering. Each method has distinct charac-\nteristics as illustrated in Figure 4. We used a quadrant chart to\nillustrate the differences among th..."
+      },
+      {
+        "rank": 9,
+        "chunk_id": "doc02_rag_survey_chunk_0034",
+        "score": 0.638947069644928,
+        "text_preview": "of\nthe\nfocuses\nof\ncurrent\nre-\nsearchers [173].The parameters of these models are one of\nthe key factors.While scaling laws [174] are established for\nLLMs, their..."
+      },
+      {
+        "rank": 10,
+        "chunk_id": "doc09_rag_survey_huang_chunk_0039",
+        "score": 0.6387283802032471,
+        "text_preview": "[12]\n2024\n!\n!\n!\n!\n!\nPlanRAG [81]\n2024\n!\n!\n!\n!\n!\nRARG [159]\n2024\n!\n!\n!\n!\n!\nDRAGIN [124]\n2024\n!\n!\n!\n!\n!\nLRUS-CoverTree [93]\n2024\n!\n!\n!\n!\n!\nTable 2. The comprehens..."
+      },
+      {
+        "rank": 11,
+        "chunk_id": "doc10_comprehensive_rag_chunk_0018",
+        "score": 0.6386665105819702,
+        "text_preview": "to changing query patterns and content requirements. This includes developing\nmodels that can dynamically update their retrieval strategies based on new informa..."
+      },
+      {
+        "rank": 12,
+        "chunk_id": "doc02_rag_survey_chunk_0008",
+        "score": 0.6356627941131592,
+        "text_preview": "Moreover, Modular\nRAG expands this flexibility by integrating new modules or\nadjusting interaction flow among existing ones, enhancing its\napplicability across ..."
+      },
+      {
+        "rank": 13,
+        "chunk_id": "doc09_rag_survey_huang_chunk_0004",
+        "score": 0.6328205466270447,
+        "text_preview": "AG has evolved from a means of providing supplementary information to enabling\nmultiple interactions between the retrieval and generation components. This invol..."
+      },
+      {
+        "rank": 14,
+        "chunk_id": "doc10_comprehensive_rag_chunk_0005",
+        "score": 0.6309818625450134,
+        "text_preview": "h et al., 2019) may\noffer ways to reduce the computational burden without sacrificing performance. Finally, there are ethical\nconcerns associated with the deplo..."
+      },
+      {
+        "rank": 15,
+        "chunk_id": "doc09_rag_survey_huang_chunk_0003",
+        "score": 0.6218520402908325,
+        "text_preview": "on the diverse applications of RAG, including\ntext, code, image, and video generation, emphasizing augmented intelligence in generative tasks.\nMeanwhile, Hu et ..."
+      },
+      {
+        "rank": 16,
+        "chunk_id": "doc05_self_rag_chunk_0023",
+        "score": 0.6207073926925659,
+        "text_preview": "of how the data scale affects the model\u2019s\nperformance. In particular, we randomly sample 5k, 10k, 20k, and 50k instances from our original\n150k training instanc..."
+      },
+      {
+        "rank": 17,
+        "chunk_id": "doc02_rag_survey_chunk_0031",
+        "score": 0.6206003427505493,
+        "text_preview": "\u2713\n\u2713\n\u2713\n\u2713\nEM\n\u2713\nRecall\n\u2713\nPrecision\n\u2713\n\u2713\nR-Rate\n\u2713\nCosine Similarity\n\u2713\nHit Rate\n\u2713\nMRR\n\u2713\nNDCG\n\u2713\nBLEU\n\u2713\n\u2713\n\u2713\nROUGE/ROUGE-L\n\u2713\n\u2713\n\u2713\nThe specific metrics for each evaluation..."
+      },
+      {
+        "rank": 18,
+        "chunk_id": "doc10_comprehensive_rag_chunk_0002",
+        "score": 0.6205528378486633,
+        "text_preview": "in RAG typically leverages dense vector representations to identify relevant\ndocuments from large datasets, such as Wikipedia or proprietary databases. Once ret..."
+      },
+      {
+        "rank": 19,
+        "chunk_id": "doc02_rag_survey_chunk_0002",
+        "score": 0.6196600794792175,
+        "text_preview": "both\ntechnical paradigms and research methods, summarizing three\nmain research paradigms from over 100 RAG studies, and\nanalyzing key technologies in the core s..."
+      },
+      {
+        "rank": 20,
+        "chunk_id": "doc02_rag_survey_chunk_0033",
+        "score": 0.619388222694397,
+        "text_preview": "ness of RAG.\nC. Hybrid Approaches\nCombining RAG with fine-tuning is emerging as a leading\nstrategy. Determining the optimal integration of RAG and\nfine-tuning w..."
+      }
+    ]
+  },
+  "q03": {
+    "query": "How does Dense Passage Retrieval outperform traditional sparse BM25 models on open-domain QA?",
+    "category": "conceptual",
+    "answerable": true,
+    "top_chunks": [
+      {
+        "rank": 1,
+        "chunk_id": "doc03_dpr_chunk_0000",
+        "score": 0.8826287388801575,
+        "text_preview": "Dense Passage Retrieval for Open-Domain Question Answering\nVladimir Karpukhin\u2217, Barlas O\u02d8guz\u2217, Sewon Min\u2020, Patrick Lewis,\nLedell Wu, Sergey Edunov, Danqi Chen\u2021,..."
+      },
+      {
+        "rank": 2,
+        "chunk_id": "doc03_dpr_chunk_0002",
+        "score": 0.8581252098083496,
+        "text_preview": "-IDF/BM25 for open-\ndomain QA before ORQA (Lee et al., 2019), which\nproposes a sophisticated inverse cloze task (ICT)\nobjective, predicting the blocks that cont..."
+      },
+      {
+        "rank": 3,
+        "chunk_id": "doc03_dpr_chunk_0004",
+        "score": 0.855773389339447,
+        "text_preview": "(e.g., Wikipedia) to billions (e.g., the Web).\nAs a result, any open-domain QA system needs to\ninclude an ef\ufb01cient retriever component that can se-\nlect a small..."
+      },
+      {
+        "rank": 4,
+        "chunk_id": "doc03_dpr_chunk_0003",
+        "score": 0.8491073250770569,
+        "text_preview": "kowski et al., 2019).\nOur contributions are twofold. First, we demon-\nstrate that with the proper training setup, sim-\nply \ufb01ne-tuning the question and passage e..."
+      },
+      {
+        "rank": 5,
+        "chunk_id": "doc10_comprehensive_rag_chunk_0006",
+        "score": 0.8427793979644775,
+        "text_preview": "techniques such as\ndense passage retrieval (DPR) (Karpukhin et. al. 2020) or traditional BM25 algorithms.\n2.\nGenerator:\nIt\nsynthesizes\nthe\nretrieved\ndocuments\ni..."
+      },
+      {
+        "rank": 6,
+        "chunk_id": "doc03_dpr_chunk_0001",
+        "score": 0.8416821360588074,
+        "text_preview": "QA to machine reading is a very rea-\nsonable strategy, a huge performance degradation\nis often observed in practice2, indicating the needs\nof improving retrieva..."
+      },
+      {
+        "rank": 7,
+        "chunk_id": "doc03_dpr_chunk_0012",
+        "score": 0.8404068946838379,
+        "text_preview": "ument length normalization) and k1 = 0.9 (term frequency\nscaling) are tuned using development sets.\n20\n40\n60\n80\n100\nk: # of retrieved passages\n40\n50\n60\n70\n80\n90..."
+      },
+      {
+        "rank": 8,
+        "chunk_id": "doc03_dpr_chunk_0016",
+        "score": 0.8375168442726135,
+        "text_preview": ", returning top 100 pas-\nsages per question. In contrast, BM25/Lucene (im-\nplemented in Java, using \ufb01le index) processes 23.7\nquestions per second per CPU threa..."
+      },
+      {
+        "rank": 9,
+        "chunk_id": "doc03_dpr_chunk_0022",
+        "score": 0.8361688256263733,
+        "text_preview": "extended by REALM (Guu et al.,\n2020), which includes tuning the passage encoder\nasynchronously by re-indexing the passages dur-\ning training. The pretraining ob..."
+      },
+      {
+        "rank": 10,
+        "chunk_id": "doc03_dpr_chunk_0021",
+        "score": 0.8315065503120422,
+        "text_preview": "also been explored recently (Min et al., 2019b; Asai\net al., 2020).\nThe use of dense vector representations for re-\ntrieval has a long history since Latent Sema..."
+      },
+      {
+        "rank": 11,
+        "chunk_id": "doc10_comprehensive_rag_chunk_0007",
+        "score": 0.8269557356834412,
+        "text_preview": "keyword matching, it has limitations in understanding\nsemantic meaning. For example, BM25 cannot capture the relationships between words and tends to\nperform po..."
+      },
+      {
+        "rank": 12,
+        "chunk_id": "doc03_dpr_chunk_0006",
+        "score": 0.815977156162262,
+        "text_preview": "dense\nvectors, which can easily be applied to billions of\nvectors. Given a question q at run-time, we derive\nits embedding vq = EQ(q) and retrieve the top k\npas..."
+      },
+      {
+        "rank": 13,
+        "chunk_id": "doc03_dpr_chunk_0020",
+        "score": 0.8152139782905579,
+        "text_preview": "following Lee et al. (2019). This approach\nobtains a score of 39.8 EM, which suggests that our\nstrategy of training a strong retriever and reader in\nisolation c..."
+      },
+      {
+        "rank": 14,
+        "chunk_id": "doc01_rag_original_chunk_0040",
+        "score": 0.8137591481208801,
+        "text_preview": "although we do not train the document encoder ourselves) and\n406M trainable parameters from BART-large, 406M parameters, making a total of 626M trainable\n18\n\nTa..."
+      },
+      {
+        "rank": 15,
+        "chunk_id": "doc03_dpr_chunk_0015",
+        "score": 0.811072051525116,
+        "text_preview": "is triplet\nloss, which compares a positive passage and a nega-\ntive one directly with respect to a question (Burges\net al., 2005). Our experiments show that usi..."
+      },
+      {
+        "rank": 16,
+        "chunk_id": "doc03_dpr_chunk_0013",
+        "score": 0.810547947883606,
+        "text_preview": "ver trained using only 1,000 ex-\namples already outperforms BM25. This suggests\nthat with a general pretrained language model, it is\npossible to train a high-qu..."
+      },
+      {
+        "rank": 17,
+        "chunk_id": "doc03_dpr_chunk_0011",
+        "score": 0.8084002137184143,
+        "text_preview": "experiments\nis trained using the in-batch negative setting (Sec-\ntion 3.2) with a batch size of 128 and one additional\nBM25 negative passage per question. We tr..."
+      },
+      {
+        "rank": 18,
+        "chunk_id": "doc01_rag_original_chunk_0007",
+        "score": 0.8040267825126648,
+        "text_preview": "orough Decoding.\u201d For longer\noutput sequences, |Y | can become large, requiring many forward passes. For more ef\ufb01cient decoding,\nwe can make a further approxima..."
+      },
+      {
+        "rank": 19,
+        "chunk_id": "doc01_rag_original_chunk_0020",
+        "score": 0.8036359548568726,
+        "text_preview": "models obtain state of the art results on open-domain QA. We\nfound that people prefer RAG\u2019s generation over purely parametric BART, \ufb01nding RAG more factual\nand ..."
+      },
+      {
+        "rank": 20,
+        "chunk_id": "doc10_comprehensive_rag_chunk_0022",
+        "score": 0.8036150932312012,
+        "text_preview": ", Z., Pasupat, P., & Chang, M. (2020). REALM: Retrieval-augmented language\nmodel pre-training. In Proceedings of the 37th International Conference on Machine Le..."
+      }
+    ]
+  },
+  "q04": {
+    "query": "Explain how Self-RAG utilizes reflection tokens to determine when retrieval is necessary.",
+    "category": "conceptual",
+    "answerable": true,
+    "top_chunks": [
+      {
+        "rank": 1,
+        "chunk_id": "doc05_self_rag_chunk_0024",
+        "score": 0.8261216878890991,
+        "text_preview": "and\nISSUP reflection token\npredictions are mostly aligned with their assessments. Appendix Table 6 shows several annotated\nexamples and explanations on assessme..."
+      },
+      {
+        "rank": 2,
+        "chunk_id": "doc05_self_rag_chunk_0006",
+        "score": 0.822044849395752,
+        "text_preview": "SELF-RAG uses reflection tokens to decide the\nneed for retrieval and to self-evaluate generation quality. Xie et al. (2023) propose a self-evaluation-\nguided de..."
+      },
+      {
+        "rank": 3,
+        "chunk_id": "doc05_self_rag_chunk_0003",
+        "score": 0.8178347945213318,
+        "text_preview": "retrieve, critique, and generate text passages\nto enhance overall generation quality, factuality, and verifiability.\nconsistently retrieves a fixed number of do..."
+      },
+      {
+        "rank": 4,
+        "chunk_id": "doc05_self_rag_chunk_0007",
+        "score": 0.8027077317237854,
+        "text_preview": "R\nISREL\nx, d\n{relevant, irrelevant}\nd provides useful information to solve x.\nISSUP\nx, d, y\n{fully supported, partially\nsupported, no support}\nAll of the verifi..."
+      },
+      {
+        "rank": 5,
+        "chunk_id": "doc05_self_rag_chunk_0005",
+        "score": 0.7987879514694214,
+        "text_preview": ". Lin et al. (2023) fine-tune both the retriever\nand LM on instruction-tuning datasets in two steps. While we also train our model on diverse\ninstruction-follow..."
+      },
+      {
+        "rank": 6,
+        "chunk_id": "doc02_rag_survey_chunk_0026",
+        "score": 0.7972810864448547,
+        "text_preview": "external\nsearch engines. Flare automates timing retrieval by monitoring\nthe confidence of the generation process, as indicated by the\n\n12\nprobability of generat..."
+      },
+      {
+        "rank": 7,
+        "chunk_id": "doc05_self_rag_chunk_0008",
+        "score": 0.7961731553077698,
+        "text_preview": "generates: a critique token to evaluate the retrieved\npassage\u2019s relevance, the next response segment, and a critique token to evaluate if the information in\nthe..."
+      },
+      {
+        "rank": 8,
+        "chunk_id": "doc05_self_rag_chunk_0000",
+        "score": 0.7906566262245178,
+        "text_preview": "Preprint.\nSELF-RAG: LEARNING TO RETRIEVE, GENERATE, AND\nCRITIQUE THROUGH SELF-REFLECTION\nAkari Asai\u2020, Zeqiu Wu\u2020, Yizhong Wang\u2020\u00a7, Avirup Sil\u2021, Hannaneh Hajishirz..."
+      },
+      {
+        "rank": 9,
+        "chunk_id": "doc05_self_rag_chunk_0001",
+        "score": 0.7883443236351013,
+        "text_preview": "2023; Min et al., 2023)\ndespite their increased model and data scale (Ouyang et al., 2022). Retrieval-Augmented Generation\n(RAG) methods (Figure 1 left; Lewis e..."
+      },
+      {
+        "rank": 10,
+        "chunk_id": "doc05_self_rag_chunk_0004",
+        "score": 0.7825366258621216,
+        "text_preview": "SELF-RAG outperforms\nretrieval-augmented ChatGPT on four tasks, Llama2-chat (Touvron et al., 2023) and Alpaca (Dubois\net al., 2023) on all tasks. Our analysis d..."
+      },
+      {
+        "rank": 11,
+        "chunk_id": "doc10_comprehensive_rag_chunk_0012",
+        "score": 0.7792848348617554,
+        "text_preview": "ines document similarity with utility for improved\nperformance. It also incorporates a task-adaptive summarizer to produce compact thoughts. Using the\nmulti-lay..."
+      },
+      {
+        "rank": 12,
+        "chunk_id": "doc02_rag_survey_chunk_0041",
+        "score": 0.7690529823303223,
+        "text_preview": "\u201cSelf-rag:\nLearning to retrieve, generate, and critique through self-reflection,\u201d\narXiv preprint arXiv:2310.11511, 2023.\n[26] Z. Ke, W. Kong, C. Li, M. Zhang, Q..."
+      },
+      {
+        "rank": 13,
+        "chunk_id": "doc05_self_rag_chunk_0037",
+        "score": 0.7683576941490173,
+        "text_preview": "19\nB.1\nMore Details of Training . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .\n19\nB.2\nMore Details of Evaluations\n. . . . . . . . . . . . . . . ...."
+      },
+      {
+        "rank": 14,
+        "chunk_id": "doc05_self_rag_chunk_0020",
+        "score": 0.764256477355957,
+        "text_preview": "73.2\n30.6\n(a) Ablation\n1\n2\n70.0\n70.5\nPrecision\n1\n2\nWeight for IsSupport\n90\n95\nMauve\n(b) Customization\n0.0\n0.2\n0.4\n0.6\n0.98\n0.99\n0.99\n1.00\nAccuracy\nPubHealth\n0.0..."
+      },
+      {
+        "rank": 15,
+        "chunk_id": "doc05_self_rag_chunk_0045",
+        "score": 0.7621627449989319,
+        "text_preview": "for SELF-RAG at\neach segment level.\nTask-specific instructions.\nTable 5 shows the list of the instructions used during evaluations. For\nOpen-domain QA, we do no..."
+      },
+      {
+        "rank": 16,
+        "chunk_id": "doc02_rag_survey_chunk_0032",
+        "score": 0.7616630792617798,
+        "text_preview": "that long-document question answering,\npreviously reliant on RAG, can now incorporate the entire\ndocument directly into the prompt. This has also sparked\ndiscus..."
+      },
+      {
+        "rank": 17,
+        "chunk_id": "doc05_self_rag_chunk_0012",
+        "score": 0.7598714232444763,
+        "text_preview": "., 2023), we aim for the model to retrieve passages more frequently to\nensure that the output aligns closely with the available evidence. Conversely, in more op..."
+      },
+      {
+        "rank": 18,
+        "chunk_id": "doc02_rag_survey_chunk_0009",
+        "score": 0.7595263123512268,
+        "text_preview": ") and prompt engineering. Each method has distinct charac-\nteristics as illustrated in Figure 4. We used a quadrant chart to\nillustrate the differences among th..."
+      },
+      {
+        "rank": 19,
+        "chunk_id": "doc05_self_rag_chunk_0046",
+        "score": 0.7564588189125061,
+        "text_preview": "of Sunday as a day of rest by Constantine in AD 321. In the second example, the model predicts\nContradictory to the first output as the output says the person h..."
+      },
+      {
+        "rank": 20,
+        "chunk_id": "doc10_comprehensive_rag_chunk_0008",
+        "score": 0.7532284259796143,
+        "text_preview": ",\nensuring that the retrieval process is optimized for the generation task. REALM\u2019s retriever is trained to\nidentify documents that are not only relevant to the..."
+      }
+    ]
+  },
+  "q05": {
+    "query": "What is the primary mechanism behind Multi-Head Attention in the standard Transformer architecture?",
+    "category": "conceptual",
+    "answerable": true,
+    "top_chunks": [
+      {
+        "rank": 1,
+        "chunk_id": "doc06_transformer_chunk_0003",
+        "score": 0.7462170124053955,
+        "text_preview": "without using sequence-\naligned RNNs or convolution. In the following sections, we will describe the Transformer, motivate\nself-attention and discuss its advant..."
+      },
+      {
+        "rank": 2,
+        "chunk_id": "doc08_flash_attention_chunk_0001",
+        "score": 0.7445268034934998,
+        "text_preview": "i\ufb01cation) and entirely new\ncapabilities: the \ufb01rst Transformers to achieve better-than-chance performance on the Path-X challenge\n(seq. length 16K, 61.4% accurac..."
+      },
+      {
+        "rank": 3,
+        "chunk_id": "doc06_transformer_chunk_0001",
+        "score": 0.7421855330467224,
+        "text_preview": "started\nthe effort to evaluate this idea. Ashish, with Illia, designed and implemented the first Transformer models and\nhas been crucially involved in every asp..."
+      },
+      {
+        "rank": 4,
+        "chunk_id": "doc06_transformer_chunk_0005",
+        "score": 0.7418400049209595,
+        "text_preview": "for larger values of dk [3]. We suspect that for large values of\ndk, the dot products grow large in magnitude, pushing the softmax function into regions where i..."
+      },
+      {
+        "rank": 5,
+        "chunk_id": "doc06_transformer_chunk_0002",
+        "score": 0.7210047841072083,
+        "text_preview": "of compelling sequence modeling and transduc-\ntion models in various tasks, allowing modeling of dependencies without regard to their distance in\nthe input or o..."
+      },
+      {
+        "rank": 6,
+        "chunk_id": "doc08_flash_attention_chunk_0007",
+        "score": 0.7046139240264893,
+        "text_preview": "there have been many attempts to fuse several\nelementwise operations, such as fusing masking with softmax [77].\nIn Section 3.2, we will show that the standard a..."
+      },
+      {
+        "rank": 7,
+        "chunk_id": "doc08_flash_attention_chunk_0037",
+        "score": 0.7039946913719177,
+        "text_preview": "as\nSingh. Nystr\u00f6mformer: A nyst\u00f6m-based algorithm for approximating self-attention. In Proceedings of\nthe AAAI Conference on Arti\ufb01cial Intelligence. AAAI Confer..."
+      },
+      {
+        "rank": 8,
+        "chunk_id": "doc06_transformer_chunk_0004",
+        "score": 0.6993736028671265,
+        "text_preview": "-attention\nsub-layer in the decoder stack to prevent positions from attending to subsequent positions. This\nmasking, combined with fact that the output embeddin..."
+      },
+      {
+        "rank": 9,
+        "chunk_id": "doc08_flash_attention_chunk_0023",
+        "score": 0.6989955306053162,
+        "text_preview": "fewer memory accesses. The approximate attention runtimes begin to cross over with\nFlashAttention at sequences between 512 and 1024. On the other hand, block-sp..."
+      },
+      {
+        "rank": 10,
+        "chunk_id": "doc08_flash_attention_chunk_0003",
+        "score": 0.6939136385917664,
+        "text_preview": ", a new attention algorithm that computes exact attention with far fewer\nmemory accesses. Our main goal is to avoid reading and writing the attention matrix to ..."
+      },
+      {
+        "rank": 11,
+        "chunk_id": "doc08_flash_attention_chunk_0035",
+        "score": 0.6934051513671875,
+        "text_preview": "Puri, Patrick LeGresley, Jared Casper, and Bryan Catanzaro.\nMegatron-LM: Training multi-billion parameter language models using model parallelism. arXiv preprin..."
+      },
+      {
+        "rank": 12,
+        "chunk_id": "doc08_flash_attention_chunk_0022",
+        "score": 0.6889541149139404,
+        "text_preview": "challenging tasks from the long-range\narena benchmark designed to test long context. The task is to classify whether two points in a black and\nwhite 128\u00d7128 (or..."
+      },
+      {
+        "rank": 13,
+        "chunk_id": "doc08_flash_attention_chunk_0000",
+        "score": 0.6882868409156799,
+        "text_preview": "FlashAttention: Fast and Memory-E\ufb03cient Exact Attention\nwith IO-Awareness\nTri Dao\u2020, Daniel Y. Fu\u2020, Stefano Ermon\u2020, Atri Rudra\u2021, and Christopher R\u00e9\u2020\n\u2020Department ..."
+      },
+      {
+        "rank": 14,
+        "chunk_id": "doc08_flash_attention_chunk_0060",
+        "score": 0.6875227093696594,
+        "text_preview": "\ufffd\n\u0012 \ud835\udc412\ud835\udc512\n\ud835\udc40\n\u0013\n.\n\u25a1\nProof of Proposition 3. For contradiction, suppose that there exists an algorithm that computes exact\nattention where the number for HBM access..."
+      },
+      {
+        "rank": 15,
+        "chunk_id": "doc08_flash_attention_chunk_0077",
+        "score": 0.6874595880508423,
+        "text_preview": "20.34\n79.87\n-\n-\n-\n-\nMegatron\n0.29\n0.31\n0.65\n1.95\n6.49\n-\n-\n-\n-\n-\nReformer\n2.31\n4.47\n8.68\n17.20\n34.14\n68.09\n136.02\n-\n-\n-\nLocal Attention\n0.51\n0.62\n1.30\n3.81\n13.33..."
+      },
+      {
+        "rank": 16,
+        "chunk_id": "doc06_transformer_chunk_0006",
+        "score": 0.6870324611663818,
+        "text_preview": "\u2022 In \"encoder-decoder attention\" layers, the queries come from the previous decoder layer,\nand the memory keys and values come from the output of the encoder. T..."
+      },
+      {
+        "rank": 17,
+        "chunk_id": "doc07_lora_chunk_0009",
+        "score": 0.6860775947570801,
+        "text_preview": "two in the MLP module. We treat Wq (or Wk, Wv)\nas a single matrix of dimension dmodel \u00d7dmodel, even though the output dimension is usually sliced\ninto attention..."
+      },
+      {
+        "rank": 18,
+        "chunk_id": "doc08_flash_attention_chunk_0006",
+        "score": 0.6840631365776062,
+        "text_preview": "large inner\ndimension, and convolution with large number of channels.\n2. Memory-bound: the time taken by the operation is determined by the number of memory acc..."
+      },
+      {
+        "rank": 19,
+        "chunk_id": "doc08_flash_attention_chunk_0085",
+        "score": 0.6806932687759399,
+        "text_preview": ".65\n1.23\n3.80\n13.21\n-\n-\n-\n-\n-\nReformer\n3.93\n7.01\n13.15\n25.89\n52.09\n105.00\n215.13\n-\n-\n-\nLocal Attention\n1.09\n1.27\n1.99\n5.38\n18.32\n36.77\n73.67\n147.29\n296.35\n-\nLin..."
+      },
+      {
+        "rank": 20,
+        "chunk_id": "doc08_flash_attention_chunk_0076",
+        "score": 0.6799529790878296,
+        "text_preview": ".83\n92.80\n203.24\n-\n-\nLocal Attention\n0.70\n0.81\n1.02\n2.09\n6.64\n13.34\n26.77\n54.02\n110.11\n-\nLinformer\n0.63\n0.50\n0.67\n0.65\n1.36\n2.60\n5.04\n9.92\n19.69\n43.47\nSmyrf\n2.3..."
+      }
+    ]
+  },
+  "q06": {
+    "query": "Why does Low-Rank Adaptation (LoRA) significantly reduce the number of trainable parameters during fine-tuning?",
+    "category": "conceptual",
+    "answerable": true,
+    "top_chunks": [
+      {
+        "rank": 1,
+        "chunk_id": "doc07_lora_chunk_0002",
+        "score": 0.8804804682731628,
+        "text_preview": "Lester et al., 2021; Ham-\nbardzumyan et al., 2020; Liu et al., 2021) (Section 3). More importantly, these method often fail to\nmatch the \ufb01ne-tuning baselines, p..."
+      },
+      {
+        "rank": 2,
+        "chunk_id": "doc07_lora_chunk_0022",
+        "score": 0.8507121205329895,
+        "text_preview": ", none of these works\nconsiders low-rank update to a frozen model for adaptation to downstream tasks. In theory liter-\nature, it is known that neural networks o..."
+      },
+      {
+        "rank": 3,
+        "chunk_id": "doc07_lora_chunk_0000",
+        "score": 0.8411442041397095,
+        "text_preview": "LORA: LOW-RANK ADAPTATION OF LARGE LAN-\nGUAGE MODELS\nEdward Hu\u2217\nYelong Shen\u2217\nPhillip Wallis\nZeyuan Allen-Zhu\nYuanzhi Li\nShean Wang\nLu Wang\nWeizhu Chen\nMicrosoft..."
+      },
+      {
+        "rank": 4,
+        "chunk_id": "doc07_lora_chunk_0008",
+        "score": 0.8250134587287903,
+        "text_preview": "When optimizing with Adam, tuning \u03b1 is roughly the same as tuning the learning\nrate if we scale the initialization appropriately. As a result, we simply set \u03b1 t..."
+      },
+      {
+        "rank": 5,
+        "chunk_id": "doc07_lora_chunk_0019",
+        "score": 0.8209993839263916,
+        "text_preview": "random seeds, as\nopposed to providing one for every entry. See Section D.4 for details on the hyperparameters used.\nAs shown in Table 4, LoRA matches or exceeds..."
+      },
+      {
+        "rank": 6,
+        "chunk_id": "doc07_lora_chunk_0024",
+        "score": 0.8138409852981567,
+        "text_preview": "IS THE OPTIMAL RANK r FOR LORA?\nWe turn our attention to the effect of rank r on model performance.\nWe adapt {Wq, Wv},\n{Wq, Wk, Wv, Wc}, and just Wq for a compa..."
+      },
+      {
+        "rank": 7,
+        "chunk_id": "doc07_lora_chunk_0021",
+        "score": 0.8125473856925964,
+        "text_preview": "learned weights can be merged with the main weights during\ninference, thus not introducing any latency, which is not the case for the adapter layers (Section 3)..."
+      },
+      {
+        "rank": 8,
+        "chunk_id": "doc07_lora_chunk_0053",
+        "score": 0.805953860282898,
+        "text_preview": "\ufb01xLayer) perform worse as we\nincrease the number of trainable parameters, while LoRA\u2019s performance stabilizes. Performance is\nmeasured in validation accuracy.\nM..."
+      },
+      {
+        "rank": 9,
+        "chunk_id": "doc07_lora_chunk_0029",
+        "score": 0.8058379888534546,
+        "text_preview": "prohibitively expensive in terms of the hardware required\nand the storage/switching cost for hosting independent instances for different tasks. We propose\nLoRA,..."
+      },
+      {
+        "rank": 10,
+        "chunk_id": "doc07_lora_chunk_0046",
+        "score": 0.8010268211364746,
+        "text_preview": "Warmup Steps\n500\nLearning Rate Schedule\nLinear\nLabel Smooth\n0.1\n0.1\n0.0\nLearning Rate\n0.0002\nAdaptation\nrq = rv = 4\nLoRA \u03b1\n32\nInference\nBeam Size\n10\nLength Pena..."
+      },
+      {
+        "rank": 11,
+        "chunk_id": "doc07_lora_chunk_0007",
+        "score": 0.7991722822189331,
+        "text_preview": "tuning, which we\ndescribe in Section 5.1. The inference latency introduced by adapter layers can be signi\ufb01cant in an\nonline, short-sequence-length scenario. See..."
+      },
+      {
+        "rank": 12,
+        "chunk_id": "doc07_lora_chunk_0047",
+        "score": 0.791283369064331,
+        "text_preview": "5.1.\nLoRA+Pre\ufb01xLayer (LoRA+PL) combines LoRA with pre\ufb01x-layer tuning. We also insert lp + li\nspecial tokens; however, instead of letting the hidden representati..."
+      },
+      {
+        "rank": 13,
+        "chunk_id": "doc07_lora_chunk_0010",
+        "score": 0.7908308506011963,
+        "text_preview": "one chooses to absorb A and B into W to eliminate\nadditional inference latency. Though it is possible to not merge the weights and dynamically choose\nthe LoRA m..."
+      },
+      {
+        "rank": 14,
+        "chunk_id": "doc07_lora_chunk_0054",
+        "score": 0.7873167991638184,
+        "text_preview": "4.00E-04\n5.00E-04\nPre\ufb01xLayer\n5.00E-05\n5.00E-05\n5.00E-05\n1.00E-04\nLoRA\n2.00E-4\nPre\ufb01xEmbed lp\n16\n32\n64\n256\nAdaptation-\nPre\ufb01xEmbed li\n8\nSpeci\ufb01c\nPre\ufb01xTune\nlp = li =..."
+      },
+      {
+        "rank": 15,
+        "chunk_id": "doc07_lora_chunk_0023",
+        "score": 0.7827301621437073,
+        "text_preview": ".1\nWHICH WEIGHT MATRICES IN TRANSFORMER SHOULD WE APPLY LORA TO?\nGiven a limited parameter budget, which types of weights should we adapt with LoRA to obtain\nth..."
+      },
+      {
+        "rank": 16,
+        "chunk_id": "doc07_lora_chunk_0050",
+        "score": 0.7699576020240784,
+        "text_preview": "2 with different adaptation methods on WebNLG. The variances of MET and TER\nare less than 0.01 for all the experiments we ran. \u201cU\u201d indicates unseen categories, ..."
+      },
+      {
+        "rank": 17,
+        "chunk_id": "doc07_lora_chunk_0016",
+        "score": 0.7669013142585754,
+        "text_preview": "2.49\u00b1.0\nGPT-2 L (AdapterL)\n23.00M\n68.9\u00b1.3\n8.70\u00b1.04\n46.1\u00b1.1\n71.3\u00b1.2\n2.45\u00b1.02\nGPT-2 L (PreLayer)*\n0.77M\n70.3\n8.85\n46.2\n71.7\n2.47\nGPT-2 L (LoRA)\n0.77M\n70.4\u00b1.1\n8.89..."
+      },
+      {
+        "rank": 18,
+        "chunk_id": "doc07_lora_chunk_0014",
+        "score": 0.7630282640457153,
+        "text_preview": "in\ufb01x) tokens. The number of\ntrainable parameters is |\u0398| = dmodel \u00d7 (lp + li).\nPre\ufb01x-layer tuning (PreLayer) is an extension to pre\ufb01x-embedding tuning. Instead o..."
+      },
+      {
+        "rank": 19,
+        "chunk_id": "doc07_lora_chunk_0009",
+        "score": 0.7628937363624573,
+        "text_preview": "two in the MLP module. We treat Wq (or Wk, Wv)\nas a single matrix of dimension dmodel \u00d7dmodel, even though the output dimension is usually sliced\ninto attention..."
+      },
+      {
+        "rank": 20,
+        "chunk_id": "doc07_lora_chunk_0001",
+        "score": 0.7620965242385864,
+        "text_preview": "Pretrained \nWeights\n\ud835\udc4a\u2208\u211d\ud835\udc51\u00d7\ud835\udc51\nx\nh\n\ud835\udc35= 0\n\ud835\udc34= \ud835\udca9(0, \ud835\udf0e2)\n\ud835\udc51\n\ud835\udc5f\nFigure 1: Our reparametriza-\ntion. We only train A and B.\nMany applications in natural language processing r..."
+      }
+    ]
+  },
+  "q07": {
+    "query": "How does FlashAttention optimize IO memory access between GPU HBM and SRAM to accelerate computation?",
+    "category": "conceptual",
+    "answerable": true,
+    "top_chunks": [
+      {
+        "rank": 1,
+        "chunk_id": "doc08_flash_attention_chunk_0002",
+        "score": 0.8638169765472412,
+        "text_preview": "Softmax\nDropout\nMatmul\nFused\nKernel\nQ: N x d\nV: N X d\nKT: d x N\nQKT: N x N\nsm(QKT)V: N x d\nOuter Loop\nCopy Block to SRAM\nCopy\nOuter Loop\nCopy\nInner Loop\nCompute..."
+      },
+      {
+        "rank": 2,
+        "chunk_id": "doc08_flash_attention_chunk_0005",
+        "score": 0.8404809832572937,
+        "text_preview": "Up to sequence length of 512,\nFlashAttention is both faster and more memory-e\ufb03cient than any existing attention method, whereas\nfor sequence length beyond 1K, s..."
+      },
+      {
+        "rank": 3,
+        "chunk_id": "doc08_flash_attention_chunk_0012",
+        "score": 0.8314276933670044,
+        "text_preview": "\ufffd\ud835\udc56\u2190\u2113new\n\ud835\udc56\n, \ud835\udc5a\ud835\udc56\u2190\ud835\udc5anew\n\ud835\udc56\nto HBM.\n14:\nend for\n15: end for\n16: Return O.\nWe show FlashAttention\u2019s correctness, runtime, and memory requirement (proof in Appendix C)...."
+      },
+      {
+        "rank": 4,
+        "chunk_id": "doc08_flash_attention_chunk_0000",
+        "score": 0.8302377462387085,
+        "text_preview": "FlashAttention: Fast and Memory-E\ufb03cient Exact Attention\nwith IO-Awareness\nTri Dao\u2020, Daniel Y. Fu\u2020, Stefano Ermon\u2020, Atri Rudra\u2021, and Christopher R\u00e9\u2020\n\u2020Department ..."
+      },
+      {
+        "rank": 5,
+        "chunk_id": "doc08_flash_attention_chunk_0013",
+        "score": 0.8198468685150146,
+        "text_preview": "seq. length 4K) of\nblock-sparse FlashAttention is faster than FlashAttention by a factor proportional to the sparsity.\nasymptotically improve on HBM accesses ov..."
+      },
+      {
+        "rank": 6,
+        "chunk_id": "doc08_flash_attention_chunk_0014",
+        "score": 0.8078066110610962,
+        "text_preview": "all\nvalues of \ud835\udc40(the SRAM size) when computing exact attention.\nProposition 3. Let \ud835\udc41be the sequence length, \ud835\udc51be the head dimension, and \ud835\udc40be size of SRAM with\n\ud835\udc51\u2264\ud835\udc40..."
+      },
+      {
+        "rank": 7,
+        "chunk_id": "doc08_flash_attention_chunk_0023",
+        "score": 0.7938314080238342,
+        "text_preview": "fewer memory accesses. The approximate attention runtimes begin to cross over with\nFlashAttention at sequences between 512 and 1024. On the other hand, block-sp..."
+      },
+      {
+        "rank": 8,
+        "chunk_id": "doc08_flash_attention_chunk_0064",
+        "score": 0.793725311756134,
+        "text_preview": "new\n\ud835\udc56\n, \ud835\udc5a\ud835\udc56\u2190\ud835\udc5anew\n\ud835\udc56\nto HBM.\n17:\nend if\n18:\nend for\n19: end for\n20: Return O, \u2113, \ud835\udc5a, R.\nD\nExtension Details\nD.1\nBlock-sparse FlashAttention\nWe describe the full blo..."
+      },
+      {
+        "rank": 9,
+        "chunk_id": "doc08_flash_attention_chunk_0052",
+        "score": 0.7935072183609009,
+        "text_preview": "\ud835\udc57\u25e6(dP\ud835\udc56\ud835\udc57\u2212\ud835\udc37\ud835\udc56) \u2208R\ud835\udc35\ud835\udc5f\u00d7\ud835\udc35\ud835\udc50.\n21:\nWrite dQ\ud835\udc56\u2190dQ\ud835\udc56+ \ud835\udf0fdS\ud835\udc56\ud835\udc57K \ud835\udc57\u2208R\ud835\udc35\ud835\udc5f\u00d7\ud835\udc51to HBM.\n22:\nOn chip, compute \u02dc\ndK\ud835\udc57\u2190\u02dc\ndK\ud835\udc57+ \ud835\udf0fdS\u22a4\n\ud835\udc56\ud835\udc57Q\ud835\udc56\u2208R\ud835\udc35\ud835\udc50\u00d7\ud835\udc51.\n23:\nend for\n24:\nWrite dK\ud835\udc57\u2190\n\u02dc\ndK\ud835\udc57, dV \ud835\udc57\u2190\n\u02dc\ndV \ud835\udc57t..."
+      },
+      {
+        "rank": 10,
+        "chunk_id": "doc08_flash_attention_chunk_0003",
+        "score": 0.7858965992927551,
+        "text_preview": ", a new attention algorithm that computes exact attention with far fewer\nmemory accesses. Our main goal is to avoid reading and writing the attention matrix to ..."
+      },
+      {
+        "rank": 11,
+        "chunk_id": "doc08_flash_attention_chunk_0010",
+        "score": 0.7852274775505066,
+        "text_preview": "This avoids repeatedly reading and writing of inputs and outputs from and to HBM.\nAlgorithm 1 FlashAttention\nRequire: Matrices Q, K, V \u2208R\ud835\udc41\u00d7\ud835\udc51in HBM, on-chip SRAM..."
+      },
+      {
+        "rank": 12,
+        "chunk_id": "doc08_flash_attention_chunk_0069",
+        "score": 0.7774015069007874,
+        "text_preview": "and recomputa-\ntion) to deal with long sequences and to save memory as mentioned in Section 3. As a result, we can support\nmuch longer sequences (e.g., up to le..."
+      },
+      {
+        "rank": 13,
+        "chunk_id": "doc08_flash_attention_chunk_0007",
+        "score": 0.7650677561759949,
+        "text_preview": "there have been many attempts to fuse several\nelementwise operations, such as fusing masking with softmax [77].\nIn Section 3.2, we will show that the standard a..."
+      },
+      {
+        "rank": 14,
+        "chunk_id": "doc08_flash_attention_chunk_0049",
+        "score": 0.7612836956977844,
+        "text_preview": ", we use Eq. (4) to compute \ud835\udc37\ud835\udc56= \ud835\udc43\u22a4\n\ud835\udc56:\ud835\udc51\ud835\udc43\ud835\udc56: without reducing over\n\ud835\udc43\ud835\udc56: and \ud835\udc51\ud835\udc43\ud835\udc56: of size \ud835\udc41(they might not \ufb01t into SRAM). Instead we can rewrite \ud835\udc37\ud835\udc56= \ud835\udc51\ud835\udc5c\u22a4\n\ud835\udc56\ud835\udc5c\ud835\udc56and compu..."
+      },
+      {
+        "rank": 15,
+        "chunk_id": "doc08_flash_attention_chunk_0053",
+        "score": 0.7609838843345642,
+        "text_preview": "ats [66] operate on blocks of the attention matrix\nusing the well-established technique of tiling (or softmax scaling) [51, 60]. To reduce the memory footprint,..."
+      },
+      {
+        "rank": 16,
+        "chunk_id": "doc08_flash_attention_chunk_0065",
+        "score": 0.7571655511856079,
+        "text_preview": ", and their speedup is often not proportional to the sparsity. We believe that an\nIO-aware implementation can alleviate this issue and realize the bene\ufb01ts of sp..."
+      },
+      {
+        "rank": 17,
+        "chunk_id": "doc08_flash_attention_chunk_0015",
+        "score": 0.7440139651298523,
+        "text_preview": "FlashAttention by a factor proportional to the sparsity.\nGiven inputs Q, K, V \u2208R\ud835\udc41\u00d7\ud835\udc51and a mask matrix \u02dcM \u2208{0, 1}\ud835\udc41\u00d7\ud835\udc41, we want to compute:\nS = QK\u22a4\u2208R\ud835\udc41\u00d7\ud835\udc41,\nP = softma..."
+      },
+      {
+        "rank": 18,
+        "chunk_id": "doc08_flash_attention_chunk_0070",
+        "score": 0.7329341769218445,
+        "text_preview": "to \ufb01t into SRAM. Figure 6 shows speedup with\nhead dimension 128 on an A100 (batch size 16, 12 heads). We see less speedup overall\u2014but we can still see\nsigni\ufb01can..."
+      },
+      {
+        "rank": 19,
+        "chunk_id": "doc08_flash_attention_chunk_0047",
+        "score": 0.7321909666061401,
+        "text_preview": "\ud835\udc35\ud835\udc5f, \u02dcP\ud835\udc56\ud835\udc57= exp(Smasked\n\ud835\udc56\ud835\udc57\n\u2212\u02dc\ud835\udc5a\ud835\udc56\ud835\udc57) \u2208R\ud835\udc35\ud835\udc5f\u00d7\ud835\udc35\ud835\udc50(pointwise),\n\u02dc\u2113\ud835\udc56\ud835\udc57= rowsum(\u02dcP\ud835\udc56\ud835\udc57) \u2208R\ud835\udc35\ud835\udc5f.\n13:\nOn chip, compute \ud835\udc5anew\n\ud835\udc56\n= max(\ud835\udc5a\ud835\udc56, \u02dc\ud835\udc5a\ud835\udc56\ud835\udc57) \u2208R\ud835\udc35\ud835\udc5f, \u2113new\n\ud835\udc56\n= \ud835\udc52\ud835\udc5a\ud835\udc56\u2212\ud835\udc5anew\n\ud835\udc56\n\u2113\ud835\udc56+ \ud835\udc52\u02dc\ud835\udc5a\ud835\udc56\ud835\udc57\u2212\ud835\udc5ane..."
+      },
+      {
+        "rank": 20,
+        "chunk_id": "doc08_flash_attention_chunk_0016",
+        "score": 0.731837272644043,
+        "text_preview": "FlashAttention (Algorithm 5) requires \u0398(\ud835\udc41\ud835\udc51+ \ud835\udc412\ud835\udc512\ud835\udc40\u22121\ud835\udc60) HBM accesses\nwhere \ud835\udc60is the fraction of nonzero blocks in the block-sparsity mask.\nWe see that applying blo..."
+      }
+    ]
+  },
+  "q08": {
+    "query": "What are the key failure modes and hallucination risks identified across modern RAG survey papers?",
+    "category": "conceptual",
+    "answerable": true,
+    "top_chunks": [
+      {
+        "rank": 1,
+        "chunk_id": "doc09_rag_survey_huang_chunk_0002",
+        "score": 0.6588082909584045,
+        "text_preview": "scope\nof the training data and generates correct results.\nhinders LLMs\u2019 ability to stay updated. Third, LLMs are susceptible to generating convincing yet\ninaccu..."
+      },
+      {
+        "rank": 2,
+        "chunk_id": "doc04_ragas_chunk_0002",
+        "score": 0.6532118916511536,
+        "text_preview": "are not accessible for some\nclosed models (e.g. ChatGPT and GPT-4). Ques-\ntion answering is another common evaluation task,\nbut usually only datasets with short..."
+      },
+      {
+        "rank": 3,
+        "chunk_id": "doc02_rag_survey_chunk_0031",
+        "score": 0.6477773785591125,
+        "text_preview": "\u2713\n\u2713\n\u2713\n\u2713\nEM\n\u2713\nRecall\n\u2713\nPrecision\n\u2713\n\u2713\nR-Rate\n\u2713\nCosine Similarity\n\u2713\nHit Rate\n\u2713\nMRR\n\u2713\nNDCG\n\u2713\nBLEU\n\u2713\n\u2713\n\u2713\nROUGE/ROUGE-L\n\u2713\n\u2713\n\u2713\nThe specific metrics for each evaluation..."
+      },
+      {
+        "rank": 4,
+        "chunk_id": "doc01_rag_original_chunk_0020",
+        "score": 0.6413821578025818,
+        "text_preview": "models obtain state of the art results on open-domain QA. We\nfound that people prefer RAG\u2019s generation over purely parametric BART, \ufb01nding RAG more factual\nand ..."
+      },
+      {
+        "rank": 5,
+        "chunk_id": "doc05_self_rag_chunk_0045",
+        "score": 0.6406956911087036,
+        "text_preview": "for SELF-RAG at\neach segment level.\nTask-specific instructions.\nTable 5 shows the list of the instructions used during evaluations. For\nOpen-domain QA, we do no..."
+      },
+      {
+        "rank": 6,
+        "chunk_id": "doc05_self_rag_chunk_0023",
+        "score": 0.6392348408699036,
+        "text_preview": "of how the data scale affects the model\u2019s\nperformance. In particular, we randomly sample 5k, 10k, 20k, and 50k instances from our original\n150k training instanc..."
+      },
+      {
+        "rank": 7,
+        "chunk_id": "doc02_rag_survey_chunk_0005",
+        "score": 0.6378158330917358,
+        "text_preview": "existing conversational history can be integrated\ninto the prompt, enabling the model to engage in multi-turn\ndialogue interactions effectively.\nHowever, Naive ..."
+      },
+      {
+        "rank": 8,
+        "chunk_id": "doc10_comprehensive_rag_chunk_0018",
+        "score": 0.6377376317977905,
+        "text_preview": "to changing query patterns and content requirements. This includes developing\nmodels that can dynamically update their retrieval strategies based on new informa..."
+      },
+      {
+        "rank": 9,
+        "chunk_id": "doc02_rag_survey_chunk_0034",
+        "score": 0.6377235651016235,
+        "text_preview": "of\nthe\nfocuses\nof\ncurrent\nre-\nsearchers [173].The parameters of these models are one of\nthe key factors.While scaling laws [174] are established for\nLLMs, their..."
+      },
+      {
+        "rank": 10,
+        "chunk_id": "doc02_rag_survey_chunk_0032",
+        "score": 0.6359800696372986,
+        "text_preview": "that long-document question answering,\npreviously reliant on RAG, can now incorporate the entire\ndocument directly into the prompt. This has also sparked\ndiscus..."
+      },
+      {
+        "rank": 11,
+        "chunk_id": "doc10_comprehensive_rag_chunk_0005",
+        "score": 0.6352870464324951,
+        "text_preview": "h et al., 2019) may\noffer ways to reduce the computational burden without sacrificing performance. Finally, there are ethical\nconcerns associated with the deplo..."
+      },
+      {
+        "rank": 12,
+        "chunk_id": "doc09_rag_survey_huang_chunk_0047",
+        "score": 0.6339665651321411,
+        "text_preview": "5. Retriever and generator experiment results sourced from eRAG [119] and BERGEN [114].\nfrom retrieval than larger models like LLaMA2-70B. In fact, LLaMA2-7B wi..."
+      },
+      {
+        "rank": 13,
+        "chunk_id": "doc02_rag_survey_chunk_0001",
+        "score": 0.6327997446060181,
+        "text_preview": "\u201challucinations\u201d [2] when handling queries\nbeyond their training data or requiring current information. To\novercome challenges, Retrieval-Augmented Generation (..."
+      },
+      {
+        "rank": 14,
+        "chunk_id": "doc10_comprehensive_rag_chunk_0003",
+        "score": 0.6326061487197876,
+        "text_preview": ", as they trained the retrieval and\ngenerative components jointly, enabling better alignment between the retrieved information and the\ngenerated output. RAG (Le..."
+      },
+      {
+        "rank": 15,
+        "chunk_id": "doc09_rag_survey_huang_chunk_0034",
+        "score": 0.6320632100105286,
+        "text_preview": "AS [33]\nQuality of RAG Systems\nContext Relevance\nExtracted Sentences / Total Sentences\nWikiEval7\nAnswer Relevance\nAverage Cosine Similarity\nFaithfulness\nSupport..."
+      },
+      {
+        "rank": 16,
+        "chunk_id": "doc09_rag_survey_huang_chunk_0039",
+        "score": 0.6284961700439453,
+        "text_preview": "[12]\n2024\n!\n!\n!\n!\n!\nPlanRAG [81]\n2024\n!\n!\n!\n!\n!\nRARG [159]\n2024\n!\n!\n!\n!\n!\nDRAGIN [124]\n2024\n!\n!\n!\n!\n!\nLRUS-CoverTree [93]\n2024\n!\n!\n!\n!\n!\nTable 2. The comprehens..."
+      },
+      {
+        "rank": 17,
+        "chunk_id": "doc02_rag_survey_chunk_0028",
+        "score": 0.6278132796287537,
+        "text_preview": "ity scores evaluate the efficiency of the RAG model from\ndifferent perspectives in the process of information retrieval\nand generation [164]\u2013[166].\nContext Rele..."
+      },
+      {
+        "rank": 18,
+        "chunk_id": "doc02_rag_survey_chunk_0036",
+        "score": 0.6274266839027405,
+        "text_preview": "event boundaries and\ntextual descriptions within a unified output sequence [181].\nCode. RBPS [182] excels in small-scale learning tasks by\nretrieving code examp..."
+      },
+      {
+        "rank": 19,
+        "chunk_id": "doc05_self_rag_chunk_0020",
+        "score": 0.6266610622406006,
+        "text_preview": "73.2\n30.6\n(a) Ablation\n1\n2\n70.0\n70.5\nPrecision\n1\n2\nWeight for IsSupport\n90\n95\nMauve\n(b) Customization\n0.0\n0.2\n0.4\n0.6\n0.98\n0.99\n0.99\n1.00\nAccuracy\nPubHealth\n0.0..."
+      },
+      {
+        "rank": 20,
+        "chunk_id": "doc10_comprehensive_rag_chunk_0004",
+        "score": 0.6264779567718506,
+        "text_preview": "improvements over traditional generative or retrieval-only models.\nIn conversational AI, RAG models have enhanced the capabilities of dialogue systems by ensuri..."
+      }
+    ]
+  },
+  "q09": {
+    "query": "What rank dimension 'r' and alpha scaling hyperparameter were tested for LoRA on GPT-3 175B?",
+    "category": "keyword_metric",
+    "answerable": true,
+    "top_chunks": [
+      {
+        "rank": 1,
+        "chunk_id": "doc07_lora_chunk_0018",
+        "score": 0.7937073707580566,
+        "text_preview": "2/RL\nGPT-3 (FT)\n175,255.8M\n73.8\n89.5\n52.0/28.0/44.5\nGPT-3 (BitFit)\n14.2M\n71.3\n91.0\n51.3/27.4/43.5\nGPT-3 (PreEmbed)\n3.2M\n63.1\n88.6\n48.3/24.2/40.5\nGPT-3 (PreLayer..."
+      },
+      {
+        "rank": 2,
+        "chunk_id": "doc07_lora_chunk_0045",
+        "score": 0.7699097990989685,
+        "text_preview": "random seeds; the result for each run is taken from the best epoch. The hyperparameters\nused for LoRA in GPT-2 are listed in Table 11. For those used for other ..."
+      },
+      {
+        "rank": 3,
+        "chunk_id": "doc07_lora_chunk_0054",
+        "score": 0.7675477266311646,
+        "text_preview": "4.00E-04\n5.00E-04\nPre\ufb01xLayer\n5.00E-05\n5.00E-05\n5.00E-05\n1.00E-04\nLoRA\n2.00E-4\nPre\ufb01xEmbed lp\n16\n32\n64\n256\nAdaptation-\nPre\ufb01xEmbed li\n8\nSpeci\ufb01c\nPre\ufb01xTune\nlp = li =..."
+      },
+      {
+        "rank": 4,
+        "chunk_id": "doc07_lora_chunk_0046",
+        "score": 0.7591633796691895,
+        "text_preview": "Warmup Steps\n500\nLearning Rate Schedule\nLinear\nLabel Smooth\n0.1\n0.1\n0.0\nLearning Rate\n0.0002\nAdaptation\nrq = rv = 4\nLoRA \u03b1\n32\nInference\nBeam Size\n10\nLength Pena..."
+      },
+      {
+        "rank": 5,
+        "chunk_id": "doc07_lora_chunk_0044",
+        "score": 0.742436408996582,
+        "text_preview": "3E-04\n3E-04\n3E-04\n3E-04\n3E-04\n3E-04\nBottleneck r\n64\nMax Seq. Len.\n128\nRoBERTa large\nAdptP (0.8M)\u2020\nBatch Size\n32\n# Epochs\n5\n20\n20\n20\n10\n20\n20\n20\nLearning Rate\n3E..."
+      },
+      {
+        "rank": 6,
+        "chunk_id": "doc07_lora_chunk_0047",
+        "score": 0.7397271990776062,
+        "text_preview": "5.1.\nLoRA+Pre\ufb01xLayer (LoRA+PL) combines LoRA with pre\ufb01x-layer tuning. We also insert lp + li\nspecial tokens; however, instead of letting the hidden representati..."
+      },
+      {
+        "rank": 7,
+        "chunk_id": "doc07_lora_chunk_0024",
+        "score": 0.7391619086265564,
+        "text_preview": "IS THE OPTIMAL RANK r FOR LORA?\nWe turn our attention to the effect of rank r on model performance.\nWe adapt {Wq, Wv},\n{Wq, Wk, Wv, Wc}, and just Wq for a compa..."
+      },
+      {
+        "rank": 8,
+        "chunk_id": "doc07_lora_chunk_0052",
+        "score": 0.7375029921531677,
+        "text_preview": "2\n91.0\nr = 8\n40.1 M\n73.2\n91.5\nr = 16\n77.9 M\n73.2\n91.5\nr = 64\n304.4 M\n72.6\n91.5\nLoRA\nrv = 2\n4.7 M\n73.4\n91.7\nrq = rv = 1\n4.7 M\n73.4\n91.3\nrq = rv = 2\n9.4 M\n73.3\n91..."
+      },
+      {
+        "rank": 9,
+        "chunk_id": "doc07_lora_chunk_0017",
+        "score": 0.7363969683647156,
+        "text_preview": "the same batch size for all tasks and use a sequence length\nof 128 to match the adapter baselines. Second, we initialize the model to the pre-trained model for\n..."
+      },
+      {
+        "rank": 10,
+        "chunk_id": "doc07_lora_chunk_0042",
+        "score": 0.7346470952033997,
+        "text_preview": "seen\u201d categories (U)\nand \u201call\u201d (A). Each input example is represented by a sequence of SUBJECT \u2014 PROPERTY \u2014\nOBJECT triples. The dataset is released under Creati..."
+      },
+      {
+        "rank": 11,
+        "chunk_id": "doc07_lora_chunk_0023",
+        "score": 0.7302529215812683,
+        "text_preview": ".1\nWHICH WEIGHT MATRICES IN TRANSFORMER SHOULD WE APPLY LORA TO?\nGiven a limited parameter budget, which types of weights should we adapt with LoRA to obtain\nth..."
+      },
+      {
+        "rank": 12,
+        "chunk_id": "doc07_lora_chunk_0011",
+        "score": 0.7283864617347717,
+        "text_preview": "MB * 100 \u2248354GB as opposed to 100 * 350GB \u224835TB.\n5For GPT-3 175B, the training throughput for full \ufb01ne-tuning is 32.5 tokens/s per V100 GPU; with the same\nnumbe..."
+      },
+      {
+        "rank": 13,
+        "chunk_id": "doc07_lora_chunk_0053",
+        "score": 0.7269396185874939,
+        "text_preview": "\ufb01xLayer) perform worse as we\nincrease the number of trainable parameters, while LoRA\u2019s performance stabilizes. Performance is\nmeasured in validation accuracy.\nM..."
+      },
+      {
+        "rank": 14,
+        "chunk_id": "doc07_lora_chunk_0002",
+        "score": 0.7245098352432251,
+        "text_preview": "Lester et al., 2021; Ham-\nbardzumyan et al., 2020; Liu et al., 2021) (Section 3). More importantly, these method often fail to\nmatch the \ufb01ne-tuning baselines, p..."
+      },
+      {
+        "rank": 15,
+        "chunk_id": "doc07_lora_chunk_0010",
+        "score": 0.7200409770011902,
+        "text_preview": "one chooses to absorb A and B into W to eliminate\nadditional inference latency. Though it is possible to not merge the weights and dynamically choose\nthe LoRA m..."
+      },
+      {
+        "rank": 16,
+        "chunk_id": "doc07_lora_chunk_0058",
+        "score": 0.7182604074478149,
+        "text_preview": "2.4985\n32\n1.16\n69.33\n8.7736\n0.4642\n0.7105\n2.5255\n64\n1.16\n69.24\n8.7174\n0.4651\n0.7180\n2.5070\n128\n1.16\n68.73\n8.6718\n0.4628\n0.7127\n2.5030\n256\n1.16\n68.92\n8.6982\n0.46..."
+      },
+      {
+        "rank": 17,
+        "chunk_id": "doc07_lora_chunk_0043",
+        "score": 0.7174611687660217,
+        "text_preview": "Dataset\nMNLI\nSST-2\nMRPC\nCoLA\nQNLI\nQQP\nRTE\nSTS-B\nOptimizer\nAdamW\nWarmup Ratio\n0.06\nLR Schedule\nLinear\nRoBERTa base\nLoRA\nBatch Size\n16\n16\n16\n32\n32\n16\n32\n16\n# Epoc..."
+      },
+      {
+        "rank": 18,
+        "chunk_id": "doc07_lora_chunk_0025",
+        "score": 0.7124632596969604,
+        "text_preview": "However, we do not expect a small r to work for every task or dataset. Consider the following thought\nexperiment: if the downstream task were in a different lan..."
+      },
+      {
+        "rank": 19,
+        "chunk_id": "doc07_lora_chunk_0000",
+        "score": 0.7082885503768921,
+        "text_preview": "LORA: LOW-RANK ADAPTATION OF LARGE LAN-\nGUAGE MODELS\nEdward Hu\u2217\nYelong Shen\u2217\nPhillip Wallis\nZeyuan Allen-Zhu\nYuanzhi Li\nShean Wang\nLu Wang\nWeizhu Chen\nMicrosoft..."
+      },
+      {
+        "rank": 20,
+        "chunk_id": "doc08_flash_attention_chunk_0067",
+        "score": 0.7037079930305481,
+        "text_preview": "].\n26\n\n100k\n200k\n300k\nTraining steps\n10\n15\n20\n25\n30\nVal perplexity\nGPT-2-small HuggingFace\nGPT-2-small FlashAttention\nGPT-2-medium HuggingFace\nGPT-2-medium Flas..."
+      }
+    ]
+  },
+  "q10": {
+    "query": "What exact formula does RAGAS use to compute the context recall metric?",
+    "category": "keyword_metric",
+    "answerable": true,
+    "top_chunks": [
+      {
+        "rank": 1,
+        "chunk_id": "doc02_rag_survey_chunk_0031",
+        "score": 0.7587165236473083,
+        "text_preview": "\u2713\n\u2713\n\u2713\n\u2713\nEM\n\u2713\nRecall\n\u2713\nPrecision\n\u2713\n\u2713\nR-Rate\n\u2713\nCosine Similarity\n\u2713\nHit Rate\n\u2713\nMRR\n\u2713\nNDCG\n\u2713\nBLEU\n\u2713\n\u2713\n\u2713\nROUGE/ROUGE-L\n\u2713\n\u2713\n\u2713\nThe specific metrics for each evaluation..."
+      },
+      {
+        "rank": 2,
+        "chunk_id": "doc05_self_rag_chunk_0045",
+        "score": 0.7400939464569092,
+        "text_preview": "for SELF-RAG at\neach segment level.\nTask-specific instructions.\nTable 5 shows the list of the instructions used during evaluations. For\nOpen-domain QA, we do no..."
+      },
+      {
+        "rank": 3,
+        "chunk_id": "doc02_rag_survey_chunk_0032",
+        "score": 0.7375360131263733,
+        "text_preview": "that long-document question answering,\npreviously reliant on RAG, can now incorporate the entire\ndocument directly into the prompt. This has also sparked\ndiscus..."
+      },
+      {
+        "rank": 4,
+        "chunk_id": "doc10_comprehensive_rag_chunk_0014",
+        "score": 0.736384391784668,
+        "text_preview": "Self-Route. This method dynamically directs queries to either RAG or LC based on\nmodel self-reflection, optimizing both computation cost and performance. This s..."
+      },
+      {
+        "rank": 5,
+        "chunk_id": "doc02_rag_survey_chunk_0027",
+        "score": 0.7325869798660278,
+        "text_preview": "centered on\ntheir execution in specific downstream tasks. These evaluations\nemploy established metrics suitable to the tasks at hand. For\ninstance, question ans..."
+      },
+      {
+        "rank": 6,
+        "chunk_id": "doc02_rag_survey_chunk_0036",
+        "score": 0.7324732542037964,
+        "text_preview": "event boundaries and\ntextual descriptions within a unified output sequence [181].\nCode. RBPS [182] excels in small-scale learning tasks by\nretrieving code examp..."
+      },
+      {
+        "rank": 7,
+        "chunk_id": "doc09_rag_survey_huang_chunk_0034",
+        "score": 0.7322942018508911,
+        "text_preview": "AS [33]\nQuality of RAG Systems\nContext Relevance\nExtracted Sentences / Total Sentences\nWikiEval7\nAnswer Relevance\nAverage Cosine Similarity\nFaithfulness\nSupport..."
+      },
+      {
+        "rank": 8,
+        "chunk_id": "doc10_comprehensive_rag_chunk_0018",
+        "score": 0.7322449684143066,
+        "text_preview": "to changing query patterns and content requirements. This includes developing\nmodels that can dynamically update their retrieval strategies based on new informa..."
+      },
+      {
+        "rank": 9,
+        "chunk_id": "doc04_ragas_chunk_0002",
+        "score": 0.7315819263458252,
+        "text_preview": "are not accessible for some\nclosed models (e.g. ChatGPT and GPT-4). Ques-\ntion answering is another common evaluation task,\nbut usually only datasets with short..."
+      },
+      {
+        "rank": 10,
+        "chunk_id": "doc04_ragas_chunk_0000",
+        "score": 0.7308331727981567,
+        "text_preview": "Ragas: Automated Evaluation of Retrieval Augmented Generation\nShahul Es\u2020, Jithin James\u2020, Luis Espinosa-Anke\u2217\u2662, Steven Schockaert\u2217\n\u2020Exploding Gradients\n\u2217CardiffN..."
+      },
+      {
+        "rank": 11,
+        "chunk_id": "doc04_ragas_chunk_0010",
+        "score": 0.7281836271286011,
+        "text_preview": "directly addresses\nand is appropriate for a given question.\nIt penalizes the present of redundant in-\nformation or incomplete answers given a\nquestion. Given an..."
+      },
+      {
+        "rank": 12,
+        "chunk_id": "doc02_rag_survey_chunk_0033",
+        "score": 0.7277284860610962,
+        "text_preview": "ness of RAG.\nC. Hybrid Approaches\nCombining RAG with fine-tuning is emerging as a leading\nstrategy. Determining the optimal integration of RAG and\nfine-tuning w..."
+      },
+      {
+        "rank": 13,
+        "chunk_id": "doc10_comprehensive_rag_chunk_0013",
+        "score": 0.7269328236579895,
+        "text_preview": "understanding of the repository would enhance the\neffectiveness of the RAG system. A novel data-centric Retrieval-Augmented Generation (RAG) workflow\nadvances\nb..."
+      },
+      {
+        "rank": 14,
+        "chunk_id": "doc09_rag_survey_huang_chunk_0035",
+        "score": 0.7241666316986084,
+        "text_preview": "fail to address the multifaceted\nchallenges that arise as RAG systems continue to evolve. To fill this gap, recent research has\nproposed various frameworks and ..."
+      },
+      {
+        "rank": 15,
+        "chunk_id": "doc05_self_rag_chunk_0004",
+        "score": 0.7229032516479492,
+        "text_preview": "SELF-RAG outperforms\nretrieval-augmented ChatGPT on four tasks, Llama2-chat (Touvron et al., 2023) and Alpaca (Dubois\net al., 2023) on all tasks. Our analysis d..."
+      },
+      {
+        "rank": 16,
+        "chunk_id": "doc02_rag_survey_chunk_0002",
+        "score": 0.7221212983131409,
+        "text_preview": "both\ntechnical paradigms and research methods, summarizing three\nmain research paradigms from over 100 RAG studies, and\nanalyzing key technologies in the core s..."
+      },
+      {
+        "rank": 17,
+        "chunk_id": "doc02_rag_survey_chunk_0026",
+        "score": 0.720075249671936,
+        "text_preview": "external\nsearch engines. Flare automates timing retrieval by monitoring\nthe confidence of the generation process, as indicated by the\n\n12\nprobability of generat..."
+      },
+      {
+        "rank": 18,
+        "chunk_id": "doc09_rag_survey_huang_chunk_0003",
+        "score": 0.7195202112197876,
+        "text_preview": "on the diverse applications of RAG, including\ntext, code, image, and video generation, emphasizing augmented intelligence in generative tasks.\nMeanwhile, Hu et ..."
+      },
+      {
+        "rank": 19,
+        "chunk_id": "doc02_rag_survey_chunk_0001",
+        "score": 0.716465175151825,
+        "text_preview": "\u201challucinations\u201d [2] when handling queries\nbeyond their training data or requiring current information. To\novercome challenges, Retrieval-Augmented Generation (..."
+      },
+      {
+        "rank": 20,
+        "chunk_id": "doc02_rag_survey_chunk_0009",
+        "score": 0.7164312601089478,
+        "text_preview": ") and prompt engineering. Each method has distinct charac-\nteristics as illustrated in Figure 4. We used a quadrant chart to\nillustrate the differences among th..."
+      }
+    ]
+  },
+  "q11": {
+    "query": "What exact Top-20 passage retrieval accuracy did DPR achieve on Natural Questions compared to Lucene BM25?",
+    "category": "keyword_metric",
+    "answerable": true,
+    "top_chunks": [
+      {
+        "rank": 1,
+        "chunk_id": "doc03_dpr_chunk_0030",
+        "score": 0.8243058323860168,
+        "text_preview": ". Ta-\nble 6 summarizes the results. All these additional\nexperiments are conducted using the same hyper-\nparameters tuned for the baseline (DP, NLL).\nNote that ..."
+      },
+      {
+        "rank": 2,
+        "chunk_id": "doc03_dpr_chunk_0012",
+        "score": 0.8238810300827026,
+        "text_preview": "ument length normalization) and k1 = 0.9 (term frequency\nscaling) are tuned using development sets.\n20\n40\n60\n80\n100\nk: # of retrieved passages\n40\n50\n60\n70\n80\n90..."
+      },
+      {
+        "rank": 3,
+        "chunk_id": "doc03_dpr_chunk_0011",
+        "score": 0.8121575117111206,
+        "text_preview": "experiments\nis trained using the in-batch negative setting (Sec-\ntion 3.2) with a batch size of 128 and one additional\nBM25 negative passage per question. We tr..."
+      },
+      {
+        "rank": 4,
+        "chunk_id": "doc03_dpr_chunk_0015",
+        "score": 0.8109192848205566,
+        "text_preview": "is triplet\nloss, which compares a positive passage and a nega-\ntive one directly with respect to a question (Burges\net al., 2005). Our experiments show that usi..."
+      },
+      {
+        "rank": 5,
+        "chunk_id": "doc10_comprehensive_rag_chunk_0007",
+        "score": 0.8056508302688599,
+        "text_preview": "keyword matching, it has limitations in understanding\nsemantic meaning. For example, BM25 cannot capture the relationships between words and tends to\nperform po..."
+      },
+      {
+        "rank": 6,
+        "chunk_id": "doc03_dpr_chunk_0010",
+        "score": 0.8045569062232971,
+        "text_preview": "of our Dense Passage Retriever (DPR),\nalong with analysis on how its output differs from\n6We use the un\ufb01ltered TriviaQA version and discard the\nnoisy evidence d..."
+      },
+      {
+        "rank": 7,
+        "chunk_id": "doc03_dpr_chunk_0016",
+        "score": 0.7932109832763672,
+        "text_preview": ", returning top 100 pas-\nsages per question. In contrast, BM25/Lucene (im-\nplemented in Java, using \ufb01le index) processes 23.7\nquestions per second per CPU threa..."
+      },
+      {
+        "rank": 8,
+        "chunk_id": "doc03_dpr_chunk_0022",
+        "score": 0.7910120487213135,
+        "text_preview": "extended by REALM (Guu et al.,\n2020), which includes tuning the passage encoder\nasynchronously by re-indexing the passages dur-\ning training. The pretraining ob..."
+      },
+      {
+        "rank": 9,
+        "chunk_id": "doc10_comprehensive_rag_chunk_0006",
+        "score": 0.7908701300621033,
+        "text_preview": "techniques such as\ndense passage retrieval (DPR) (Karpukhin et. al. 2020) or traditional BM25 algorithms.\n2.\nGenerator:\nIt\nsynthesizes\nthe\nretrieved\ndocuments\ni..."
+      },
+      {
+        "rank": 10,
+        "chunk_id": "doc03_dpr_chunk_0019",
+        "score": 0.7743822336196899,
+        "text_preview": "Exact Match) Accuracy. The \ufb01rst block of results are copied from their cited papers.\nREALMWiki and REALMNews are the same model but pretrained on Wikipedia and ..."
+      },
+      {
+        "rank": 11,
+        "chunk_id": "doc03_dpr_chunk_0004",
+        "score": 0.773872435092926,
+        "text_preview": "(e.g., Wikipedia) to billions (e.g., the Web).\nAs a result, any open-domain QA system needs to\ninclude an ef\ufb01cient retriever component that can se-\nlect a small..."
+      },
+      {
+        "rank": 12,
+        "chunk_id": "doc03_dpr_chunk_0020",
+        "score": 0.7659454345703125,
+        "text_preview": "following Lee et al. (2019). This approach\nobtains a score of 39.8 EM, which suggests that our\nstrategy of training a strong retriever and reader in\nisolation c..."
+      },
+      {
+        "rank": 13,
+        "chunk_id": "doc03_dpr_chunk_0000",
+        "score": 0.7558304071426392,
+        "text_preview": "Dense Passage Retrieval for Open-Domain Question Answering\nVladimir Karpukhin\u2217, Barlas O\u02d8guz\u2217, Sewon Min\u2020, Patrick Lewis,\nLedell Wu, Sergey Edunov, Danqi Chen\u2021,..."
+      },
+      {
+        "rank": 14,
+        "chunk_id": "doc03_dpr_chunk_0002",
+        "score": 0.753786027431488,
+        "text_preview": "-IDF/BM25 for open-\ndomain QA before ORQA (Lee et al., 2019), which\nproposes a sophisticated inverse cloze task (ICT)\nobjective, predicting the blocks that cont..."
+      },
+      {
+        "rank": 15,
+        "chunk_id": "doc03_dpr_chunk_0003",
+        "score": 0.7525901198387146,
+        "text_preview": "kowski et al., 2019).\nOur contributions are twofold. First, we demon-\nstrate that with the proper training setup, sim-\nply \ufb01ne-tuning the question and passage e..."
+      },
+      {
+        "rank": 16,
+        "chunk_id": "doc03_dpr_chunk_0013",
+        "score": 0.7495037317276001,
+        "text_preview": "ver trained using only 1,000 ex-\namples already outperforms BM25. This suggests\nthat with a general pretrained language model, it is\npossible to train a high-qu..."
+      },
+      {
+        "rank": 17,
+        "chunk_id": "doc03_dpr_chunk_0031",
+        "score": 0.7466415166854858,
+        "text_preview": ".9\nTable 6: Retrieval Top-k accuracy on the development\nset of Natural Questions using different similarity and\nloss functions.\nthe correct answer, presumably b..."
+      },
+      {
+        "rank": 18,
+        "chunk_id": "doc05_self_rag_chunk_0041",
+        "score": 0.7445419430732727,
+        "text_preview": "fine-tuned specialized LMs to evaluate text. While both models show relatively\nlower performance on\nISUSE , this is because both models often confuse between th..."
+      },
+      {
+        "rank": 19,
+        "chunk_id": "doc03_dpr_chunk_0005",
+        "score": 0.7444936633110046,
+        "text_preview": "2019) and (Roberts et al.,\n2020), which retrieves and generates the answers, respectively.\n\nAt run-time, DPR applies a different encoder EQ(\u00b7)\nthat maps the inp..."
+      },
+      {
+        "rank": 20,
+        "chunk_id": "doc03_dpr_chunk_0009",
+        "score": 0.7435204982757568,
+        "text_preview": "785\n60,413\n8,837\n11,313\nWebQuestions\n3,417\n2,474\n361\n2,032\nCuratedTREC\n1,353\n1,125\n133\n694\nSQuAD\n78,713\n70,096\n8,886\n10,570\nTable 1: Number of questions in each..."
+      }
+    ]
+  },
+  "q12": {
+    "query": "What are the exact special tokens introduced in Self-RAG such as [Retrieve], [IsRel], and [IsSup]?",
+    "category": "keyword_metric",
+    "answerable": true,
+    "top_chunks": [
+      {
+        "rank": 1,
+        "chunk_id": "doc05_self_rag_chunk_0007",
+        "score": 0.7330996990203857,
+        "text_preview": "R\nISREL\nx, d\n{relevant, irrelevant}\nd provides useful information to solve x.\nISSUP\nx, d, y\n{fully supported, partially\nsupported, no support}\nAll of the verifi..."
+      },
+      {
+        "rank": 2,
+        "chunk_id": "doc01_rag_original_chunk_0005",
+        "score": 0.7235071063041687,
+        "text_preview": "(\u00b7|x))\np\u03b7(z|x)p\u03b8(yi|x, z, y1:i\u22121)\nFinally, we note that RAG can be used for sequence classi\ufb01cation tasks by considering the target class\nas a target sequence of..."
+      },
+      {
+        "rank": 3,
+        "chunk_id": "doc05_self_rag_chunk_0024",
+        "score": 0.7017678618431091,
+        "text_preview": "and\nISSUP reflection token\npredictions are mostly aligned with their assessments. Appendix Table 6 shows several annotated\nexamples and explanations on assessme..."
+      },
+      {
+        "rank": 4,
+        "chunk_id": "doc05_self_rag_chunk_0006",
+        "score": 0.7004414200782776,
+        "text_preview": "SELF-RAG uses reflection tokens to decide the\nneed for retrieval and to self-evaluate generation quality. Xie et al. (2023) propose a self-evaluation-\nguided de..."
+      },
+      {
+        "rank": 5,
+        "chunk_id": "doc01_rag_original_chunk_0004",
+        "score": 0.7000961303710938,
+        "text_preview": "2\n\nby \u03b8 that generates a current token based on a context of the previous i \u22121 tokens y1:i\u22121, the original\ninput x and a retrieved passage z.\nTo train the retri..."
+      },
+      {
+        "rank": 6,
+        "chunk_id": "doc05_self_rag_chunk_0003",
+        "score": 0.6992310285568237,
+        "text_preview": "retrieve, critique, and generate text passages\nto enhance overall generation quality, factuality, and verifiability.\nconsistently retrieves a fixed number of do..."
+      },
+      {
+        "rank": 7,
+        "chunk_id": "doc05_self_rag_chunk_0042",
+        "score": 0.6889143586158752,
+        "text_preview": "R given (x, y)\n\u25b7Retrieve passages\n6:\nfor d \u2208D do\n7:\nC predicts\nISREL for each d\n\u25b7Predict relevance of passages\n8:\nC predicts\nISSUP for each (y, d)\n\u25b7Predict supp..."
+      },
+      {
+        "rank": 8,
+        "chunk_id": "doc05_self_rag_chunk_0011",
+        "score": 0.6832608580589294,
+        "text_preview": "uates whether the passage supports the model generation and predicts\nISSUP . Critique tokens\nISREL and\nISSUP are appended after the retrieved passage or generat..."
+      },
+      {
+        "rank": 9,
+        "chunk_id": "doc09_rag_survey_huang_chunk_0008",
+        "score": 0.6782487034797668,
+        "text_preview": "[9];\nMEMWALKER [13];\nAtlas [94];\nChameleon [63];\nAiSAQ [126];\nPipeRAG [64];\nLRUS-CoverTree [93]\nQuery Ma-\nnipulation\nWebgpt [100];\nDSP [73];\nCoK [86];\nIRCOT [13..."
+      },
+      {
+        "rank": 10,
+        "chunk_id": "doc09_rag_survey_huang_chunk_0004",
+        "score": 0.6772072315216064,
+        "text_preview": "AG has evolved from a means of providing supplementary information to enabling\nmultiple interactions between the retrieval and generation components. This invol..."
+      },
+      {
+        "rank": 11,
+        "chunk_id": "doc02_rag_survey_chunk_0026",
+        "score": 0.6762735247612,
+        "text_preview": "external\nsearch engines. Flare automates timing retrieval by monitoring\nthe confidence of the generation process, as indicated by the\n\n12\nprobability of generat..."
+      },
+      {
+        "rank": 12,
+        "chunk_id": "doc02_rag_survey_chunk_0007",
+        "score": 0.6738553047180176,
+        "text_preview": "tackle specific\nchallenges. The shift towards a modular RAG approach is\nbecoming prevalent, supporting both sequential processing and\nintegrated end-to-end trai..."
+      },
+      {
+        "rank": 13,
+        "chunk_id": "doc05_self_rag_chunk_0045",
+        "score": 0.6734773516654968,
+        "text_preview": "for SELF-RAG at\neach segment level.\nTask-specific instructions.\nTable 5 shows the list of the instructions used during evaluations. For\nOpen-domain QA, we do no..."
+      },
+      {
+        "rank": 14,
+        "chunk_id": "doc10_comprehensive_rag_chunk_0002",
+        "score": 0.6733036637306213,
+        "text_preview": "in RAG typically leverages dense vector representations to identify relevant\ndocuments from large datasets, such as Wikipedia or proprietary databases. Once ret..."
+      },
+      {
+        "rank": 15,
+        "chunk_id": "doc05_self_rag_chunk_0046",
+        "score": 0.6708492040634155,
+        "text_preview": "of Sunday as a day of rest by Constantine in AD 321. In the second example, the model predicts\nContradictory to the first output as the output says the person h..."
+      },
+      {
+        "rank": 16,
+        "chunk_id": "doc05_self_rag_chunk_0021",
+        "score": 0.6697114706039429,
+        "text_preview": "2023), as in\nSAIL. We also conduct ablation on our inference-time algorithm, including No retrieval disables\nretrieval during inference; Hard constraints indica..."
+      },
+      {
+        "rank": 17,
+        "chunk_id": "doc09_rag_survey_huang_chunk_0016",
+        "score": 0.6692988276481628,
+        "text_preview": ". SURGE uses a subgraph retriever to extract relevant subgraphs from knowledge graphs,\n, Vol. 1, No. 1, Article . Publication date: August 2018.\n\nThe Survey of ..."
+      },
+      {
+        "rank": 18,
+        "chunk_id": "doc09_rag_survey_huang_chunk_0009",
+        "score": 0.666524350643158,
+        "text_preview": "151];\nRECITE [125];\nUPRISE [20];\nGENREAD [156];\nSelfmem [21];\nMEMWALKER [13];\nAtlas [94]\nCustomization\nLAPDOG [52];\nPersonaRAG [160];\nERAGent [123];\nROPG [118]\n..."
+      },
+      {
+        "rank": 19,
+        "chunk_id": "doc02_rag_survey_chunk_0004",
+        "score": 0.6660422682762146,
+        "text_preview": "these specific shortcomings in Naive RAG.\nA. Naive RAG\nThe Naive RAG research paradigm represents the earli-\nest methodology, which gained prominence shortly af..."
+      },
+      {
+        "rank": 20,
+        "chunk_id": "doc05_self_rag_chunk_0005",
+        "score": 0.6628768444061279,
+        "text_preview": ". Lin et al. (2023) fine-tune both the retriever\nand LM on instruction-tuning datasets in two steps. While we also train our model on diverse\ninstruction-follow..."
+      }
+    ]
+  },
+  "q13": {
+    "query": "What is the exact tiling block size $B_r$ and $B_c$ equation specified in the FlashAttention algorithm?",
+    "category": "keyword_metric",
+    "answerable": true,
+    "top_chunks": [
+      {
+        "rank": 1,
+        "chunk_id": "doc08_flash_attention_chunk_0015",
+        "score": 0.7904582023620605,
+        "text_preview": "FlashAttention by a factor proportional to the sparsity.\nGiven inputs Q, K, V \u2208R\ud835\udc41\u00d7\ud835\udc51and a mask matrix \u02dcM \u2208{0, 1}\ud835\udc41\u00d7\ud835\udc41, we want to compute:\nS = QK\u22a4\u2208R\ud835\udc41\u00d7\ud835\udc41,\nP = softma..."
+      },
+      {
+        "rank": 2,
+        "chunk_id": "doc08_flash_attention_chunk_0049",
+        "score": 0.7710659503936768,
+        "text_preview": ", we use Eq. (4) to compute \ud835\udc37\ud835\udc56= \ud835\udc43\u22a4\n\ud835\udc56:\ud835\udc51\ud835\udc43\ud835\udc56: without reducing over\n\ud835\udc43\ud835\udc56: and \ud835\udc51\ud835\udc43\ud835\udc56: of size \ud835\udc41(they might not \ufb01t into SRAM). Instead we can rewrite \ud835\udc37\ud835\udc56= \ud835\udc51\ud835\udc5c\u22a4\n\ud835\udc56\ud835\udc5c\ud835\udc56and compu..."
+      },
+      {
+        "rank": 3,
+        "chunk_id": "doc08_flash_attention_chunk_0010",
+        "score": 0.7553761005401611,
+        "text_preview": "This avoids repeatedly reading and writing of inputs and outputs from and to HBM.\nAlgorithm 1 FlashAttention\nRequire: Matrices Q, K, V \u2208R\ud835\udc41\u00d7\ud835\udc51in HBM, on-chip SRAM..."
+      },
+      {
+        "rank": 4,
+        "chunk_id": "doc08_flash_attention_chunk_0013",
+        "score": 0.7463812232017517,
+        "text_preview": "seq. length 4K) of\nblock-sparse FlashAttention is faster than FlashAttention by a factor proportional to the sparsity.\nasymptotically improve on HBM accesses ov..."
+      },
+      {
+        "rank": 5,
+        "chunk_id": "doc08_flash_attention_chunk_0014",
+        "score": 0.744879424571991,
+        "text_preview": "all\nvalues of \ud835\udc40(the SRAM size) when computing exact attention.\nProposition 3. Let \ud835\udc41be the sequence length, \ud835\udc51be the head dimension, and \ud835\udc40be size of SRAM with\n\ud835\udc51\u2264\ud835\udc40..."
+      },
+      {
+        "rank": 6,
+        "chunk_id": "doc08_flash_attention_chunk_0012",
+        "score": 0.7416966557502747,
+        "text_preview": "\ufffd\ud835\udc56\u2190\u2113new\n\ud835\udc56\n, \ud835\udc5a\ud835\udc56\u2190\ud835\udc5anew\n\ud835\udc56\nto HBM.\n14:\nend for\n15: end for\n16: Return O.\nWe show FlashAttention\u2019s correctness, runtime, and memory requirement (proof in Appendix C)...."
+      },
+      {
+        "rank": 7,
+        "chunk_id": "doc08_flash_attention_chunk_0000",
+        "score": 0.7409070730209351,
+        "text_preview": "FlashAttention: Fast and Memory-E\ufb03cient Exact Attention\nwith IO-Awareness\nTri Dao\u2020, Daniel Y. Fu\u2020, Stefano Ermon\u2020, Atri Rudra\u2021, and Christopher R\u00e9\u2020\n\u2020Department ..."
+      },
+      {
+        "rank": 8,
+        "chunk_id": "doc08_flash_attention_chunk_0008",
+        "score": 0.7336781024932861,
+        "text_preview": ", V into blocks, load them from slow HBM to fast SRAM, then compute the\nattention output with respect to those blocks. By scaling the output of each block by th..."
+      },
+      {
+        "rank": 9,
+        "chunk_id": "doc08_flash_attention_chunk_0002",
+        "score": 0.7285446524620056,
+        "text_preview": "Softmax\nDropout\nMatmul\nFused\nKernel\nQ: N x d\nV: N X d\nKT: d x N\nQKT: N x N\nsm(QKT)V: N x d\nOuter Loop\nCopy Block to SRAM\nCopy\nOuter Loop\nCopy\nInner Loop\nCompute..."
+      },
+      {
+        "rank": 10,
+        "chunk_id": "doc08_flash_attention_chunk_0047",
+        "score": 0.7266530990600586,
+        "text_preview": "\ud835\udc35\ud835\udc5f, \u02dcP\ud835\udc56\ud835\udc57= exp(Smasked\n\ud835\udc56\ud835\udc57\n\u2212\u02dc\ud835\udc5a\ud835\udc56\ud835\udc57) \u2208R\ud835\udc35\ud835\udc5f\u00d7\ud835\udc35\ud835\udc50(pointwise),\n\u02dc\u2113\ud835\udc56\ud835\udc57= rowsum(\u02dcP\ud835\udc56\ud835\udc57) \u2208R\ud835\udc35\ud835\udc5f.\n13:\nOn chip, compute \ud835\udc5anew\n\ud835\udc56\n= max(\ud835\udc5a\ud835\udc56, \u02dc\ud835\udc5a\ud835\udc56\ud835\udc57) \u2208R\ud835\udc35\ud835\udc5f, \u2113new\n\ud835\udc56\n= \ud835\udc52\ud835\udc5a\ud835\udc56\u2212\ud835\udc5anew\n\ud835\udc56\n\u2113\ud835\udc56+ \ud835\udc52\u02dc\ud835\udc5a\ud835\udc56\ud835\udc57\u2212\ud835\udc5ane..."
+      },
+      {
+        "rank": 11,
+        "chunk_id": "doc08_flash_attention_chunk_0007",
+        "score": 0.723402738571167,
+        "text_preview": "there have been many attempts to fuse several\nelementwise operations, such as fusing masking with softmax [77].\nIn Section 3.2, we will show that the standard a..."
+      },
+      {
+        "rank": 12,
+        "chunk_id": "doc08_flash_attention_chunk_0019",
+        "score": 0.7224835157394409,
+        "text_preview": ", FlashAttention, block-sparse FlashAttention, and approximate\nattention baselines on the Long-Range-Arena benchmarks.\nModels\nListOps\nText\nRetrieval\nImage\nPath\ufb01..."
+      },
+      {
+        "rank": 13,
+        "chunk_id": "doc08_flash_attention_chunk_0009",
+        "score": 0.7224348783493042,
+        "text_preview": "2)\u0003\n) = \ud835\udc52\ud835\udc5a(\ud835\udc65(1))\u2212\ud835\udc5a(\ud835\udc65)\u2113(\ud835\udc65(1)) + \ud835\udc52\ud835\udc5a(\ud835\udc65(2))\u2212\ud835\udc5a(\ud835\udc65)\u2113(\ud835\udc65(2)),\nsoftmax(\ud835\udc65) = \ud835\udc53(\ud835\udc65)\n\u2113(\ud835\udc65) .\nTherefore if we keep track of some extra statistics (\ud835\udc5a(\ud835\udc65), \u2113(\ud835\udc65)), we can compute s..."
+      },
+      {
+        "rank": 14,
+        "chunk_id": "doc08_flash_attention_chunk_0016",
+        "score": 0.7185210585594177,
+        "text_preview": "FlashAttention (Algorithm 5) requires \u0398(\ud835\udc41\ud835\udc51+ \ud835\udc412\ud835\udc512\ud835\udc40\u22121\ud835\udc60) HBM accesses\nwhere \ud835\udc60is the fraction of nonzero blocks in the block-sparsity mask.\nWe see that applying blo..."
+      },
+      {
+        "rank": 15,
+        "chunk_id": "doc08_flash_attention_chunk_0064",
+        "score": 0.7140282988548279,
+        "text_preview": "new\n\ud835\udc56\n, \ud835\udc5a\ud835\udc56\u2190\ud835\udc5anew\n\ud835\udc56\nto HBM.\n17:\nend if\n18:\nend for\n19: end for\n20: Return O, \u2113, \ud835\udc5a, R.\nD\nExtension Details\nD.1\nBlock-sparse FlashAttention\nWe describe the full blo..."
+      },
+      {
+        "rank": 16,
+        "chunk_id": "doc08_flash_attention_chunk_0003",
+        "score": 0.7135889530181885,
+        "text_preview": ", a new attention algorithm that computes exact attention with far fewer\nmemory accesses. Our main goal is to avoid reading and writing the attention matrix to ..."
+      },
+      {
+        "rank": 17,
+        "chunk_id": "doc08_flash_attention_chunk_0067",
+        "score": 0.7119210362434387,
+        "text_preview": "].\n26\n\n100k\n200k\n300k\nTraining steps\n10\n15\n20\n25\n30\nVal perplexity\nGPT-2-small HuggingFace\nGPT-2-small FlashAttention\nGPT-2-medium HuggingFace\nGPT-2-medium Flas..."
+      },
+      {
+        "rank": 18,
+        "chunk_id": "doc08_flash_attention_chunk_0052",
+        "score": 0.7091799378395081,
+        "text_preview": "\ud835\udc57\u25e6(dP\ud835\udc56\ud835\udc57\u2212\ud835\udc37\ud835\udc56) \u2208R\ud835\udc35\ud835\udc5f\u00d7\ud835\udc35\ud835\udc50.\n21:\nWrite dQ\ud835\udc56\u2190dQ\ud835\udc56+ \ud835\udf0fdS\ud835\udc56\ud835\udc57K \ud835\udc57\u2208R\ud835\udc35\ud835\udc5f\u00d7\ud835\udc51to HBM.\n22:\nOn chip, compute \u02dc\ndK\ud835\udc57\u2190\u02dc\ndK\ud835\udc57+ \ud835\udf0fdS\u22a4\n\ud835\udc56\ud835\udc57Q\ud835\udc56\u2208R\ud835\udc35\ud835\udc50\u00d7\ud835\udc51.\n23:\nend for\n24:\nWrite dK\ud835\udc57\u2190\n\u02dc\ndK\ud835\udc57, dV \ud835\udc57\u2190\n\u02dc\ndV \ud835\udc57t..."
+      },
+      {
+        "rank": 19,
+        "chunk_id": "doc08_flash_attention_chunk_0005",
+        "score": 0.7079198956489563,
+        "text_preview": "Up to sequence length of 512,\nFlashAttention is both faster and more memory-e\ufb03cient than any existing attention method, whereas\nfor sequence length beyond 1K, s..."
+      },
+      {
+        "rank": 20,
+        "chunk_id": "doc08_flash_attention_chunk_0004",
+        "score": 0.7050354480743408,
+        "text_preview": ", we implement block-sparse FlashAttention, a sparse attention algorithm that is 2-4\u00d7 faster than\neven FlashAttention, scaling up to sequence length of 64k. We ..."
+      }
+    ]
+  },
+  "q14": {
+    "query": "What BLEU-4 score did the base Transformer model achieve on the WMT 2014 English-to-German test dataset?",
+    "category": "keyword_metric",
+    "answerable": true,
+    "top_chunks": [
+      {
+        "rank": 1,
+        "chunk_id": "doc06_transformer_chunk_0011",
+        "score": 0.7599709630012512,
+        "text_preview": "4\n8.0 \u00b7 1020\nGNMT + RL Ensemble [38]\n26.30\n41.16\n1.8 \u00b7 1020\n1.1 \u00b7 1021\nConvS2S Ensemble [9]\n26.36\n41.29\n7.7 \u00b7 1019\n1.2 \u00b7 1021\nTransformer (base model)\n27.3\n38.1..."
+      },
+      {
+        "rank": 2,
+        "chunk_id": "doc06_transformer_chunk_0012",
+        "score": 0.7049440145492554,
+        "text_preview": "-French used\ndropout rate Pdrop = 0.1, instead of 0.3.\nFor the base models, we used a single model obtained by averaging the last 5 checkpoints, which\nwere writ..."
+      },
+      {
+        "rank": 3,
+        "chunk_id": "doc06_transformer_chunk_0014",
+        "score": 0.682079553604126,
+        "text_preview": "sinusoidal positional encoding with learned positional embeddings [9], and observe nearly identical\nresults to the base model.\n6.3\nEnglish Constituency Parsing\n..."
+      },
+      {
+        "rank": 4,
+        "chunk_id": "doc07_lora_chunk_0023",
+        "score": 0.6787700653076172,
+        "text_preview": ".1\nWHICH WEIGHT MATRICES IN TRANSFORMER SHOULD WE APPLY LORA TO?\nGiven a limited parameter budget, which types of weights should we adapt with LoRA to obtain\nth..."
+      },
+      {
+        "rank": 5,
+        "chunk_id": "doc06_transformer_chunk_0015",
+        "score": 0.6651090979576111,
+        "text_preview": "-supervised\n91.3\nMcClosky et al. (2006) [26]\nsemi-supervised\n92.1\nVinyals & Kaiser el al. (2014) [37]\nsemi-supervised\n92.1\nTransformer (4 layers)\nsemi-supervise..."
+      },
+      {
+        "rank": 6,
+        "chunk_id": "doc07_lora_chunk_0019",
+        "score": 0.6597138047218323,
+        "text_preview": "random seeds, as\nopposed to providing one for every entry. See Section D.4 for details on the hyperparameters used.\nAs shown in Table 4, LoRA matches or exceeds..."
+      },
+      {
+        "rank": 7,
+        "chunk_id": "doc07_lora_chunk_0020",
+        "score": 0.6596139073371887,
+        "text_preview": "state-of-the-art in many tasks. A new paradigm emerged\nwith BERT (Devlin et al., 2019b) and GPT-2 (Radford et al., b) \u2013 both are large Transformer lan-\n8\n\nguage..."
+      },
+      {
+        "rank": 8,
+        "chunk_id": "doc07_lora_chunk_0016",
+        "score": 0.6575755476951599,
+        "text_preview": "2.49\u00b1.0\nGPT-2 L (AdapterL)\n23.00M\n68.9\u00b1.3\n8.70\u00b1.04\n46.1\u00b1.1\n71.3\u00b1.2\n2.45\u00b1.02\nGPT-2 L (PreLayer)*\n0.77M\n70.3\n8.85\n46.2\n71.7\n2.47\nGPT-2 L (LoRA)\n0.77M\n70.4\u00b1.1\n8.89..."
+      },
+      {
+        "rank": 9,
+        "chunk_id": "doc07_lora_chunk_0003",
+        "score": 0.655234158039093,
+        "text_preview": "LoRA is orthogonal to many prior methods and can be combined with many of them, such\nas pre\ufb01x-tuning. We provide an example in Appendix E.\nTerminologies and Con..."
+      },
+      {
+        "rank": 10,
+        "chunk_id": "doc07_lora_chunk_0015",
+        "score": 0.6541386246681213,
+        "text_preview": "Wv in most experiments for simplicity.\nThe number of trainable parameters is determined by the rank r and the shape of the original weights:\n|\u0398| = 2 \u00d7 \u02c6LLoRA \u00d7 ..."
+      },
+      {
+        "rank": 11,
+        "chunk_id": "doc06_transformer_chunk_0010",
+        "score": 0.6539676785469055,
+        "text_preview": "GPUs. For our base models using\nthe hyperparameters described throughout the paper, each training step took about 0.4 seconds. We\ntrained the base models for a ..."
+      },
+      {
+        "rank": 12,
+        "chunk_id": "doc03_dpr_chunk_0012",
+        "score": 0.6466341614723206,
+        "text_preview": "ument length normalization) and k1 = 0.9 (term frequency\nscaling) are tuned using development sets.\n20\n40\n60\n80\n100\nk: # of retrieved passages\n40\n50\n60\n70\n80\n90..."
+      },
+      {
+        "rank": 13,
+        "chunk_id": "doc06_transformer_chunk_0003",
+        "score": 0.646301805973053,
+        "text_preview": "without using sequence-\naligned RNNs or convolution. In the following sections, we will describe the Transformer, motivate\nself-attention and discuss its advant..."
+      },
+      {
+        "rank": 14,
+        "chunk_id": "doc07_lora_chunk_0058",
+        "score": 0.6394037008285522,
+        "text_preview": "2.4985\n32\n1.16\n69.33\n8.7736\n0.4642\n0.7105\n2.5255\n64\n1.16\n69.24\n8.7174\n0.4651\n0.7180\n2.5070\n128\n1.16\n68.73\n8.6718\n0.4628\n0.7127\n2.5030\n256\n1.16\n68.92\n8.6982\n0.46..."
+      },
+      {
+        "rank": 15,
+        "chunk_id": "doc05_self_rag_chunk_0013",
+        "score": 0.639289915561676,
+        "text_preview": "). The weights wG in Eq. 4 are hyperparameters that can be adjusted\nat inference time to enable customized behaviors at test time. For instance, to ensure that ..."
+      },
+      {
+        "rank": 16,
+        "chunk_id": "doc10_comprehensive_rag_chunk_0009",
+        "score": 0.6387224197387695,
+        "text_preview": "T5 (Text-to-Text Transfer Transformer)\nT5 (Text-to-Text Transfer Transformer) (Raffel et al. 2020) is one of the most commonly used models for\ngeneration tasks ..."
+      },
+      {
+        "rank": 17,
+        "chunk_id": "doc07_lora_chunk_0009",
+        "score": 0.6385462880134583,
+        "text_preview": "two in the MLP module. We treat Wq (or Wk, Wv)\nas a single matrix of dimension dmodel \u00d7dmodel, even though the output dimension is usually sliced\ninto attention..."
+      },
+      {
+        "rank": 18,
+        "chunk_id": "doc03_dpr_chunk_0011",
+        "score": 0.6374925374984741,
+        "text_preview": "experiments\nis trained using the in-batch negative setting (Sec-\ntion 3.2) with a batch size of 128 and one additional\nBM25 negative passage per question. We tr..."
+      },
+      {
+        "rank": 19,
+        "chunk_id": "doc06_transformer_chunk_0000",
+        "score": 0.6348728537559509,
+        "text_preview": "Provided proper attribution is provided, Google hereby grants permission to\nreproduce the tables and figures in this paper solely for use in journalistic or\nsch..."
+      },
+      {
+        "rank": 20,
+        "chunk_id": "doc03_dpr_chunk_0030",
+        "score": 0.633332371711731,
+        "text_preview": ". Ta-\nble 6 summarizes the results. All these additional\nexperiments are conducted using the same hyper-\nparameters tuned for the baseline (DP, NLL).\nNote that ..."
+      }
+    ]
+  },
+  "q15": {
+    "query": "Which pre-trained model was used as the retriever backbone in Lewis et al. 2020: DPR or BM25?",
+    "category": "keyword_metric",
+    "answerable": true,
+    "top_chunks": [
+      {
+        "rank": 1,
+        "chunk_id": "doc10_comprehensive_rag_chunk_0007",
+        "score": 0.7119302153587341,
+        "text_preview": "keyword matching, it has limitations in understanding\nsemantic meaning. For example, BM25 cannot capture the relationships between words and tends to\nperform po..."
+      },
+      {
+        "rank": 2,
+        "chunk_id": "doc03_dpr_chunk_0011",
+        "score": 0.6993690133094788,
+        "text_preview": "experiments\nis trained using the in-batch negative setting (Sec-\ntion 3.2) with a batch size of 128 and one additional\nBM25 negative passage per question. We tr..."
+      },
+      {
+        "rank": 3,
+        "chunk_id": "doc10_comprehensive_rag_chunk_0006",
+        "score": 0.6978626847267151,
+        "text_preview": "techniques such as\ndense passage retrieval (DPR) (Karpukhin et. al. 2020) or traditional BM25 algorithms.\n2.\nGenerator:\nIt\nsynthesizes\nthe\nretrieved\ndocuments\ni..."
+      },
+      {
+        "rank": 4,
+        "chunk_id": "doc03_dpr_chunk_0022",
+        "score": 0.6764053106307983,
+        "text_preview": "extended by REALM (Guu et al.,\n2020), which includes tuning the passage encoder\nasynchronously by re-indexing the passages dur-\ning training. The pretraining ob..."
+      },
+      {
+        "rank": 5,
+        "chunk_id": "doc03_dpr_chunk_0012",
+        "score": 0.6761475205421448,
+        "text_preview": "ument length normalization) and k1 = 0.9 (term frequency\nscaling) are tuned using development sets.\n20\n40\n60\n80\n100\nk: # of retrieved passages\n40\n50\n60\n70\n80\n90..."
+      },
+      {
+        "rank": 6,
+        "chunk_id": "doc03_dpr_chunk_0019",
+        "score": 0.6714051365852356,
+        "text_preview": "Exact Match) Accuracy. The \ufb01rst block of results are copied from their cited papers.\nREALMWiki and REALMNews are the same model but pretrained on Wikipedia and ..."
+      },
+      {
+        "rank": 7,
+        "chunk_id": "doc09_rag_survey_huang_chunk_0042",
+        "score": 0.6645470261573792,
+        "text_preview": "2024\nBing\nGPT-3.5, Falcon 1B [108]\nPipeRAG [64]\n2024\nSBERT\nRETRO [9]\nGenRT [148]\n2024\nLambdaMart [2]\nPersonaRAG [160]\n2024\nBM25\nGPT-3.5\nCRAG [149]\n2024\nContriev..."
+      },
+      {
+        "rank": 8,
+        "chunk_id": "doc02_rag_survey_chunk_0020",
+        "score": 0.6621938943862915,
+        "text_preview": "other sectors replete with proprietary jargon,\nfine-tuning the embedding model on your own domain dataset\nbecomes essential to mitigate such discrepancies.\nIn a..."
+      },
+      {
+        "rank": 9,
+        "chunk_id": "doc03_dpr_chunk_0010",
+        "score": 0.662055253982544,
+        "text_preview": "of our Dense Passage Retriever (DPR),\nalong with analysis on how its output differs from\n6We use the un\ufb01ltered TriviaQA version and discard the\nnoisy evidence d..."
+      },
+      {
+        "rank": 10,
+        "chunk_id": "doc03_dpr_chunk_0030",
+        "score": 0.6585822105407715,
+        "text_preview": ". Ta-\nble 6 summarizes the results. All these additional\nexperiments are conducted using the same hyper-\nparameters tuned for the baseline (DP, NLL).\nNote that ..."
+      },
+      {
+        "rank": 11,
+        "chunk_id": "doc03_dpr_chunk_0015",
+        "score": 0.6564016342163086,
+        "text_preview": "is triplet\nloss, which compares a positive passage and a nega-\ntive one directly with respect to a question (Burges\net al., 2005). Our experiments show that usi..."
+      },
+      {
+        "rank": 12,
+        "chunk_id": "doc09_rag_survey_huang_chunk_0044",
+        "score": 0.6477345824241638,
+        "text_preview": "1.34\n54.75 \u00b1 0.77\n67.20 \u00b1 2.10\n88.51 \u00b1 1.28\n69.71\nWikipedia\n(29.9M)\nBM25\n73.37 \u00b1 1.34\n63.47 \u00b1 1.35\n54.10 \u00b1 0.77\n26.40 \u00b1 1.97\n71.36 \u00b1 1.82\n57.74\nContriever\n74.10..."
+      },
+      {
+        "rank": 13,
+        "chunk_id": "doc03_dpr_chunk_0002",
+        "score": 0.6443748474121094,
+        "text_preview": "-IDF/BM25 for open-\ndomain QA before ORQA (Lee et al., 2019), which\nproposes a sophisticated inverse cloze task (ICT)\nobjective, predicting the blocks that cont..."
+      },
+      {
+        "rank": 14,
+        "chunk_id": "doc03_dpr_chunk_0013",
+        "score": 0.638701319694519,
+        "text_preview": "ver trained using only 1,000 ex-\namples already outperforms BM25. This suggests\nthat with a general pretrained language model, it is\npossible to train a high-qu..."
+      },
+      {
+        "rank": 15,
+        "chunk_id": "doc09_rag_survey_huang_chunk_0043",
+        "score": 0.6251814365386963,
+        "text_preview": "approaches, such as those based on\nBERT, see limited use. The relative scarcity of IR-focused LLMs in retrievers suggests a promising\navenue for future research..."
+      },
+      {
+        "rank": 16,
+        "chunk_id": "doc03_dpr_chunk_0031",
+        "score": 0.62192702293396,
+        "text_preview": ".9\nTable 6: Retrieval Top-k accuracy on the development\nset of Natural Questions using different similarity and\nloss functions.\nthe correct answer, presumably b..."
+      },
+      {
+        "rank": 17,
+        "chunk_id": "doc02_rag_survey_chunk_0023",
+        "score": 0.6202659606933594,
+        "text_preview": "relevance.\nB. LLM Fine-tuning\nTargeted fine-tuning based on the scenario and data char-\nacteristics on LLMs can yield better results. This is also one\nof the gr..."
+      },
+      {
+        "rank": 18,
+        "chunk_id": "doc09_rag_survey_huang_chunk_0045",
+        "score": 0.6196712255477905,
+        "text_preview": "corpora and retrievers on the Mirage benchmark [144]. These findings underscore how\nretriever performance closely depends on the alignment between training data..."
+      },
+      {
+        "rank": 19,
+        "chunk_id": "doc05_self_rag_chunk_0005",
+        "score": 0.6188426613807678,
+        "text_preview": ". Lin et al. (2023) fine-tune both the retriever\nand LM on instruction-tuning datasets in two steps. While we also train our model on diverse\ninstruction-follow..."
+      },
+      {
+        "rank": 20,
+        "chunk_id": "doc02_rag_survey_chunk_0021",
+        "score": 0.6185939908027649,
+        "text_preview": "PRCA [69] add a pluggable reward-driven contextual\nadapter to enhance performance on specific tasks. BGM [26]\nkeeps the retriever and LLM fixed,and trains a bri..."
+      }
+    ]
+  },
+  "q16": {
+    "query": "What is the efficiency of Shor's quantum factoring algorithm when breaking RSA-4096 cryptographic keys?",
+    "category": "out_of_scope",
+    "answerable": false,
+    "top_chunks": [
+      {
+        "rank": 1,
+        "chunk_id": "doc08_flash_attention_chunk_0007",
+        "score": 0.6805996894836426,
+        "text_preview": "there have been many attempts to fuse several\nelementwise operations, such as fusing masking with softmax [77].\nIn Section 3.2, we will show that the standard a..."
+      },
+      {
+        "rank": 2,
+        "chunk_id": "doc08_flash_attention_chunk_0013",
+        "score": 0.6756120920181274,
+        "text_preview": "seq. length 4K) of\nblock-sparse FlashAttention is faster than FlashAttention by a factor proportional to the sparsity.\nasymptotically improve on HBM accesses ov..."
+      },
+      {
+        "rank": 3,
+        "chunk_id": "doc08_flash_attention_chunk_0008",
+        "score": 0.6726124882698059,
+        "text_preview": ", V into blocks, load them from slow HBM to fast SRAM, then compute the\nattention output with respect to those blocks. By scaling the output of each block by th..."
+      },
+      {
+        "rank": 4,
+        "chunk_id": "doc08_flash_attention_chunk_0014",
+        "score": 0.6680931448936462,
+        "text_preview": "all\nvalues of \ud835\udc40(the SRAM size) when computing exact attention.\nProposition 3. Let \ud835\udc41be the sequence length, \ud835\udc51be the head dimension, and \ud835\udc40be size of SRAM with\n\ud835\udc51\u2264\ud835\udc40..."
+      },
+      {
+        "rank": 5,
+        "chunk_id": "doc08_flash_attention_chunk_0054",
+        "score": 0.6680402755737305,
+        "text_preview": "and B.4). It only recomputes the attention\nmatrix and does not recompute the temporary output of each block. This reduces the memory requirement\nfor the backwar..."
+      },
+      {
+        "rank": 6,
+        "chunk_id": "doc08_flash_attention_chunk_0060",
+        "score": 0.6674485206604004,
+        "text_preview": "\ufffd\n\u0012 \ud835\udc412\ud835\udc512\n\ud835\udc40\n\u0013\n.\n\u25a1\nProof of Proposition 3. For contradiction, suppose that there exists an algorithm that computes exact\nattention where the number for HBM access..."
+      },
+      {
+        "rank": 7,
+        "chunk_id": "doc08_flash_attention_chunk_0058",
+        "score": 0.6650201678276062,
+        "text_preview": "+1)V: \ud835\udc57+1.\nWe then see that the claim is also true for \ud835\udc57+ 1. By induction, the claim is true for all \ud835\udc57= 0, . . . ,\ud835\udc47\ud835\udc50.\nWhen \ud835\udc57= \ud835\udc47\ud835\udc50, we conclude that the \ufb01nal valu..."
+      },
+      {
+        "rank": 8,
+        "chunk_id": "doc08_flash_attention_chunk_0056",
+        "score": 0.6649322509765625,
+        "text_preview": "line 10)\n22\n\non the ( \ud835\udc57+ 1)-th iteration of the outer loop, we update \ud835\udc5a( \ud835\udc57+1) = max(\ud835\udc5a( \ud835\udc57), \u02dc\ud835\udc5a) where \u02dc\ud835\udc5a\u2208R\ud835\udc41is the row-max\nof S:, \ud835\udc57: \ud835\udc57+1, the slice of S from colu..."
+      },
+      {
+        "rank": 9,
+        "chunk_id": "doc08_flash_attention_chunk_0015",
+        "score": 0.6648602485656738,
+        "text_preview": "FlashAttention by a factor proportional to the sparsity.\nGiven inputs Q, K, V \u2208R\ud835\udc41\u00d7\ud835\udc51and a mask matrix \u02dcM \u2208{0, 1}\ud835\udc41\u00d7\ud835\udc41, we want to compute:\nS = QK\u22a4\u2208R\ud835\udc41\u00d7\ud835\udc41,\nP = softma..."
+      },
+      {
+        "rank": 10,
+        "chunk_id": "doc08_flash_attention_chunk_0057",
+        "score": 0.6641295552253723,
+        "text_preview": "\ufffd)V\ud835\udc57: \ud835\udc57+1)\n= diag(\u2113( \ud835\udc57+1))\u22121(diag(\u2113( \ud835\udc57))\ud835\udc52\ud835\udc5a( \ud835\udc57)\u2212\ud835\udc5a( \ud835\udc57+1) P:,: \ud835\udc57V: \ud835\udc57+ \ud835\udc52\u2212\ud835\udc5a( \ud835\udc57+1) exp(S\ud835\udc57: \ud835\udc57+1)V\ud835\udc57: \ud835\udc57+1)\n= diag(\u2113( \ud835\udc57+1))\u22121(diag(\u2113( \ud835\udc57))\ud835\udc52\ud835\udc5a( \ud835\udc57)\u2212\ud835\udc5a( \ud835\udc57+1) diag(\u2113( \ud835\udc57)) exp(S:..."
+      },
+      {
+        "rank": 11,
+        "chunk_id": "doc08_flash_attention_chunk_0012",
+        "score": 0.6635881662368774,
+        "text_preview": "\ufffd\ud835\udc56\u2190\u2113new\n\ud835\udc56\n, \ud835\udc5a\ud835\udc56\u2190\ud835\udc5anew\n\ud835\udc56\nto HBM.\n14:\nend for\n15: end for\n16: Return O.\nWe show FlashAttention\u2019s correctness, runtime, and memory requirement (proof in Appendix C)...."
+      },
+      {
+        "rank": 12,
+        "chunk_id": "doc08_flash_attention_chunk_0045",
+        "score": 0.6605945229530334,
+        "text_preview": "\ud835\udc51:\nS = \ud835\udf0fQK\u22a4\u2208R\ud835\udc41\u00d7\ud835\udc41,\nSmasked = mask(\ud835\udc46) \u2208R\ud835\udc41\u00d7\ud835\udc41,\nP = softmax(Smasked) \u2208R\ud835\udc41\u00d7\ud835\udc41,\nPdropped = dropout(P, \ud835\udc5ddrop),\nO = PdroppedV \u2208R\ud835\udc41\u00d7\ud835\udc51,\nwhere \ud835\udf0f\u2208R is some softmax scaling (typ..."
+      },
+      {
+        "rank": 13,
+        "chunk_id": "doc08_flash_attention_chunk_0038",
+        "score": 0.6568546295166016,
+        "text_preview": "21], to data\nlocality [86], to the Roo\ufb02ine model of arithmetic intensity [85], to analyses of scalability [59], to standard\ntextbook treatments of computer arch..."
+      },
+      {
+        "rank": 14,
+        "chunk_id": "doc08_flash_attention_chunk_0086",
+        "score": 0.6567227840423584,
+        "text_preview": "4096\n8192\n16384\n32768\n65536\nPyTorch Attention\n36\n104\n336\n1184\n4416\n17024\n-\n-\n-\n-\nMegatron\n36\n104\n336\n1184\n4416\n-\n-\n-\n-\n-\nReformer\n377\n754\n1508\n3016\n6033\n12067\n2..."
+      },
+      {
+        "rank": 15,
+        "chunk_id": "doc09_rag_survey_huang_chunk_0011",
+        "score": 0.656059205532074,
+        "text_preview": "system [63] leverages\nPQ in a disaggregated accelerator environment to balance memory usage and retrieval speed in RAG\ntasks. AiSAQ [126] introduces an all-in-s..."
+      },
+      {
+        "rank": 16,
+        "chunk_id": "doc08_flash_attention_chunk_0073",
+        "score": 0.6536222100257874,
+        "text_preview": "Sparse, Longformer,\nand BigBird. These methods did not successfully run the backward pass with masking due to a bug in\nexternal libraries, so we measured them w..."
+      },
+      {
+        "rank": 17,
+        "chunk_id": "doc08_flash_attention_chunk_0003",
+        "score": 0.6529374122619629,
+        "text_preview": ", a new attention algorithm that computes exact attention with far fewer\nmemory accesses. Our main goal is to avoid reading and writing the attention matrix to ..."
+      },
+      {
+        "rank": 18,
+        "chunk_id": "doc08_flash_attention_chunk_0049",
+        "score": 0.6527777314186096,
+        "text_preview": ", we use Eq. (4) to compute \ud835\udc37\ud835\udc56= \ud835\udc43\u22a4\n\ud835\udc56:\ud835\udc51\ud835\udc43\ud835\udc56: without reducing over\n\ud835\udc43\ud835\udc56: and \ud835\udc51\ud835\udc43\ud835\udc56: of size \ud835\udc41(they might not \ufb01t into SRAM). Instead we can rewrite \ud835\udc37\ud835\udc56= \ud835\udc51\ud835\udc5c\u22a4\n\ud835\udc56\ud835\udc5c\ud835\udc56and compu..."
+      },
+      {
+        "rank": 19,
+        "chunk_id": "doc08_flash_attention_chunk_0063",
+        "score": 0.6515607237815857,
+        "text_preview": "\ud835\udc47\n\ud835\udc57\u2208R\ud835\udc35\ud835\udc5f\u00d7\ud835\udc35\ud835\udc50.\n11:\nOn chip, compute Smasked\n\ud835\udc56\ud835\udc57\n= mask(S\ud835\udc56\ud835\udc57).\n12:\nOn chip, compute \u02dc\ud835\udc5a\ud835\udc56\ud835\udc57= rowmax(Smasked\n\ud835\udc56\ud835\udc57\n) \u2208R\ud835\udc35\ud835\udc5f, \u02dcP\ud835\udc56\ud835\udc57= exp(Smasked\n\ud835\udc56\ud835\udc57\n\u2212\u02dc\ud835\udc5a\ud835\udc56\ud835\udc57) \u2208R\ud835\udc35\ud835\udc5f\u00d7\ud835\udc35\ud835\udc50(pointwise),\n\u02dc\u2113..."
+      },
+      {
+        "rank": 20,
+        "chunk_id": "doc08_flash_attention_chunk_0052",
+        "score": 0.6512559056282043,
+        "text_preview": "\ud835\udc57\u25e6(dP\ud835\udc56\ud835\udc57\u2212\ud835\udc37\ud835\udc56) \u2208R\ud835\udc35\ud835\udc5f\u00d7\ud835\udc35\ud835\udc50.\n21:\nWrite dQ\ud835\udc56\u2190dQ\ud835\udc56+ \ud835\udf0fdS\ud835\udc56\ud835\udc57K \ud835\udc57\u2208R\ud835\udc35\ud835\udc5f\u00d7\ud835\udc51to HBM.\n22:\nOn chip, compute \u02dc\ndK\ud835\udc57\u2190\u02dc\ndK\ud835\udc57+ \ud835\udf0fdS\u22a4\n\ud835\udc56\ud835\udc57Q\ud835\udc56\u2208R\ud835\udc35\ud835\udc50\u00d7\ud835\udc51.\n23:\nend for\n24:\nWrite dK\ud835\udc57\u2190\n\u02dc\ndK\ud835\udc57, dV \ud835\udc57\u2190\n\u02dc\ndV \ud835\udc57t..."
+      }
+    ]
+  },
+  "q17": {
+    "query": "How does AlphaFold 3 predict the quaternary structure of protein-ligand interactions and RNA sequences?",
+    "category": "out_of_scope",
+    "answerable": false,
+    "top_chunks": [
+      {
+        "rank": 1,
+        "chunk_id": "doc09_rag_survey_huang_chunk_0057",
+        "score": 0.69303959608078,
+        "text_preview": "ping Huang, Andrew Dai, Hongkun Yu, Slav Petrov, Ed H. Chi, Jeff Dean, Jacob Devlin,\nAdam Roberts, Denny Zhou, Quoc V. Le, and Jason Wei. 2022. Scaling Instruct..."
+      },
+      {
+        "rank": 2,
+        "chunk_id": "doc07_lora_chunk_0028",
+        "score": 0.6869358420372009,
+        "text_preview": "between \u2225U \u22a4WV \u22a4\u2225F and \u2225W\u2225F . As a comparison, we also compute\n\u2225U \u22a4WV \u22a4\u2225F by replacing U, V with the top r singular vectors of W or a random matrix.\nr = 4\nr = 6..."
+      },
+      {
+        "rank": 3,
+        "chunk_id": "doc08_flash_attention_chunk_0056",
+        "score": 0.6869118809700012,
+        "text_preview": "line 10)\n22\n\non the ( \ud835\udc57+ 1)-th iteration of the outer loop, we update \ud835\udc5a( \ud835\udc57+1) = max(\ud835\udc5a( \ud835\udc57), \u02dc\ud835\udc5a) where \u02dc\ud835\udc5a\u2208R\ud835\udc41is the row-max\nof S:, \ud835\udc57: \ud835\udc57+1, the slice of S from colu..."
+      },
+      {
+        "rank": 4,
+        "chunk_id": "doc07_lora_chunk_0026",
+        "score": 0.6848168969154358,
+        "text_preview": "5\n6\n7\n8\ni\nWq\n1\n6\n12\n18\n23\n29\n35\n40\n46\n52\n58\nj\nWv\n1\n2\n3\n4\n5\n6\n7\n8\nj\nWq\n1\n2\n3\n4\n5\n6\n7\n8\nj\nWv\n(Ar = 64, Ar = 8, i, j)\nFigure 3: Subspace similarity between column ..."
+      },
+      {
+        "rank": 5,
+        "chunk_id": "doc06_transformer_chunk_0016",
+        "score": 0.6843857169151306,
+        "text_preview": "grateful to Nal Kalchbrenner and Stephan Gouws for their fruitful\ncomments, corrections and inspiration.\nReferences\n[1] Jimmy Lei Ba, Jamie Ryan Kiros, and Geof..."
+      },
+      {
+        "rank": 6,
+        "chunk_id": "doc07_lora_chunk_0034",
+        "score": 0.6839228868484497,
+        "text_preview": "Conference on Machine Learning, pp.\n2358\u20132367. PMLR, 2016.\nYuanzhi Li, Tengyu Ma, and Hongyang Zhang. Algorithmic regularization in over-parameterized\nmatrix se..."
+      },
+      {
+        "rank": 7,
+        "chunk_id": "doc07_lora_chunk_0058",
+        "score": 0.6801109910011292,
+        "text_preview": "2.4985\n32\n1.16\n69.33\n8.7736\n0.4642\n0.7105\n2.5255\n64\n1.16\n69.24\n8.7174\n0.4651\n0.7180\n2.5070\n128\n1.16\n68.73\n8.6718\n0.4628\n0.7127\n2.5030\n256\n1.16\n68.92\n8.6982\n0.46..."
+      },
+      {
+        "rank": 8,
+        "chunk_id": "doc04_ragas_chunk_0014",
+        "score": 0.6788486242294312,
+        "text_preview": "trust language models: Investigating\neffectiveness of parametric and non-parametric mem-\nories. In Proceedings of the 61st Annual Meeting of\nthe Association for..."
+      },
+      {
+        "rank": 9,
+        "chunk_id": "doc01_rag_original_chunk_0004",
+        "score": 0.6772550344467163,
+        "text_preview": "2\n\nby \u03b8 that generates a current token based on a context of the previous i \u22121 tokens y1:i\u22121, the original\ninput x and a retrieved passage z.\nTo train the retri..."
+      },
+      {
+        "rank": 10,
+        "chunk_id": "doc08_flash_attention_chunk_0021",
+        "score": 0.6753440499305725,
+        "text_preview": "Rights\nthat were allegedly violaged. Both of these datasets contain very long text documents; the average number of\ntokens in MIMIC is 2,395 tokens, and the lon..."
+      },
+      {
+        "rank": 11,
+        "chunk_id": "doc05_self_rag_chunk_0007",
+        "score": 0.6748491525650024,
+        "text_preview": "R\nISREL\nx, d\n{relevant, irrelevant}\nd provides useful information to solve x.\nISSUP\nx, d, y\n{fully supported, partially\nsupported, no support}\nAll of the verifi..."
+      },
+      {
+        "rank": 12,
+        "chunk_id": "doc02_rag_survey_chunk_0045",
+        "score": 0.6748065948486328,
+        "text_preview": "I. Dagan, and M. Wasserblat,\n\u201cOptimizing retrieval-augmented reader models via token elimination,\u201d\narXiv preprint arXiv:2310.13682, 2023.\n[53] J. L\u00b4ala, O. O\u2019Do..."
+      },
+      {
+        "rank": 13,
+        "chunk_id": "doc05_self_rag_chunk_0017",
+        "score": 0.6743274331092834,
+        "text_preview": ".9\n22.4\n29.6\n28.6\n\u2013\n\u2013\nRet-Llama2-c13B\n51.8\n59.8\n52.1\n37.9\n79.9\n32.8\n34.8\n43.8\n19.8\n36.1\nChatGPT\n29.3\n74.3\n70.1\n75.3\n71.8\n35.3\n36.2\n68.8\n\u2013\n\u2013\nRet-ChatGPT\n50.8\n65...."
+      },
+      {
+        "rank": 14,
+        "chunk_id": "doc03_dpr_chunk_0026",
+        "score": 0.6735597252845764,
+        "text_preview": "han\nLiu,\nNaman\nGoyal,\nMar-\njan Ghazvininejad, Abdelrahman Mohamed, Omer\nLevy, Veselin Stoyanov, and Luke Zettlemoyer.\n2020a. BART: Denoising sequence-to-sequenc..."
+      },
+      {
+        "rank": 15,
+        "chunk_id": "doc06_transformer_chunk_0014",
+        "score": 0.6729017496109009,
+        "text_preview": "sinusoidal positional encoding with learned positional embeddings [9], and observe nearly identical\nresults to the base model.\n6.3\nEnglish Constituency Parsing\n..."
+      },
+      {
+        "rank": 16,
+        "chunk_id": "doc09_rag_survey_huang_chunk_0059",
+        "score": 0.6725714802742004,
+        "text_preview": "Charles Foster, Jason Phang, Horace He, Anish\nThite, Noa Nabeshima, Shawn Presser, and Connor Leahy. 2021. The Pile: An 800GB Dataset of Diverse Text for\nLangua..."
+      },
+      {
+        "rank": 17,
+        "chunk_id": "doc07_lora_chunk_0057",
+        "score": 0.6721819639205933,
+        "text_preview": "0.6\n0.7\n0.8\n1\n7\n13\n19\n25\n31\n37\n43\n49\n55\n61\nLayer 1\ni\nWq\nWv\nLayer 32\nWq\nWv\n1\n6\n11\n16\n21\n26\n31\n36\n41\n46\n51\n56\n61\nj\n1\n7\n13\n19\n25\n31\n37\n43\n49\n55\n61\nLayer 64\ni\n1\n6\n1..."
+      },
+      {
+        "rank": 18,
+        "chunk_id": "doc07_lora_chunk_0044",
+        "score": 0.6711569428443909,
+        "text_preview": "3E-04\n3E-04\n3E-04\n3E-04\n3E-04\n3E-04\nBottleneck r\n64\nMax Seq. Len.\n128\nRoBERTa large\nAdptP (0.8M)\u2020\nBatch Size\n32\n# Epochs\n5\n20\n20\n20\n10\n20\n20\n20\nLearning Rate\n3E..."
+      },
+      {
+        "rank": 19,
+        "chunk_id": "doc02_rag_survey_chunk_0063",
+        "score": 0.6711463928222656,
+        "text_preview": ", 2023.\n[169] Y. Lyu, Z. Li, S. Niu, F. Xiong, B. Tang, W. Wang, H. Wu, H. Liu,\nT. Xu, and E. Chen, \u201cCrud-rag: A comprehensive chinese benchmark\nfor retrieval-a..."
+      },
+      {
+        "rank": 20,
+        "chunk_id": "doc01_rag_original_chunk_0031",
+        "score": 0.6707528829574585,
+        "text_preview": "for Computational Linguistics. doi: 10.18653/v1/N19-4009. URL https://www.aclweb.\norg/anthology/N19-4009.\n[46] Ethan Perez, Siddharth Karamcheti, Rob Fergus, Ja..."
+      }
+    ]
+  },
+  "q18": {
+    "query": "What were the average global surface temperature anomalies recorded in the 2024 IPCC climate report?",
+    "category": "out_of_scope",
+    "answerable": false,
+    "top_chunks": [
+      {
+        "rank": 1,
+        "chunk_id": "doc07_lora_chunk_0043",
+        "score": 0.6201100945472717,
+        "text_preview": "Dataset\nMNLI\nSST-2\nMRPC\nCoLA\nQNLI\nQQP\nRTE\nSTS-B\nOptimizer\nAdamW\nWarmup Ratio\n0.06\nLR Schedule\nLinear\nRoBERTa base\nLoRA\nBatch Size\n16\n16\n16\n32\n32\n16\n32\n16\n# Epoc..."
+      },
+      {
+        "rank": 2,
+        "chunk_id": "doc07_lora_chunk_0049",
+        "score": 0.6057576537132263,
+        "text_preview": "46.5\n.30\n.45\n.38\n.76\n.33\n.53\nAdapterL (0.37M)\n45.1\n54.5\n50.2\n.36\n.39\n.38\n.46\n.40\n.43\nAdapterL (11M)\n48.3\n60.4\n54.9\n.38\n.43\n.41\n.45\n.35\n.39\nFTTop2 (24M)\n18.9\n53...."
+      },
+      {
+        "rank": 3,
+        "chunk_id": "doc07_lora_chunk_0044",
+        "score": 0.6053041219711304,
+        "text_preview": "3E-04\n3E-04\n3E-04\n3E-04\n3E-04\n3E-04\nBottleneck r\n64\nMax Seq. Len.\n128\nRoBERTa large\nAdptP (0.8M)\u2020\nBatch Size\n32\n# Epochs\n5\n20\n20\n20\n10\n20\n20\n20\nLearning Rate\n3E..."
+      },
+      {
+        "rank": 4,
+        "chunk_id": "doc07_lora_chunk_0018",
+        "score": 0.5949069857597351,
+        "text_preview": "2/RL\nGPT-3 (FT)\n175,255.8M\n73.8\n89.5\n52.0/28.0/44.5\nGPT-3 (BitFit)\n14.2M\n71.3\n91.0\n51.3/27.4/43.5\nGPT-3 (PreEmbed)\n3.2M\n63.1\n88.6\n48.3/24.2/40.5\nGPT-3 (PreLayer..."
+      },
+      {
+        "rank": 5,
+        "chunk_id": "doc07_lora_chunk_0057",
+        "score": 0.59352707862854,
+        "text_preview": "0.6\n0.7\n0.8\n1\n7\n13\n19\n25\n31\n37\n43\n49\n55\n61\nLayer 1\ni\nWq\nWv\nLayer 32\nWq\nWv\n1\n6\n11\n16\n21\n26\n31\n36\n41\n46\n51\n56\n61\nj\n1\n7\n13\n19\n25\n31\n37\n43\n49\n55\n61\nLayer 64\ni\n1\n6\n1..."
+      },
+      {
+        "rank": 6,
+        "chunk_id": "doc07_lora_chunk_0045",
+        "score": 0.5911163687705994,
+        "text_preview": "random seeds; the result for each run is taken from the best epoch. The hyperparameters\nused for LoRA in GPT-2 are listed in Table 11. For those used for other ..."
+      },
+      {
+        "rank": 7,
+        "chunk_id": "doc07_lora_chunk_0052",
+        "score": 0.585679829120636,
+        "text_preview": "2\n91.0\nr = 8\n40.1 M\n73.2\n91.5\nr = 16\n77.9 M\n73.2\n91.5\nr = 64\n304.4 M\n72.6\n91.5\nLoRA\nrv = 2\n4.7 M\n73.4\n91.7\nrq = rv = 1\n4.7 M\n73.4\n91.3\nrq = rv = 2\n9.4 M\n73.3\n91..."
+      },
+      {
+        "rank": 8,
+        "chunk_id": "doc05_self_rag_chunk_0017",
+        "score": 0.5815802812576294,
+        "text_preview": ".9\n22.4\n29.6\n28.6\n\u2013\n\u2013\nRet-Llama2-c13B\n51.8\n59.8\n52.1\n37.9\n79.9\n32.8\n34.8\n43.8\n19.8\n36.1\nChatGPT\n29.3\n74.3\n70.1\n75.3\n71.8\n35.3\n36.2\n68.8\n\u2013\n\u2013\nRet-ChatGPT\n50.8\n65...."
+      },
+      {
+        "rank": 9,
+        "chunk_id": "doc08_flash_attention_chunk_0072",
+        "score": 0.5774157047271729,
+        "text_preview": "-\n-\n-\n-\nMegatron\n0.40\n0.40\n1.10\n3.65\n16.19\n-\n-\n-\n-\n-\nReformer\n2.03\n3.15\n5.67\n11.02\n22.59\n46.14\n97.38\n212.13\n-\n-\nLocal Attention\n0.83\n0.86\n1.01\n2.20\n7.13\n14.32\n2..."
+      },
+      {
+        "rank": 10,
+        "chunk_id": "doc08_flash_attention_chunk_0086",
+        "score": 0.5753189325332642,
+        "text_preview": "4096\n8192\n16384\n32768\n65536\nPyTorch Attention\n36\n104\n336\n1184\n4416\n17024\n-\n-\n-\n-\nMegatron\n36\n104\n336\n1184\n4416\n-\n-\n-\n-\n-\nReformer\n377\n754\n1508\n3016\n6033\n12067\n2..."
+      },
+      {
+        "rank": 11,
+        "chunk_id": "doc02_rag_survey_chunk_0060",
+        "score": 0.5738819241523743,
+        "text_preview": "vol. 9, pp. 346\u2013361, 2021.\n[149] J. Thorne, A. Vlachos, C. Christodoulopoulos, and A. Mittal, \u201cFever: a\nlarge-scale dataset for fact extraction and verification..."
+      },
+      {
+        "rank": 12,
+        "chunk_id": "doc05_self_rag_chunk_0038",
+        "score": 0.5733881592750549,
+        "text_preview": "UP ): Attribution is the concept of whether the output is fully supported by\ncertain evidence (Menick et al., 2022; Bohnet et al., 2022). This aspect judges how..."
+      },
+      {
+        "rank": 13,
+        "chunk_id": "doc08_flash_attention_chunk_0076",
+        "score": 0.5730041861534119,
+        "text_preview": ".83\n92.80\n203.24\n-\n-\nLocal Attention\n0.70\n0.81\n1.02\n2.09\n6.64\n13.34\n26.77\n54.02\n110.11\n-\nLinformer\n0.63\n0.50\n0.67\n0.65\n1.36\n2.60\n5.04\n9.92\n19.69\n43.47\nSmyrf\n2.3..."
+      },
+      {
+        "rank": 14,
+        "chunk_id": "doc07_lora_chunk_0046",
+        "score": 0.572902262210846,
+        "text_preview": "Warmup Steps\n500\nLearning Rate Schedule\nLinear\nLabel Smooth\n0.1\n0.1\n0.0\nLearning Rate\n0.0002\nAdaptation\nrq = rv = 4\nLoRA \u03b1\n32\nInference\nBeam Size\n10\nLength Pena..."
+      },
+      {
+        "rank": 15,
+        "chunk_id": "doc08_flash_attention_chunk_0073",
+        "score": 0.5727574825286865,
+        "text_preview": "Sparse, Longformer,\nand BigBird. These methods did not successfully run the backward pass with masking due to a bug in\nexternal libraries, so we measured them w..."
+      },
+      {
+        "rank": 16,
+        "chunk_id": "doc08_flash_attention_chunk_0084",
+        "score": 0.5718716979026794,
+        "text_preview": "0.64\n1.28\n3.60\n12.52\n25.08\n50.22\n100.23\n200.66\n-\nLinformer\n0.69\n0.76\n0.69\n0.80\n2.04\n3.88\n7.67\n15.04\n30.11\n63.15\nSmyrf\n1.24\n2.49\n4.77\n9.42\n18.65\n37.12\n74.15\n148...."
+      },
+      {
+        "rank": 17,
+        "chunk_id": "doc08_flash_attention_chunk_0077",
+        "score": 0.5685518980026245,
+        "text_preview": "20.34\n79.87\n-\n-\n-\n-\nMegatron\n0.29\n0.31\n0.65\n1.95\n6.49\n-\n-\n-\n-\n-\nReformer\n2.31\n4.47\n8.68\n17.20\n34.14\n68.09\n136.02\n-\n-\n-\nLocal Attention\n0.51\n0.62\n1.30\n3.81\n13.33..."
+      },
+      {
+        "rank": 18,
+        "chunk_id": "doc07_lora_chunk_0042",
+        "score": 0.5673542022705078,
+        "text_preview": "seen\u201d categories (U)\nand \u201call\u201d (A). Each input example is represented by a sequence of SUBJECT \u2014 PROPERTY \u2014\nOBJECT triples. The dataset is released under Creati..."
+      },
+      {
+        "rank": 19,
+        "chunk_id": "doc01_rag_original_chunk_0017",
+        "score": 0.5665487051010132,
+        "text_preview": "53.4\n15.3\n21.5\n57.2\n47.5\nbetween these dates and use a template \u201cWho is {position}?\u201d (e.g. \u201cWho is the President of Peru?\u201d)\nto query our NQ RAG model with each ..."
+      },
+      {
+        "rank": 20,
+        "chunk_id": "doc06_transformer_chunk_0012",
+        "score": 0.5658978223800659,
+        "text_preview": "-French used\ndropout rate Pdrop = 0.1, instead of 0.3.\nFor the base models, we used a single model obtained by averaging the last 5 checkpoints, which\nwere writ..."
+      }
+    ]
+  },
+  "q19": {
+    "query": "What are the specific aerodynamic drag coefficients of the SpaceX Falcon 9 rocket during atmospheric reentry?",
+    "category": "out_of_scope",
+    "answerable": false,
+    "top_chunks": [
+      {
+        "rank": 1,
+        "chunk_id": "doc07_lora_chunk_0057",
+        "score": 0.6392789483070374,
+        "text_preview": "0.6\n0.7\n0.8\n1\n7\n13\n19\n25\n31\n37\n43\n49\n55\n61\nLayer 1\ni\nWq\nWv\nLayer 32\nWq\nWv\n1\n6\n11\n16\n21\n26\n31\n36\n41\n46\n51\n56\n61\nj\n1\n7\n13\n19\n25\n31\n37\n43\n49\n55\n61\nLayer 64\ni\n1\n6\n1..."
+      },
+      {
+        "rank": 2,
+        "chunk_id": "doc08_flash_attention_chunk_0047",
+        "score": 0.6358760595321655,
+        "text_preview": "\ud835\udc35\ud835\udc5f, \u02dcP\ud835\udc56\ud835\udc57= exp(Smasked\n\ud835\udc56\ud835\udc57\n\u2212\u02dc\ud835\udc5a\ud835\udc56\ud835\udc57) \u2208R\ud835\udc35\ud835\udc5f\u00d7\ud835\udc35\ud835\udc50(pointwise),\n\u02dc\u2113\ud835\udc56\ud835\udc57= rowsum(\u02dcP\ud835\udc56\ud835\udc57) \u2208R\ud835\udc35\ud835\udc5f.\n13:\nOn chip, compute \ud835\udc5anew\n\ud835\udc56\n= max(\ud835\udc5a\ud835\udc56, \u02dc\ud835\udc5a\ud835\udc56\ud835\udc57) \u2208R\ud835\udc35\ud835\udc5f, \u2113new\n\ud835\udc56\n= \ud835\udc52\ud835\udc5a\ud835\udc56\u2212\ud835\udc5anew\n\ud835\udc56\n\u2113\ud835\udc56+ \ud835\udc52\u02dc\ud835\udc5a\ud835\udc56\ud835\udc57\u2212\ud835\udc5ane..."
+      },
+      {
+        "rank": 3,
+        "chunk_id": "doc08_flash_attention_chunk_0072",
+        "score": 0.6056464910507202,
+        "text_preview": "-\n-\n-\n-\nMegatron\n0.40\n0.40\n1.10\n3.65\n16.19\n-\n-\n-\n-\n-\nReformer\n2.03\n3.15\n5.67\n11.02\n22.59\n46.14\n97.38\n212.13\n-\n-\nLocal Attention\n0.83\n0.86\n1.01\n2.20\n7.13\n14.32\n2..."
+      },
+      {
+        "rank": 4,
+        "chunk_id": "doc06_transformer_chunk_0012",
+        "score": 0.5944680571556091,
+        "text_preview": "-French used\ndropout rate Pdrop = 0.1, instead of 0.3.\nFor the base models, we used a single model obtained by averaging the last 5 checkpoints, which\nwere writ..."
+      },
+      {
+        "rank": 5,
+        "chunk_id": "doc08_flash_attention_chunk_0067",
+        "score": 0.5931893587112427,
+        "text_preview": "].\n26\n\n100k\n200k\n300k\nTraining steps\n10\n15\n20\n25\n30\nVal perplexity\nGPT-2-small HuggingFace\nGPT-2-small FlashAttention\nGPT-2-medium HuggingFace\nGPT-2-medium Flas..."
+      },
+      {
+        "rank": 6,
+        "chunk_id": "doc08_flash_attention_chunk_0063",
+        "score": 0.5908856391906738,
+        "text_preview": "\ud835\udc47\n\ud835\udc57\u2208R\ud835\udc35\ud835\udc5f\u00d7\ud835\udc35\ud835\udc50.\n11:\nOn chip, compute Smasked\n\ud835\udc56\ud835\udc57\n= mask(S\ud835\udc56\ud835\udc57).\n12:\nOn chip, compute \u02dc\ud835\udc5a\ud835\udc56\ud835\udc57= rowmax(Smasked\n\ud835\udc56\ud835\udc57\n) \u2208R\ud835\udc35\ud835\udc5f, \u02dcP\ud835\udc56\ud835\udc57= exp(Smasked\n\ud835\udc56\ud835\udc57\n\u2212\u02dc\ud835\udc5a\ud835\udc56\ud835\udc57) \u2208R\ud835\udc35\ud835\udc5f\u00d7\ud835\udc35\ud835\udc50(pointwise),\n\u02dc\u2113..."
+      },
+      {
+        "rank": 7,
+        "chunk_id": "doc07_lora_chunk_0052",
+        "score": 0.5865313410758972,
+        "text_preview": "2\n91.0\nr = 8\n40.1 M\n73.2\n91.5\nr = 16\n77.9 M\n73.2\n91.5\nr = 64\n304.4 M\n72.6\n91.5\nLoRA\nrv = 2\n4.7 M\n73.4\n91.7\nrq = rv = 1\n4.7 M\n73.4\n91.3\nrq = rv = 2\n9.4 M\n73.3\n91..."
+      },
+      {
+        "rank": 8,
+        "chunk_id": "doc08_flash_attention_chunk_0066",
+        "score": 0.5860785245895386,
+        "text_preview": "particular, we evaluate on the same 10000 validation examples as the baseline from Nvidia.\nWe train the model on 8\u00d7A100-80GB GPUs. Each training run takes betwe..."
+      },
+      {
+        "rank": 9,
+        "chunk_id": "doc07_lora_chunk_0043",
+        "score": 0.5851942300796509,
+        "text_preview": "Dataset\nMNLI\nSST-2\nMRPC\nCoLA\nQNLI\nQQP\nRTE\nSTS-B\nOptimizer\nAdamW\nWarmup Ratio\n0.06\nLR Schedule\nLinear\nRoBERTa base\nLoRA\nBatch Size\n16\n16\n16\n32\n32\n16\n32\n16\n# Epoc..."
+      },
+      {
+        "rank": 10,
+        "chunk_id": "doc07_lora_chunk_0011",
+        "score": 0.5769294500350952,
+        "text_preview": "MB * 100 \u2248354GB as opposed to 100 * 350GB \u224835TB.\n5For GPT-3 175B, the training throughput for full \ufb01ne-tuning is 32.5 tokens/s per V100 GPU; with the same\nnumbe..."
+      },
+      {
+        "rank": 11,
+        "chunk_id": "doc07_lora_chunk_0046",
+        "score": 0.5735360383987427,
+        "text_preview": "Warmup Steps\n500\nLearning Rate Schedule\nLinear\nLabel Smooth\n0.1\n0.1\n0.0\nLearning Rate\n0.0002\nAdaptation\nrq = rv = 4\nLoRA \u03b1\n32\nInference\nBeam Size\n10\nLength Pena..."
+      },
+      {
+        "rank": 12,
+        "chunk_id": "doc08_flash_attention_chunk_0056",
+        "score": 0.5708206295967102,
+        "text_preview": "line 10)\n22\n\non the ( \ud835\udc57+ 1)-th iteration of the outer loop, we update \ud835\udc5a( \ud835\udc57+1) = max(\ud835\udc5a( \ud835\udc57), \u02dc\ud835\udc5a) where \u02dc\ud835\udc5a\u2208R\ud835\udc41is the row-max\nof S:, \ud835\udc57: \ud835\udc57+1, the slice of S from colu..."
+      },
+      {
+        "rank": 13,
+        "chunk_id": "doc08_flash_attention_chunk_0051",
+        "score": 0.570712149143219,
+        "text_preview": "\ufffd\ud835\udc56from HBM to on-chip SRAM.\n11:\nOn chip, compute S\ud835\udc56\ud835\udc57= \ud835\udf0fQ\ud835\udc56K\ud835\udc47\n\ud835\udc57\u2208R\ud835\udc35\ud835\udc5f\u00d7\ud835\udc35\ud835\udc50.\n12:\nOn chip, compute Smasked\n\ud835\udc56\ud835\udc57\n= mask(S\ud835\udc56\ud835\udc57).\n13:\nOn chip, compute P\ud835\udc56\ud835\udc57= diag(\ud835\udc59\ud835\udc56)\u22121 exp(Smas..."
+      },
+      {
+        "rank": 14,
+        "chunk_id": "doc08_flash_attention_chunk_0049",
+        "score": 0.5687394738197327,
+        "text_preview": ", we use Eq. (4) to compute \ud835\udc37\ud835\udc56= \ud835\udc43\u22a4\n\ud835\udc56:\ud835\udc51\ud835\udc43\ud835\udc56: without reducing over\n\ud835\udc43\ud835\udc56: and \ud835\udc51\ud835\udc43\ud835\udc56: of size \ud835\udc41(they might not \ufb01t into SRAM). Instead we can rewrite \ud835\udc37\ud835\udc56= \ud835\udc51\ud835\udc5c\u22a4\n\ud835\udc56\ud835\udc5c\ud835\udc56and compu..."
+      },
+      {
+        "rank": 15,
+        "chunk_id": "doc07_lora_chunk_0026",
+        "score": 0.5684651732444763,
+        "text_preview": "5\n6\n7\n8\ni\nWq\n1\n6\n12\n18\n23\n29\n35\n40\n46\n52\n58\nj\nWv\n1\n2\n3\n4\n5\n6\n7\n8\nj\nWq\n1\n2\n3\n4\n5\n6\n7\n8\nj\nWv\n(Ar = 64, Ar = 8, i, j)\nFigure 3: Subspace similarity between column ..."
+      },
+      {
+        "rank": 16,
+        "chunk_id": "doc08_flash_attention_chunk_0041",
+        "score": 0.5682675838470459,
+        "text_preview": "\u2211\ufe01\n\ud835\udc57\n\ud835\udc52\ud835\udc5e\ud835\udc47\n\ud835\udc56\ud835\udc58\ud835\udc57.\n(1)\nLet \ud835\udc63\ud835\udc57be the \ud835\udc57-th column of V, then the \ud835\udc56-th columns of the output is\n\ud835\udc5c\ud835\udc56= \ud835\udc43\ud835\udc56:V =\n\u2211\ufe01\n\ud835\udc57\n\ud835\udc43\ud835\udc56\ud835\udc57\ud835\udc63\ud835\udc57=\n\u2211\ufe01\n\ud835\udc57\n\ud835\udc52\ud835\udc5e\ud835\udc47\n\ud835\udc56\ud835\udc58\ud835\udc57\n\ud835\udc3f\ud835\udc56\n\ud835\udc63\ud835\udc57.\n(2)\nWe see that once \ud835\udc3f\ud835\udc56is com..."
+      },
+      {
+        "rank": 17,
+        "chunk_id": "doc08_flash_attention_chunk_0048",
+        "score": 0.5676663517951965,
+        "text_preview": "\ufffd\ufffd\u00d7\ud835\udc51, the\noutput O \u2208R\ud835\udc41\u00d7\ud835\udc51, and the output gradient dO, we want to compute the input gradients dQ, dK, dV \u2208R\ud835\udc41\u00d7\ud835\udc51.\nWe \ufb01rst describe the standard attention backward ..."
+      },
+      {
+        "rank": 18,
+        "chunk_id": "doc07_lora_chunk_0025",
+        "score": 0.5673444867134094,
+        "text_preview": "However, we do not expect a small r to work for every task or dataset. Consider the following thought\nexperiment: if the downstream task were in a different lan..."
+      },
+      {
+        "rank": 19,
+        "chunk_id": "doc07_lora_chunk_0053",
+        "score": 0.5659835934638977,
+        "text_preview": "\ufb01xLayer) perform worse as we\nincrease the number of trainable parameters, while LoRA\u2019s performance stabilizes. Performance is\nmeasured in validation accuracy.\nM..."
+      },
+      {
+        "rank": 20,
+        "chunk_id": "doc07_lora_chunk_0051",
+        "score": 0.564358651638031,
+        "text_preview": "URING SIMILARITY BETWEEN SUBSPACES\nIn this paper we use the measure \u03c6(A, B, i, j) = \u03c8(U i\nA, U j\nB) = \u2225U i\u22a4\nA UB\u22252\nF\nmin{i,j}\nto measure the subspace\nsimilarity..."
+      }
+    ]
+  },
+  "q20": {
+    "query": "What enzymatic pathways govern mitochondrial glycolysis regulation in human neuroblastoma cells?",
+    "category": "out_of_scope",
+    "answerable": false,
+    "top_chunks": [
+      {
+        "rank": 1,
+        "chunk_id": "doc05_self_rag_chunk_0018",
+        "score": 0.5861867666244507,
+        "text_preview": "4.0\nAlpaca7B\n46.7\n64.1\n40.2\n48.0\n76.6\n30.9\n33.3\n57.9\n5.5\n7.2\nLlama2-FT7B\n48.7\n57.3\n64.3\n65.8\n78.2\n31.0\n35.8\n51.2\n5.0\n7.5\nSAIL*7B\n\u2013\n\u2013\n69.2\n48.4\n\u2013\n\u2013\n\u2013\n\u2013\n\u2013\n\u2013\nLlama..."
+      },
+      {
+        "rank": 2,
+        "chunk_id": "doc07_lora_chunk_0044",
+        "score": 0.580009400844574,
+        "text_preview": "3E-04\n3E-04\n3E-04\n3E-04\n3E-04\n3E-04\nBottleneck r\n64\nMax Seq. Len.\n128\nRoBERTa large\nAdptP (0.8M)\u2020\nBatch Size\n32\n# Epochs\n5\n20\n20\n20\n10\n20\n20\n20\nLearning Rate\n3E..."
+      },
+      {
+        "rank": 3,
+        "chunk_id": "doc08_flash_attention_chunk_0085",
+        "score": 0.5751710534095764,
+        "text_preview": ".65\n1.23\n3.80\n13.21\n-\n-\n-\n-\n-\nReformer\n3.93\n7.01\n13.15\n25.89\n52.09\n105.00\n215.13\n-\n-\n-\nLocal Attention\n1.09\n1.27\n1.99\n5.38\n18.32\n36.77\n73.67\n147.29\n296.35\n-\nLin..."
+      },
+      {
+        "rank": 4,
+        "chunk_id": "doc07_lora_chunk_0043",
+        "score": 0.5696942806243896,
+        "text_preview": "Dataset\nMNLI\nSST-2\nMRPC\nCoLA\nQNLI\nQQP\nRTE\nSTS-B\nOptimizer\nAdamW\nWarmup Ratio\n0.06\nLR Schedule\nLinear\nRoBERTa base\nLoRA\nBatch Size\n16\n16\n16\n32\n32\n16\n32\n16\n# Epoc..."
+      },
+      {
+        "rank": 5,
+        "chunk_id": "doc07_lora_chunk_0018",
+        "score": 0.5690943598747253,
+        "text_preview": "2/RL\nGPT-3 (FT)\n175,255.8M\n73.8\n89.5\n52.0/28.0/44.5\nGPT-3 (BitFit)\n14.2M\n71.3\n91.0\n51.3/27.4/43.5\nGPT-3 (PreEmbed)\n3.2M\n63.1\n88.6\n48.3/24.2/40.5\nGPT-3 (PreLayer..."
+      },
+      {
+        "rank": 6,
+        "chunk_id": "doc08_flash_attention_chunk_0075",
+        "score": 0.5684270262718201,
+        "text_preview": "49\n1.55\n1.60\n4.19\n8.04\n15.71\n30.92\n61.47\n-\nSmyrf\n3.41\n5.08\n9.35\n18.18\n36.03\n71.68\n143.04\n285.87\n-\n-\nLSformer\n3.08\n3.10\n4.26\n10.90\n31.59\n61.72\n121.51\n241.18\n-\n-\n..."
+      },
+      {
+        "rank": 7,
+        "chunk_id": "doc08_flash_attention_chunk_0084",
+        "score": 0.5643684267997742,
+        "text_preview": "0.64\n1.28\n3.60\n12.52\n25.08\n50.22\n100.23\n200.66\n-\nLinformer\n0.69\n0.76\n0.69\n0.80\n2.04\n3.88\n7.67\n15.04\n30.11\n63.15\nSmyrf\n1.24\n2.49\n4.77\n9.42\n18.65\n37.12\n74.15\n148...."
+      },
+      {
+        "rank": 8,
+        "chunk_id": "doc07_lora_chunk_0057",
+        "score": 0.5634829998016357,
+        "text_preview": "0.6\n0.7\n0.8\n1\n7\n13\n19\n25\n31\n37\n43\n49\n55\n61\nLayer 1\ni\nWq\nWv\nLayer 32\nWq\nWv\n1\n6\n11\n16\n21\n26\n31\n36\n41\n46\n51\n56\n61\nj\n1\n7\n13\n19\n25\n31\n37\n43\n49\n55\n61\nLayer 64\ni\n1\n6\n1..."
+      },
+      {
+        "rank": 9,
+        "chunk_id": "doc07_lora_chunk_0058",
+        "score": 0.5627961754798889,
+        "text_preview": "2.4985\n32\n1.16\n69.33\n8.7736\n0.4642\n0.7105\n2.5255\n64\n1.16\n69.24\n8.7174\n0.4651\n0.7180\n2.5070\n128\n1.16\n68.73\n8.6718\n0.4628\n0.7127\n2.5030\n256\n1.16\n68.92\n8.6982\n0.46..."
+      },
+      {
+        "rank": 10,
+        "chunk_id": "doc08_flash_attention_chunk_0083",
+        "score": 0.557481050491333,
+        "text_preview": "09\n4.01\n7.90\n15.70\n35.40\nSmyrf\n1.94\n1.96\n3.01\n5.69\n11.26\n22.23\n44.21\n88.22\n-\n-\nLSformer\n1.21\n1.34\n1.34\n3.31\n11.01\n21.71\n43.27\n86.32\n172.85\n-\nBlock Sparse\n0.96\n1..."
+      },
+      {
+        "rank": 11,
+        "chunk_id": "doc07_lora_chunk_0046",
+        "score": 0.5559266805648804,
+        "text_preview": "Warmup Steps\n500\nLearning Rate Schedule\nLinear\nLabel Smooth\n0.1\n0.1\n0.0\nLearning Rate\n0.0002\nAdaptation\nrq = rv = 4\nLoRA \u03b1\n32\nInference\nBeam Size\n10\nLength Pena..."
+      },
+      {
+        "rank": 12,
+        "chunk_id": "doc07_lora_chunk_0039",
+        "score": 0.5503358244895935,
+        "text_preview": ", \ufb01ne-tuning improves the\nmodel performance drastically compared to few-shot learning on datasets large and small. We take\nthe GPT-3 few-shot result on RTE from..."
+      },
+      {
+        "rank": 13,
+        "chunk_id": "doc08_flash_attention_chunk_0072",
+        "score": 0.550070583820343,
+        "text_preview": "-\n-\n-\n-\nMegatron\n0.40\n0.40\n1.10\n3.65\n16.19\n-\n-\n-\n-\n-\nReformer\n2.03\n3.15\n5.67\n11.02\n22.59\n46.14\n97.38\n212.13\n-\n-\nLocal Attention\n0.83\n0.86\n1.01\n2.20\n7.13\n14.32\n2..."
+      },
+      {
+        "rank": 14,
+        "chunk_id": "doc08_flash_attention_chunk_0082",
+        "score": 0.5464277863502502,
+        "text_preview": ".17\n4.31\n10.89\n31.54\n61.78\n121.56\n240.94\n-\n-\nBlock Sparse\n2.54\n2.52\n3.71\n5.44\n13.29\n39.19\n-\n-\n-\n-\nLongformer\n2.47\n2.49\n2.51\n3.10\n10.39\n22.49\n60.44\n-\n-\n-\nBigBird..."
+      },
+      {
+        "rank": 15,
+        "chunk_id": "doc07_lora_chunk_0011",
+        "score": 0.5459792613983154,
+        "text_preview": "MB * 100 \u2248354GB as opposed to 100 * 350GB \u224835TB.\n5For GPT-3 175B, the training throughput for full \ufb01ne-tuning is 32.5 tokens/s per V100 GPU; with the same\nnumbe..."
+      },
+      {
+        "rank": 16,
+        "chunk_id": "doc07_lora_chunk_0052",
+        "score": 0.544960081577301,
+        "text_preview": "2\n91.0\nr = 8\n40.1 M\n73.2\n91.5\nr = 16\n77.9 M\n73.2\n91.5\nr = 64\n304.4 M\n72.6\n91.5\nLoRA\nrv = 2\n4.7 M\n73.4\n91.7\nrq = rv = 1\n4.7 M\n73.4\n91.3\nrq = rv = 2\n9.4 M\n73.3\n91..."
+      },
+      {
+        "rank": 17,
+        "chunk_id": "doc08_flash_attention_chunk_0074",
+        "score": 0.5444661378860474,
+        "text_preview": "168.95\n-\n-\nLSformer\n1.75\n1.76\n3.01\n7.50\n20.07\n39.08\n76.39\n150.82\n-\n-\nBlock Sparse\n1.29\n1.28\n2.18\n3.04\n7.27\n21.16\n-\n-\n-\n-\nLongformer\n1.27\n1.31\n1.29\n2.04\n5.24\n10...."
+      },
+      {
+        "rank": 18,
+        "chunk_id": "doc08_flash_attention_chunk_0077",
+        "score": 0.5438411235809326,
+        "text_preview": "20.34\n79.87\n-\n-\n-\n-\nMegatron\n0.29\n0.31\n0.65\n1.95\n6.49\n-\n-\n-\n-\n-\nReformer\n2.31\n4.47\n8.68\n17.20\n34.14\n68.09\n136.02\n-\n-\n-\nLocal Attention\n0.51\n0.62\n1.30\n3.81\n13.33..."
+      },
+      {
+        "rank": 19,
+        "chunk_id": "doc08_flash_attention_chunk_0047",
+        "score": 0.5435472130775452,
+        "text_preview": "\ud835\udc35\ud835\udc5f, \u02dcP\ud835\udc56\ud835\udc57= exp(Smasked\n\ud835\udc56\ud835\udc57\n\u2212\u02dc\ud835\udc5a\ud835\udc56\ud835\udc57) \u2208R\ud835\udc35\ud835\udc5f\u00d7\ud835\udc35\ud835\udc50(pointwise),\n\u02dc\u2113\ud835\udc56\ud835\udc57= rowsum(\u02dcP\ud835\udc56\ud835\udc57) \u2208R\ud835\udc35\ud835\udc5f.\n13:\nOn chip, compute \ud835\udc5anew\n\ud835\udc56\n= max(\ud835\udc5a\ud835\udc56, \u02dc\ud835\udc5a\ud835\udc56\ud835\udc57) \u2208R\ud835\udc35\ud835\udc5f, \u2113new\n\ud835\udc56\n= \ud835\udc52\ud835\udc5a\ud835\udc56\u2212\ud835\udc5anew\n\ud835\udc56\n\u2113\ud835\udc56+ \ud835\udc52\u02dc\ud835\udc5a\ud835\udc56\ud835\udc57\u2212\ud835\udc5ane..."
+      },
+      {
+        "rank": 20,
+        "chunk_id": "doc06_transformer_chunk_0001",
+        "score": 0.5425498485565186,
+        "text_preview": "started\nthe effort to evaluate this idea. Ashish, with Illia, designed and implemented the first Transformer models and\nhas been crucially involved in every asp..."
+      }
+    ]
+  }
+}

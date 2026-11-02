@@ -1,0 +1,5 @@
+Deployment Constraint,Optimal Architecture,Trade-off Incurred
+Ultra-Low Latency (<1ms),FAISS (FlatIP),Lacks built-in persistence; strictly in-memory
+Memory-Constrained Environments,FAISS (FlatIP),No metadata filtering capabilities built-in
+Heavy Exact-Keyword Usage (Acronyms),Hybrid (FAISS + BM25 + RRF),~35x latency increase; higher RAM footprint from Okapi index
+Broad Semantic Conceptual Queries,Dense Only (Any Backend),Poor performance on specific ID/metric lookups

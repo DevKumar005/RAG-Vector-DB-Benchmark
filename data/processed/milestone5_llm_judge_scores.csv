@@ -1,0 +1,21 @@
+query_id,category,answerable,dense_faithfulness,dense_relevance,dense_abstention,dense_judge_provider,hybrid_faithfulness,hybrid_relevance,hybrid_abstention,hybrid_judge_provider,dense_critique,hybrid_critique
+q01,conceptual,True,0.0,0.0,0.0,Failed,0.0,0.0,0.0,Failed,All providers failed,All providers failed
+q02,conceptual,True,0.0,0.0,0.0,Failed,0.0,0.0,0.0,Failed,All providers failed,All providers failed
+q03,conceptual,True,0.0,0.0,0.0,Failed,0.0,0.0,0.0,Failed,All providers failed,All providers failed
+q04,conceptual,True,0.0,0.0,0.0,Failed,0.0,0.0,0.0,Failed,All providers failed,All providers failed
+q05,conceptual,True,0.0,0.0,0.0,Failed,0.0,0.0,0.0,Failed,All providers failed,All providers failed
+q06,conceptual,True,0.0,0.0,0.0,Failed,0.0,0.0,0.0,Failed,All providers failed,All providers failed
+q07,conceptual,True,0.0,0.0,0.0,Failed,0.0,0.0,0.0,Failed,All providers failed,All providers failed
+q08,conceptual,True,0.0,0.0,0.0,Failed,0.0,0.0,0.0,Failed,All providers failed,All providers failed
+q09,keyword_metric,True,0.0,0.0,0.0,Failed,0.0,0.0,0.0,Failed,All providers failed,All providers failed
+q10,keyword_metric,True,0.0,0.0,0.0,Failed,0.0,0.0,0.0,Failed,All providers failed,All providers failed
+q11,keyword_metric,True,0.0,0.0,0.0,Failed,0.0,0.0,0.0,Failed,All providers failed,All providers failed
+q12,keyword_metric,True,0.0,0.0,0.0,Failed,0.0,0.0,0.0,Failed,All providers failed,All providers failed
+q13,keyword_metric,True,0.0,0.0,0.0,Failed,0.0,0.0,0.0,Failed,All providers failed,All providers failed
+q14,keyword_metric,True,0.0,0.0,0.0,Failed,0.0,0.0,0.0,Failed,All providers failed,All providers failed
+q15,keyword_metric,True,0.0,0.0,0.0,Failed,0.0,0.0,0.0,Failed,All providers failed,All providers failed
+q16,out_of_scope,False,0.0,0.0,0.0,Failed,0.0,0.0,0.0,Failed,All providers failed,All providers failed
+q17,out_of_scope,False,0.0,0.0,0.0,Failed,0.0,0.0,0.0,Failed,All providers failed,All providers failed
+q18,out_of_scope,False,0.0,0.0,0.0,Failed,0.0,0.0,0.0,Failed,All providers failed,All providers failed
+q19,out_of_scope,False,0.0,0.0,0.0,Failed,0.0,0.0,0.0,Failed,All providers failed,All providers failed
+q20,out_of_scope,False,0.0,0.0,0.0,Failed,0.0,0.0,0.0,Failed,All providers failed,All providers failed
