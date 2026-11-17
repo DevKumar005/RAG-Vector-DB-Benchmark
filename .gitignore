@@ -1,0 +1,12 @@
+.env
+*.env
+
+# Large raw/binary data (reproducible via scripts/notebooks)
+data/raw_pdfs/*.pdf
+data/embeddings/*.npy
+
+# Python & Jupyter caches
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.DS_Store
