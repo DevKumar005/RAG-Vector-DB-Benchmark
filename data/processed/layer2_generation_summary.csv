@@ -1,3 +1,0 @@
-Pipeline,Overall Faithfulness,Answer Relevance (In-Scope),Refusal Accuracy (Out-of-Scope)
-Dense Only (FAISS),0.0,0.0,0.0
-Hybrid (FAISS + BM25 + RRF),0.0,0.0,0.0
