@@ -1,0 +1,5 @@
+Criterion,Winner,Evidence
+Lowest query latency (N=10000),FAISS-HNSW,0.231 ms median (ANN_overlap@10=0.960)
+Lowest memory growth (N=10000),FAISS-Flat,0.00 MB RSS delta
+Best retrieval ranking quality (human qrels),Hybrid,"nDCG@10=0.832, MRR=0.686, Recall@10=0.974"
+Highest downstream generation faithfulness,dense,"Faithfulness=0.966, False refusal=0.067"

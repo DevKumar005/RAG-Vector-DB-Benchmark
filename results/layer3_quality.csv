@@ -1,0 +1,5 @@
+,,faithfulness,faithfulness,relevance,relevance
+,,mean,count,mean,count
+system,answerable,,,,
+dense,True,0.9664285714285714,14,0.9785714285714285,14
+hybrid,True,0.8975,12,0.975,12

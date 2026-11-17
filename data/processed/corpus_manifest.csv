@@ -1,0 +1,11 @@
+doc_id,url,filename
+doc01_rag_original,https://arxiv.org/pdf/2005.11401.pdf,doc01_rag_original.pdf
+doc02_rag_survey,https://arxiv.org/pdf/2312.10997.pdf,doc02_rag_survey.pdf
+doc03_dpr,https://arxiv.org/pdf/2004.04906.pdf,doc03_dpr.pdf
+doc04_ragas,https://arxiv.org/pdf/2309.15217.pdf,doc04_ragas.pdf
+doc05_self_rag,https://arxiv.org/pdf/2310.11511.pdf,doc05_self_rag.pdf
+doc06_transformer,https://arxiv.org/pdf/1706.03762.pdf,doc06_transformer.pdf
+doc07_lora,https://arxiv.org/pdf/2106.09685.pdf,doc07_lora.pdf
+doc08_flash_attention,https://arxiv.org/pdf/2205.14135.pdf,doc08_flash_attention.pdf
+doc09_rag_survey_huang,https://arxiv.org/pdf/2404.10981.pdf,doc09_rag_survey_huang.pdf
+doc10_comprehensive_rag,https://arxiv.org/pdf/2410.12837.pdf,doc10_comprehensive_rag.pdf
