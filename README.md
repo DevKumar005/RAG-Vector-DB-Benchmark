@@ -3,7 +3,7 @@
 **Author:** Dev Kumar
 
 > **Project Context** :
-> This project was completed as part of a university **Term Paper** on **Retrieval-Augmented Generation (RAG) Systems**. It presents a controlled, reproducible benchmark comparing vector storage backends and retrieval strategies, evaluating their impact on retrieval accuracy, generation faithfulness, and hallucination safety — providing empirical guidance for building reliable RAG pipelines.
+> This project was completed as part of a university **Term Paper** on **Retrieval-Augmented Generation (RAG) Systems**.
 
 ---
 
